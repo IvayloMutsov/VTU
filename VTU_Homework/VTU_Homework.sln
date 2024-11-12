@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VTU_Homework", "VTU_Homework\VTU_Homework.csproj", "{519A6540-390F-4F70-B424-330FA83E4ED9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_zad_2", "Homework_zad_2\Homework_zad_2.csproj", "{AE2CB103-5FBF-45EA-89A2-5B7DE740CC7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{519A6540-390F-4F70-B424-330FA83E4ED9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{519A6540-390F-4F70-B424-330FA83E4ED9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{519A6540-390F-4F70-B424-330FA83E4ED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{519A6540-390F-4F70-B424-330FA83E4ED9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE2CB103-5FBF-45EA-89A2-5B7DE740CC7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE2CB103-5FBF-45EA-89A2-5B7DE740CC7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE2CB103-5FBF-45EA-89A2-5B7DE740CC7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE2CB103-5FBF-45EA-89A2-5B7DE740CC7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B880E953-E936-406F-AD0D-ADF1F9B51EA8}
+	EndGlobalSection
+EndGlobal

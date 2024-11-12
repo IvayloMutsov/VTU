@@ -1,0 +1,14 @@
+C:\Users\igmut\source\repos\VTU_Homework\Homework_zad_2\bin\Debug\net8.0\Homework_zad_2.exe
+C:\Users\igmut\source\repos\VTU_Homework\Homework_zad_2\bin\Debug\net8.0\Homework_zad_2.deps.json
+C:\Users\igmut\source\repos\VTU_Homework\Homework_zad_2\bin\Debug\net8.0\Homework_zad_2.runtimeconfig.json
+C:\Users\igmut\source\repos\VTU_Homework\Homework_zad_2\bin\Debug\net8.0\Homework_zad_2.dll
+C:\Users\igmut\source\repos\VTU_Homework\Homework_zad_2\bin\Debug\net8.0\Homework_zad_2.pdb
+C:\Users\igmut\source\repos\VTU_Homework\Homework_zad_2\obj\Debug\net8.0\Homework_zad_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\igmut\source\repos\VTU_Homework\Homework_zad_2\obj\Debug\net8.0\Homework_zad_2.AssemblyInfoInputs.cache
+C:\Users\igmut\source\repos\VTU_Homework\Homework_zad_2\obj\Debug\net8.0\Homework_zad_2.AssemblyInfo.cs
+C:\Users\igmut\source\repos\VTU_Homework\Homework_zad_2\obj\Debug\net8.0\Homework_zad_2.csproj.CoreCompileInputs.cache
+C:\Users\igmut\source\repos\VTU_Homework\Homework_zad_2\obj\Debug\net8.0\Homework_zad_2.dll
+C:\Users\igmut\source\repos\VTU_Homework\Homework_zad_2\obj\Debug\net8.0\refint\Homework_zad_2.dll
+C:\Users\igmut\source\repos\VTU_Homework\Homework_zad_2\obj\Debug\net8.0\Homework_zad_2.pdb
+C:\Users\igmut\source\repos\VTU_Homework\Homework_zad_2\obj\Debug\net8.0\Homework_zad_2.genruntimeconfig.cache
+C:\Users\igmut\source\repos\VTU_Homework\Homework_zad_2\obj\Debug\net8.0\ref\Homework_zad_2.dll
