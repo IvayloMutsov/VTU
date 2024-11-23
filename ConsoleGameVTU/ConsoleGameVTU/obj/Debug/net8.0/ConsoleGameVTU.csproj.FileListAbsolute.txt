@@ -1,0 +1,14 @@
+C:\Users\igmut\source\repos\ConsoleGameVTU\ConsoleGameVTU\bin\Debug\net8.0\ConsoleGameVTU.exe
+C:\Users\igmut\source\repos\ConsoleGameVTU\ConsoleGameVTU\bin\Debug\net8.0\ConsoleGameVTU.deps.json
+C:\Users\igmut\source\repos\ConsoleGameVTU\ConsoleGameVTU\bin\Debug\net8.0\ConsoleGameVTU.runtimeconfig.json
+C:\Users\igmut\source\repos\ConsoleGameVTU\ConsoleGameVTU\bin\Debug\net8.0\ConsoleGameVTU.dll
+C:\Users\igmut\source\repos\ConsoleGameVTU\ConsoleGameVTU\bin\Debug\net8.0\ConsoleGameVTU.pdb
+C:\Users\igmut\source\repos\ConsoleGameVTU\ConsoleGameVTU\obj\Debug\net8.0\ConsoleGameVTU.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\igmut\source\repos\ConsoleGameVTU\ConsoleGameVTU\obj\Debug\net8.0\ConsoleGameVTU.AssemblyInfoInputs.cache
+C:\Users\igmut\source\repos\ConsoleGameVTU\ConsoleGameVTU\obj\Debug\net8.0\ConsoleGameVTU.AssemblyInfo.cs
+C:\Users\igmut\source\repos\ConsoleGameVTU\ConsoleGameVTU\obj\Debug\net8.0\ConsoleGameVTU.csproj.CoreCompileInputs.cache
+C:\Users\igmut\source\repos\ConsoleGameVTU\ConsoleGameVTU\obj\Debug\net8.0\ConsoleGameVTU.dll
+C:\Users\igmut\source\repos\ConsoleGameVTU\ConsoleGameVTU\obj\Debug\net8.0\refint\ConsoleGameVTU.dll
+C:\Users\igmut\source\repos\ConsoleGameVTU\ConsoleGameVTU\obj\Debug\net8.0\ConsoleGameVTU.pdb
+C:\Users\igmut\source\repos\ConsoleGameVTU\ConsoleGameVTU\obj\Debug\net8.0\ConsoleGameVTU.genruntimeconfig.cache
+C:\Users\igmut\source\repos\ConsoleGameVTU\ConsoleGameVTU\obj\Debug\net8.0\ref\ConsoleGameVTU.dll

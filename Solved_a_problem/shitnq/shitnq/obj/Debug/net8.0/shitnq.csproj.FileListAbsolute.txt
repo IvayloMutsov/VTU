@@ -1,0 +1,14 @@
+C:\Users\igmut\source\repos\shitnq\shitnq\bin\Debug\net8.0\shitnq.exe
+C:\Users\igmut\source\repos\shitnq\shitnq\bin\Debug\net8.0\shitnq.deps.json
+C:\Users\igmut\source\repos\shitnq\shitnq\bin\Debug\net8.0\shitnq.runtimeconfig.json
+C:\Users\igmut\source\repos\shitnq\shitnq\bin\Debug\net8.0\shitnq.dll
+C:\Users\igmut\source\repos\shitnq\shitnq\bin\Debug\net8.0\shitnq.pdb
+C:\Users\igmut\source\repos\shitnq\shitnq\obj\Debug\net8.0\shitnq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\igmut\source\repos\shitnq\shitnq\obj\Debug\net8.0\shitnq.AssemblyInfoInputs.cache
+C:\Users\igmut\source\repos\shitnq\shitnq\obj\Debug\net8.0\shitnq.AssemblyInfo.cs
+C:\Users\igmut\source\repos\shitnq\shitnq\obj\Debug\net8.0\shitnq.csproj.CoreCompileInputs.cache
+C:\Users\igmut\source\repos\shitnq\shitnq\obj\Debug\net8.0\shitnq.dll
+C:\Users\igmut\source\repos\shitnq\shitnq\obj\Debug\net8.0\refint\shitnq.dll
+C:\Users\igmut\source\repos\shitnq\shitnq\obj\Debug\net8.0\shitnq.pdb
+C:\Users\igmut\source\repos\shitnq\shitnq\obj\Debug\net8.0\shitnq.genruntimeconfig.cache
+C:\Users\igmut\source\repos\shitnq\shitnq\obj\Debug\net8.0\ref\shitnq.dll
