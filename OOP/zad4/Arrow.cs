@@ -17,7 +17,6 @@ namespace balloonPop
             Accuracy = new Random().Next(1, 11); 
         }
 
-        // Check if the arrow can pop the balloon
         public bool CanPopBalloon(Balloon balloon)
         {
             return Color == balloon.Color && Accuracy >= balloon.Size;

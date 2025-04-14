@@ -43,7 +43,9 @@ public class Player
         }
 
         if (ArrowsUsed >= Arrows.Count || Balloons.Count == 0)
+        {
             return false;
+        }
 
         var arrow = Arrows[ArrowsUsed];
         var balloon = Balloons[new Random().Next(Balloons.Count)];
@@ -63,7 +65,9 @@ public class Player
             BalloonsPopped++;
 
             if (BalloonsPopped == 10)
-                OnWin?.Invoke(this);
+            {
+                OnWin.Invoke(this);
+            }
 
             return true;
         }
@@ -75,7 +79,10 @@ public class Player
     {
         bool lost = ArrowsUsed >= Arrows.Count && BalloonsPopped < 10;
         if (lost)
-            OnLose?.Invoke(this);
+        {
+            OnLose.Invoke(this);
+        }
+
         return lost;
     }
 }

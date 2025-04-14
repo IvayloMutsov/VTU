@@ -22,7 +22,15 @@
 
     private void HandleLose(Player player)
     {
-        var winner = player == Player1 ? Player2 : Player1;
+        var winner = player;
+        if (player == Player1)
+        {
+            winner = Player2;
+        }
+        else
+        {
+            winner = Player1;
+        }
         Console.WriteLine($"{player.Name} ran out of arrows! {winner.Name} wins!");
         Environment.Exit(0);
     }
@@ -35,30 +43,22 @@
 
             // Player 1's turn
             bool result1 = Player1.TryPopBalloon();
-            if (Player1.SkipNextTurn)
-            {
-                // Message handled inside TryPopBalloon
-            }
-            else if (result1)
+            if (result1)
             {
                 Console.WriteLine($"{Player1.Name} popped a balloon!");
             }
-            else
+            else if(Player1.SkipNextTurn == false)
             {
                 Console.WriteLine($"{Player1.Name} missed!");
             }
 
             // Player 2's turn
             bool result2 = Player2.TryPopBalloon();
-            if (Player2.SkipNextTurn)
-            {
-                // Message handled inside TryPopBalloon
-            }
-            else if (result2)
+            if (result2)
             {
                 Console.WriteLine($"{Player2.Name} popped a balloon!");
             }
-            else
+            else if(Player2.SkipNextTurn == false)
             {
                 Console.WriteLine($"{Player2.Name} missed!");
             }
@@ -90,13 +90,18 @@
                 Console.WriteLine("Both players are out of arrows!");
 
                 if (Player1.BalloonsPopped > Player2.BalloonsPopped)
+                {
                     Console.WriteLine($"{Player1.Name} wins with more balloons popped!");
+                }
                 else if (Player2.BalloonsPopped > Player1.BalloonsPopped)
+                {
                     Console.WriteLine($"{Player2.Name} wins with more balloons popped!");
+                }
                 else
+                {
                     Console.WriteLine("It's a draw!");
-
-                break;
+                    break;
+                }
             }
 
             // Check if one player ran out of arrows after this round
