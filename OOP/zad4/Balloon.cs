@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace balloonPop
 {
-    class Balloon
+    public class Balloon
     {
+        public string Color { get; private set; }
+        public int Size { get; private set; }
+
+        public Balloon(string color)
+        {
+            Color = color;
+            Size = new Random().Next(1, 11); // Size
+        }
     }
 }
