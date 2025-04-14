@@ -31,6 +31,7 @@
         {
             winner = Player1;
         }
+        //var winner = player == Player1 ? Player2 : Player1;
         Console.WriteLine($"{player.Name} ran out of arrows! {winner.Name} wins!");
         Environment.Exit(0);
     }
@@ -92,10 +93,12 @@
                 if (Player1.BalloonsPopped > Player2.BalloonsPopped)
                 {
                     Console.WriteLine($"{Player1.Name} wins with more balloons popped!");
+                    break;
                 }
                 else if (Player2.BalloonsPopped > Player1.BalloonsPopped)
                 {
                     Console.WriteLine($"{Player2.Name} wins with more balloons popped!");
+                    break;
                 }
                 else
                 {
