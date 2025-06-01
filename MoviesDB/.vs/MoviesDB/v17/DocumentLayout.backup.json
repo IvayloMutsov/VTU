@@ -11,28 +11,28 @@
       "RelativeMoniker": "D:0:0:{A7AD373C-11B8-4D5D-8708-12AA9B62DB03}|MoviesDB\\MoviesDB.csproj|solutionrelative:moviesdb\\moviemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A7AD373C-11B8-4D5D-8708-12AA9B62DB03}|MoviesDB\\MoviesDB.csproj|c:\\users\\igmut\\source\\repos\\vtu\\moviesdb\\moviesdb\\csvmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7AD373C-11B8-4D5D-8708-12AA9B62DB03}|MoviesDB\\MoviesDB.csproj|solutionrelative:moviesdb\\csvmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A7AD373C-11B8-4D5D-8708-12AA9B62DB03}|MoviesDB\\MoviesDB.csproj|c:\\users\\igmut\\source\\repos\\vtu\\moviesdb\\moviesdb\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7AD373C-11B8-4D5D-8708-12AA9B62DB03}|MoviesDB\\MoviesDB.csproj|solutionrelative:moviesdb\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7AD373C-11B8-4D5D-8708-12AA9B62DB03}|MoviesDB\\MoviesDB.csproj|c:\\users\\igmut\\source\\repos\\vtu\\moviesdb\\moviesdb\\moviesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7AD373C-11B8-4D5D-8708-12AA9B62DB03}|MoviesDB\\MoviesDB.csproj|solutionrelative:moviesdb\\moviesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7AD373C-11B8-4D5D-8708-12AA9B62DB03}|MoviesDB\\MoviesDB.csproj|c:\\users\\igmut\\source\\repos\\vtu\\moviesdb\\moviesdb\\models\\director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7AD373C-11B8-4D5D-8708-12AA9B62DB03}|MoviesDB\\MoviesDB.csproj|solutionrelative:moviesdb\\models\\director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7AD373C-11B8-4D5D-8708-12AA9B62DB03}|MoviesDB\\MoviesDB.csproj|c:\\users\\igmut\\source\\repos\\vtu\\moviesdb\\moviesdb\\models\\cast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7AD373C-11B8-4D5D-8708-12AA9B62DB03}|MoviesDB\\MoviesDB.csproj|solutionrelative:moviesdb\\models\\cast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A7AD373C-11B8-4D5D-8708-12AA9B62DB03}|MoviesDB\\MoviesDB.csproj|c:\\users\\igmut\\source\\repos\\vtu\\moviesdb\\moviesdb\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7AD373C-11B8-4D5D-8708-12AA9B62DB03}|MoviesDB\\MoviesDB.csproj|solutionrelative:moviesdb\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7AD373C-11B8-4D5D-8708-12AA9B62DB03}|MoviesDB\\MoviesDB.csproj|c:\\users\\igmut\\source\\repos\\vtu\\moviesdb\\moviesdb\\csvmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7AD373C-11B8-4D5D-8708-12AA9B62DB03}|MoviesDB\\MoviesDB.csproj|solutionrelative:moviesdb\\csvmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7AD373C-11B8-4D5D-8708-12AA9B62DB03}|MoviesDB\\MoviesDB.csproj|c:\\users\\igmut\\source\\repos\\vtu\\moviesdb\\moviesdb\\models\\cast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7AD373C-11B8-4D5D-8708-12AA9B62DB03}|MoviesDB\\MoviesDB.csproj|solutionrelative:moviesdb\\models\\cast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7AD373C-11B8-4D5D-8708-12AA9B62DB03}|MoviesDB\\MoviesDB.csproj|c:\\users\\igmut\\source\\repos\\vtu\\moviesdb\\moviesdb\\models\\director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7AD373C-11B8-4D5D-8708-12AA9B62DB03}|MoviesDB\\MoviesDB.csproj|solutionrelative:moviesdb\\models\\director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7AD373C-11B8-4D5D-8708-12AA9B62DB03}|MoviesDB\\MoviesDB.csproj|c:\\users\\igmut\\source\\repos\\vtu\\moviesdb\\moviesdb\\moviesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7AD373C-11B8-4D5D-8708-12AA9B62DB03}|MoviesDB\\MoviesDB.csproj|solutionrelative:moviesdb\\moviesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -52,14 +52,14 @@
               "RelativeDocumentMoniker": "MoviesDB\\MovieMap.cs",
               "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\MoviesDB\\MoviesDB\\MovieMap.cs",
               "RelativeToolTip": "MoviesDB\\MovieMap.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAAA8AAABMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-19T10:18:31.904Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "CsvManager.cs",
               "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\MoviesDB\\MoviesDB\\CsvManager.cs",
               "RelativeDocumentMoniker": "MoviesDB\\CsvManager.cs",
@@ -72,20 +72,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Movie.cs",
               "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\MoviesDB\\MoviesDB\\Models\\Movie.cs",
               "RelativeDocumentMoniker": "MoviesDB\\Models\\Movie.cs",
               "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\MoviesDB\\MoviesDB\\Models\\Movie.cs",
               "RelativeToolTip": "MoviesDB\\Models\\Movie.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-19T07:54:20.744Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Genre.cs",
               "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\MoviesDB\\MoviesDB\\Models\\Genre.cs",
               "RelativeDocumentMoniker": "MoviesDB\\Models\\Genre.cs",
@@ -111,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Director.cs",
               "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\MoviesDB\\MoviesDB\\Models\\Director.cs",
               "RelativeDocumentMoniker": "MoviesDB\\Models\\Director.cs",
@@ -124,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "MoviesDBcontext.cs",
               "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\MoviesDB\\MoviesDB\\MoviesDBcontext.cs",
               "RelativeDocumentMoniker": "MoviesDB\\MoviesDBcontext.cs",
@@ -143,7 +143,7 @@
               "RelativeDocumentMoniker": "MoviesDB\\Program.cs",
               "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\MoviesDB\\MoviesDB\\Program.cs",
               "RelativeToolTip": "MoviesDB\\Program.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAvwGIAAABQAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAHEAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-19T07:36:54.719Z",
               "EditorCaption": ""
