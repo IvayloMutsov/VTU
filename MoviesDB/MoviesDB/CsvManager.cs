@@ -20,10 +20,18 @@ namespace MoviesDB
         public string Cast { get; set; }
         public string Gross { get; set; }
 
-        public int ParseGross(string gross)
+        public long ParseGross(string gross)
         {
-            gross = gross.Replace("$", "").Replace(",", "");
-            return int.TryParse(gross, out var result) ? result : 0;
+            gross = gross.Replace("$", "").Replace(".", "").Replace("M","");
+            if (long.TryParse(gross, out long result) == true)
+            {
+                result *= 10000;
+                return result;
+            }
+            else
+            {
+                return 0;
+            }
         }
     }
 }

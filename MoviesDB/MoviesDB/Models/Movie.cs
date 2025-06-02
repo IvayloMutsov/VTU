@@ -35,6 +35,6 @@ namespace MoviesDB.Models
         [Required]
         public Cast Cast { get; set; }
 
-        public int Gross { get; set; }
+        public long Gross { get; set; }
     }
 }

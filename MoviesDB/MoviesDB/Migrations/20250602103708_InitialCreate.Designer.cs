@@ -11,8 +11,8 @@ using MoviesDB;
 namespace MoviesDB.Migrations
 {
     [DbContext(typeof(MoviesDBcontext))]
-    [Migration("20250519200948_InitalCreate")]
-    partial class InitalCreate
+    [Migration("20250602103708_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

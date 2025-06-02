@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MoviesDB;
 
@@ -10,9 +11,11 @@ using MoviesDB;
 namespace MoviesDB.Migrations
 {
     [DbContext(typeof(MoviesDBcontext))]
-    partial class MoviesDBcontextModelSnapshot : ModelSnapshot
+    [Migration("20250602145201_GrossChanges")]
+    partial class GrossChanges
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

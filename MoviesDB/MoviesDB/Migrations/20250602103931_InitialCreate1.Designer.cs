@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MoviesDB;
 
@@ -10,9 +11,11 @@ using MoviesDB;
 namespace MoviesDB.Migrations
 {
     [DbContext(typeof(MoviesDBcontext))]
-    partial class MoviesDBcontextModelSnapshot : ModelSnapshot
+    [Migration("20250602103931_InitialCreate1")]
+    partial class InitialCreate1
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -95,8 +98,8 @@ namespace MoviesDB.Migrations
                     b.Property<int>("GenreID")
                         .HasColumnType("int");
 
-                    b.Property<long>("Gross")
-                        .HasColumnType("bigint");
+                    b.Property<int>("Gross")
+                        .HasColumnType("int");
 
                     b.Property<double>("Metascore")
                         .HasColumnType("float");

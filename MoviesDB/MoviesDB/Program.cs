@@ -1,8 +1,10 @@
 ﻿using CsvHelper;
 using CsvHelper.Configuration;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.SqlServer.Server;
 using MoviesDB.Models;
 using System.Globalization;
+using System.Linq;
 
 namespace MoviesDB
 {
@@ -10,9 +12,9 @@ namespace MoviesDB
     {
         static void Main(string[] args)
         {
-            List<Genre> genres = new List<Genre>();
-            List<Director> directors = new List<Director>();
-            List<Cast> actors = new List<Cast>();
+            Dictionary<string, Genre> genres = new Dictionary<string, Genre>();
+            Dictionary<string, Director> directors = new Dictionary<string, Director>();
+            Dictionary<string, Cast> actors = new Dictionary<string, Cast>();
             MoviesDBcontext context = new MoviesDBcontext();
             StreamReader reader = new StreamReader($"C:\\Users\\{Environment.UserName}\\Documents\\imdb_top_2000_movies.csv");
             CsvReader csv = new CsvReader(reader, new CsvConfiguration(CultureInfo.InvariantCulture)
@@ -28,20 +30,47 @@ namespace MoviesDB
                 {
                     using (csv)
                     {
-                        int a = 1;
+
                         csv.Context.RegisterClassMap<MovieMap>();
                         var records = csv.GetRecords<CsvManager>().ToList();
                         foreach (var item in records)
                         {
-                            var genre = new Genre { Type = item.Genre };
-                            var director = new Director { Name = item.Director };
-                            var cast = new Cast { Name = item.Cast };
-                            genres.Add(genre);
-                            directors.Add(director);
-                            actors.Add(cast);
-
-                            int gross = manager.ParseGross(item.Gross.ToString());
-
+                            Genre? genre = null;
+                            Director? director = null;
+                            Cast? cast = null;
+                            if (!actors.ContainsKey(item.Cast))
+                            {
+                                cast = new Cast { Name = item.Cast };
+                                actors.Add(cast.Name,cast);
+                            }
+                            else
+                            {
+                                cast = actors[item.Cast];
+                            }
+                            if (!directors.ContainsKey(item.Director))
+                            {
+                                director = new Director { Name = item.Director };
+                                directors.Add(director.Name, director);
+                            }
+                            else
+                            {
+                                director = directors[item.Director];
+                            }
+                            var splittedGenres = item.Genre.Split(",",StringSplitOptions.TrimEntries);
+                            foreach (var gr in splittedGenres)
+                            {
+                                if (!genres.ContainsKey(gr))
+                                {
+                                    genre = new Genre { Type = gr };
+                                    genres.Add(genre.Type, genre);
+                                }
+                                else
+                                {
+                                    genre = genres[gr];
+                                }
+                            }
+                           
+                            long gross = manager.ParseGross(item.Gross);
                             if (item.ReleaseYear.Contains('–'))
                             {
                                 string tempYear = item.ReleaseYear.Substring(5);
@@ -62,8 +91,6 @@ namespace MoviesDB
                                 string tempYear = item.ReleaseYear.Replace(" ", "");
                                 item.ReleaseYear = tempYear;
                             }
-                            Console.WriteLine(a + " " + item.Duration);
-                            a++;
                             var movie = new Movie
                             {
                                 Name = item.Name,
@@ -80,34 +107,17 @@ namespace MoviesDB
 
                             context.Movies.Add(movie);
                         }
-                        var distinctDirectors = directors.DistinctBy(x => x.Name);
-                        var distinctActors = actors.DistinctBy(x => x.Name);
-                        List<Genre> tempGenres = new List<Genre>();
-                        List<string> temp = new List<string>();
+                        foreach (var item in actors)
+                        {
+                            context.Casts.Add(item.Value);
+                        }
+                        foreach (var item in directors)
+                        {
+                            context.Directors.Add(item.Value);
+                        }
                         foreach (var item in genres)
                         {
-                            string[] itemGenres = item.Type.Replace('"','\0').Replace(' ','\0').Split(',');
-                            for (int i = 0; i < itemGenres.Length; i++)
-                            {
-                                temp.Add(itemGenres[i]);
-                            }
-                        }
-                        foreach (var item in temp)
-                        {
-                            tempGenres.Add(new Genre { Type = item});
-                        }
-                        var distinctGenres = tempGenres.DistinctBy(x => x.Type);
-                        foreach (var item in distinctActors)
-                        {
-                            context.Actors.Add(item);
-                        }
-                        foreach (var item in distinctDirectors)
-                        {
-                            context.Directors.Add(item);
-                        }
-                        foreach (var item in distinctGenres)
-                        {
-                            context.Genres.Add(item);
+                            context.Genres.Add(item.Value);
                         }
                     }
                 }
