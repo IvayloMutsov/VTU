@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "sLLYWreWezM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\igmut\\source\\repos\\VTU\\ORM_exam\\Infrastructure\\Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\igmut\\.nuget\\packages\\csvhelper\\33.1.0\\csvhelper.33.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
