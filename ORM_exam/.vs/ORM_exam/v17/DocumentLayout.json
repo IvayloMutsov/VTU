@@ -7,20 +7,16 @@
       "RelativeMoniker": "D:0:0:{B6A8BAC4-2D15-4491-9B44-D0E0055DF0AD}|ORM_exam\\ORM_exam.csproj|solutionrelative:orm_exam\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18ED0B52-CD0D-42C5-87D2-AF09924A25E4}|DatabaseContext\\DatabaseContext.csproj|c:\\users\\igmut\\source\\repos\\vtu\\orm_exam\\databasecontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18ED0B52-CD0D-42C5-87D2-AF09924A25E4}|DatabaseContext\\DatabaseContext.csproj|solutionrelative:databasecontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28912BC6-C34B-4A32-A920-3CB649EB37F7}|Infrastructure\\Infrastructure.csproj|c:\\users\\igmut\\source\\repos\\vtu\\orm_exam\\infrastructure\\organizationmodelmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28912BC6-C34B-4A32-A920-3CB649EB37F7}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\organizationmodelmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18ED0B52-CD0D-42C5-87D2-AF09924A25E4}|DatabaseContext\\DatabaseContext.csproj|c:\\users\\igmut\\source\\repos\\vtu\\orm_exam\\databasecontext\\querry\\querrycountries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18ED0B52-CD0D-42C5-87D2-AF09924A25E4}|DatabaseContext\\DatabaseContext.csproj|solutionrelative:databasecontext\\querry\\querrycountries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28912BC6-C34B-4A32-A920-3CB649EB37F7}|Infrastructure\\Infrastructure.csproj|c:\\users\\igmut\\source\\repos\\vtu\\orm_exam\\infrastructure\\models\\organizationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28912BC6-C34B-4A32-A920-3CB649EB37F7}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\models\\organizationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18ED0B52-CD0D-42C5-87D2-AF09924A25E4}|DatabaseContext\\DatabaseContext.csproj|c:\\users\\igmut\\source\\repos\\vtu\\orm_exam\\databasecontext\\querry\\querryorganziation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18ED0B52-CD0D-42C5-87D2-AF09924A25E4}|DatabaseContext\\DatabaseContext.csproj|solutionrelative:databasecontext\\querry\\querryorganziation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18ED0B52-CD0D-42C5-87D2-AF09924A25E4}|DatabaseContext\\DatabaseContext.csproj|c:\\users\\igmut\\source\\repos\\vtu\\orm_exam\\databasecontext\\querry\\querryindustry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18ED0B52-CD0D-42C5-87D2-AF09924A25E4}|DatabaseContext\\DatabaseContext.csproj|solutionrelative:databasecontext\\querry\\querryindustry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28912BC6-C34B-4A32-A920-3CB649EB37F7}|Infrastructure\\Infrastructure.csproj|c:\\users\\igmut\\source\\repos\\vtu\\orm_exam\\infrastructure\\models\\industry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28912BC6-C34B-4A32-A920-3CB649EB37F7}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\models\\industry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{28912BC6-C34B-4A32-A920-3CB649EB37F7}|Infrastructure\\Infrastructure.csproj|c:\\users\\igmut\\source\\repos\\vtu\\orm_exam\\infrastructure\\models\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,28 +27,32 @@
       "RelativeMoniker": "D:0:0:{18ED0B52-CD0D-42C5-87D2-AF09924A25E4}|DatabaseContext\\DatabaseContext.csproj|solutionrelative:databasecontext\\querry\\querrywebsites.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28912BC6-C34B-4A32-A920-3CB649EB37F7}|Infrastructure\\Infrastructure.csproj|c:\\users\\igmut\\source\\repos\\vtu\\orm_exam\\infrastructure\\models\\website.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28912BC6-C34B-4A32-A920-3CB649EB37F7}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\models\\website.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28912BC6-C34B-4A32-A920-3CB649EB37F7}|Infrastructure\\Infrastructure.csproj|c:\\users\\igmut\\source\\repos\\vtu\\orm_exam\\infrastructure\\softdelete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28912BC6-C34B-4A32-A920-3CB649EB37F7}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\softdelete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18ED0B52-CD0D-42C5-87D2-AF09924A25E4}|DatabaseContext\\DatabaseContext.csproj|c:\\users\\igmut\\source\\repos\\vtu\\orm_exam\\databasecontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18ED0B52-CD0D-42C5-87D2-AF09924A25E4}|DatabaseContext\\DatabaseContext.csproj|solutionrelative:databasecontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18ED0B52-CD0D-42C5-87D2-AF09924A25E4}|DatabaseContext\\DatabaseContext.csproj|c:\\users\\igmut\\source\\repos\\vtu\\orm_exam\\databasecontext\\querry\\querryorganziation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18ED0B52-CD0D-42C5-87D2-AF09924A25E4}|DatabaseContext\\DatabaseContext.csproj|solutionrelative:databasecontext\\querry\\querryorganziation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{28912BC6-C34B-4A32-A920-3CB649EB37F7}|Infrastructure\\Infrastructure.csproj|c:\\users\\igmut\\source\\repos\\vtu\\orm_exam\\infrastructure\\models\\organization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28912BC6-C34B-4A32-A920-3CB649EB37F7}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\models\\organization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28912BC6-C34B-4A32-A920-3CB649EB37F7}|Infrastructure\\Infrastructure.csproj|c:\\users\\igmut\\source\\repos\\vtu\\orm_exam\\infrastructure\\models\\industry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28912BC6-C34B-4A32-A920-3CB649EB37F7}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\models\\industry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18ED0B52-CD0D-42C5-87D2-AF09924A25E4}|DatabaseContext\\DatabaseContext.csproj|c:\\users\\igmut\\source\\repos\\vtu\\orm_exam\\databasecontext\\querry\\querryindustry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18ED0B52-CD0D-42C5-87D2-AF09924A25E4}|DatabaseContext\\DatabaseContext.csproj|solutionrelative:databasecontext\\querry\\querryindustry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28912BC6-C34B-4A32-A920-3CB649EB37F7}|Infrastructure\\Infrastructure.csproj|c:\\users\\igmut\\source\\repos\\vtu\\orm_exam\\infrastructure\\softdelete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28912BC6-C34B-4A32-A920-3CB649EB37F7}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\softdelete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18ED0B52-CD0D-42C5-87D2-AF09924A25E4}|DatabaseContext\\DatabaseContext.csproj|c:\\users\\igmut\\source\\repos\\vtu\\orm_exam\\databasecontext\\querry\\querrycountries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18ED0B52-CD0D-42C5-87D2-AF09924A25E4}|DatabaseContext\\DatabaseContext.csproj|solutionrelative:databasecontext\\querry\\querrycountries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28912BC6-C34B-4A32-A920-3CB649EB37F7}|Infrastructure\\Infrastructure.csproj|c:\\users\\igmut\\source\\repos\\vtu\\orm_exam\\infrastructure\\organizationmodelmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28912BC6-C34B-4A32-A920-3CB649EB37F7}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\organizationmodelmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28912BC6-C34B-4A32-A920-3CB649EB37F7}|Infrastructure\\Infrastructure.csproj|c:\\users\\igmut\\source\\repos\\vtu\\orm_exam\\infrastructure\\models\\organizationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28912BC6-C34B-4A32-A920-3CB649EB37F7}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\models\\organizationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28912BC6-C34B-4A32-A920-3CB649EB37F7}|Infrastructure\\Infrastructure.csproj|c:\\users\\igmut\\source\\repos\\vtu\\orm_exam\\infrastructure\\models\\website.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28912BC6-C34B-4A32-A920-3CB649EB37F7}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\models\\website.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,79 +66,79 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "QuerryOrganziation.cs",
               "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\ORM_exam\\DatabaseContext\\Querry\\QuerryOrganziation.cs",
               "RelativeDocumentMoniker": "DatabaseContext\\Querry\\QuerryOrganziation.cs",
               "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\ORM_exam\\DatabaseContext\\Querry\\QuerryOrganziation.cs",
               "RelativeToolTip": "DatabaseContext\\Querry\\QuerryOrganziation.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAAAGEAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-10T09:23:38.739Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "QuerryIndustry.cs",
               "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\ORM_exam\\DatabaseContext\\Querry\\QuerryIndustry.cs",
               "RelativeDocumentMoniker": "DatabaseContext\\Querry\\QuerryIndustry.cs",
               "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\ORM_exam\\DatabaseContext\\Querry\\QuerryIndustry.cs",
               "RelativeToolTip": "DatabaseContext\\Querry\\QuerryIndustry.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADkAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwDMAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-10T09:10:28.72Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "QuerryWebsites.cs",
               "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\ORM_exam\\DatabaseContext\\Querry\\QuerryWebsites.cs",
               "RelativeDocumentMoniker": "DatabaseContext\\Querry\\QuerryWebsites.cs",
               "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\ORM_exam\\DatabaseContext\\Querry\\QuerryWebsites.cs",
               "RelativeToolTip": "DatabaseContext\\Querry\\QuerryWebsites.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAkwBIAAABMAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-10T09:04:12.587Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "QuerryCountries.cs",
               "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\ORM_exam\\DatabaseContext\\Querry\\QuerryCountries.cs",
               "RelativeDocumentMoniker": "DatabaseContext\\Querry\\QuerryCountries.cs",
               "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\ORM_exam\\DatabaseContext\\Querry\\QuerryCountries.cs",
               "RelativeToolTip": "DatabaseContext\\Querry\\QuerryCountries.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAwwEgAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAADAAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-10T08:25:56.195Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
               "Title": "SoftDelete.cs",
               "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\ORM_exam\\Infrastructure\\SoftDelete.cs",
               "RelativeDocumentMoniker": "Infrastructure\\SoftDelete.cs",
               "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\ORM_exam\\Infrastructure\\SoftDelete.cs",
               "RelativeToolTip": "Infrastructure\\SoftDelete.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-10T06:55:03.98Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Organization.cs",
               "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\ORM_exam\\Infrastructure\\Models\\Organization.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Models\\Organization.cs",
               "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\ORM_exam\\Infrastructure\\Models\\Organization.cs",
               "RelativeToolTip": "Infrastructure\\Models\\Organization.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAkwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-10T06:39:24.513Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "Industry.cs",
               "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\ORM_exam\\Infrastructure\\Models\\Industry.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Models\\Industry.cs",
@@ -150,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Country.cs",
               "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\ORM_exam\\Infrastructure\\Models\\Country.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Models\\Country.cs",
@@ -162,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "Website.cs",
               "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\ORM_exam\\Infrastructure\\Models\\Website.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Models\\Website.cs",
@@ -174,19 +174,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
               "Title": "OrganizationModelMap.cs",
               "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\ORM_exam\\Infrastructure\\OrganizationModelMap.cs",
               "RelativeDocumentMoniker": "Infrastructure\\OrganizationModelMap.cs",
               "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\ORM_exam\\Infrastructure\\OrganizationModelMap.cs",
               "RelativeToolTip": "Infrastructure\\OrganizationModelMap.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-10T06:26:20.804Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 2,
               "Title": "OrganizationModel.cs",
               "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\ORM_exam\\Infrastructure\\Models\\OrganizationModel.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Models\\OrganizationModel.cs",
@@ -198,13 +198,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\ORM_exam\\DatabaseContext\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "DatabaseContext\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\ORM_exam\\DatabaseContext\\ApplicationDbContext.cs",
               "RelativeToolTip": "DatabaseContext\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAwwBoAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwBoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-10T06:11:43.105Z"
             },
@@ -216,7 +216,7 @@
               "RelativeDocumentMoniker": "ORM_exam\\Program.cs",
               "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\ORM_exam\\ORM_exam\\Program.cs",
               "RelativeToolTip": "ORM_exam\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAACMAAABuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-10T06:09:00.608Z",
               "EditorCaption": ""
