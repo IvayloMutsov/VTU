@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\igmut\\source\\repos\\CourseWorkOOP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{59ABDF0D-7B5A-46AD-B8F2-81DF89E22F15}|CourseWorkOOP\\CourseWorkOOP.csproj|c:\\users\\igmut\\source\\repos\\courseworkoop\\courseworkoop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59ABDF0D-7B5A-46AD-B8F2-81DF89E22F15}|CourseWorkOOP\\CourseWorkOOP.csproj|solutionrelative:courseworkoop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59ABDF0D-7B5A-46AD-B8F2-81DF89E22F15}|CourseWorkOOP\\CourseWorkOOP.csproj|c:\\users\\igmut\\source\\repos\\courseworkoop\\courseworkoop\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59ABDF0D-7B5A-46AD-B8F2-81DF89E22F15}|CourseWorkOOP\\CourseWorkOOP.csproj|solutionrelative:courseworkoop\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59ABDF0D-7B5A-46AD-B8F2-81DF89E22F15}|CourseWorkOOP\\CourseWorkOOP.csproj|c:\\users\\igmut\\source\\repos\\courseworkoop\\courseworkoop\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59ABDF0D-7B5A-46AD-B8F2-81DF89E22F15}|CourseWorkOOP\\CourseWorkOOP.csproj|solutionrelative:courseworkoop\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59ABDF0D-7B5A-46AD-B8F2-81DF89E22F15}|CourseWorkOOP\\CourseWorkOOP.csproj|c:\\users\\igmut\\source\\repos\\courseworkoop\\courseworkoop\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59ABDF0D-7B5A-46AD-B8F2-81DF89E22F15}|CourseWorkOOP\\CourseWorkOOP.csproj|solutionrelative:courseworkoop\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59ABDF0D-7B5A-46AD-B8F2-81DF89E22F15}|CourseWorkOOP\\CourseWorkOOP.csproj|c:\\users\\igmut\\source\\repos\\courseworkoop\\courseworkoop\\workscheduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59ABDF0D-7B5A-46AD-B8F2-81DF89E22F15}|CourseWorkOOP\\CourseWorkOOP.csproj|solutionrelative:courseworkoop\\workscheduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WorkScheduler.cs",
+              "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\CourseWorkOOP\\CourseWorkOOP\\WorkScheduler.cs",
+              "RelativeDocumentMoniker": "CourseWorkOOP\\WorkScheduler.cs",
+              "ToolTip": "C:\\Users\\igmut\\source\\repos\\CourseWorkOOP\\CourseWorkOOP\\WorkScheduler.cs",
+              "RelativeToolTip": "CourseWorkOOP\\WorkScheduler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T09:39:15.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Worker.cs",
+              "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\CourseWorkOOP\\CourseWorkOOP\\Worker.cs",
+              "RelativeDocumentMoniker": "CourseWorkOOP\\Worker.cs",
+              "ToolTip": "C:\\Users\\igmut\\source\\repos\\CourseWorkOOP\\CourseWorkOOP\\Worker.cs",
+              "RelativeToolTip": "CourseWorkOOP\\Worker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T09:19:32.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\CourseWorkOOP\\CourseWorkOOP\\Employee.cs",
+              "RelativeDocumentMoniker": "CourseWorkOOP\\Employee.cs",
+              "ToolTip": "C:\\Users\\igmut\\source\\repos\\CourseWorkOOP\\CourseWorkOOP\\Employee.cs",
+              "RelativeToolTip": "CourseWorkOOP\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T09:18:11.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Manager.cs",
+              "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\CourseWorkOOP\\CourseWorkOOP\\Manager.cs",
+              "RelativeDocumentMoniker": "CourseWorkOOP\\Manager.cs",
+              "ToolTip": "C:\\Users\\igmut\\source\\repos\\CourseWorkOOP\\CourseWorkOOP\\Manager.cs",
+              "RelativeToolTip": "CourseWorkOOP\\Manager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T09:15:48.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\CourseWorkOOP\\CourseWorkOOP\\Program.cs",
+              "RelativeDocumentMoniker": "CourseWorkOOP\\Program.cs",
+              "ToolTip": "C:\\Users\\igmut\\source\\repos\\CourseWorkOOP\\CourseWorkOOP\\Program.cs",
+              "RelativeToolTip": "CourseWorkOOP\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T09:14:01.069Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

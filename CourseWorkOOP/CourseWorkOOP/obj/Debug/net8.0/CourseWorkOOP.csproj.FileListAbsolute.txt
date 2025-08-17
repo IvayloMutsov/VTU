@@ -1,0 +1,14 @@
+C:\Users\igmut\source\repos\CourseWorkOOP\CourseWorkOOP\bin\Debug\net8.0\CourseWorkOOP.exe
+C:\Users\igmut\source\repos\CourseWorkOOP\CourseWorkOOP\bin\Debug\net8.0\CourseWorkOOP.deps.json
+C:\Users\igmut\source\repos\CourseWorkOOP\CourseWorkOOP\bin\Debug\net8.0\CourseWorkOOP.runtimeconfig.json
+C:\Users\igmut\source\repos\CourseWorkOOP\CourseWorkOOP\bin\Debug\net8.0\CourseWorkOOP.dll
+C:\Users\igmut\source\repos\CourseWorkOOP\CourseWorkOOP\bin\Debug\net8.0\CourseWorkOOP.pdb
+C:\Users\igmut\source\repos\CourseWorkOOP\CourseWorkOOP\obj\Debug\net8.0\CourseWorkOOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\igmut\source\repos\CourseWorkOOP\CourseWorkOOP\obj\Debug\net8.0\CourseWorkOOP.AssemblyInfoInputs.cache
+C:\Users\igmut\source\repos\CourseWorkOOP\CourseWorkOOP\obj\Debug\net8.0\CourseWorkOOP.AssemblyInfo.cs
+C:\Users\igmut\source\repos\CourseWorkOOP\CourseWorkOOP\obj\Debug\net8.0\CourseWorkOOP.csproj.CoreCompileInputs.cache
+C:\Users\igmut\source\repos\CourseWorkOOP\CourseWorkOOP\obj\Debug\net8.0\CourseWorkOOP.dll
+C:\Users\igmut\source\repos\CourseWorkOOP\CourseWorkOOP\obj\Debug\net8.0\refint\CourseWorkOOP.dll
+C:\Users\igmut\source\repos\CourseWorkOOP\CourseWorkOOP\obj\Debug\net8.0\CourseWorkOOP.pdb
+C:\Users\igmut\source\repos\CourseWorkOOP\CourseWorkOOP\obj\Debug\net8.0\CourseWorkOOP.genruntimeconfig.cache
+C:\Users\igmut\source\repos\CourseWorkOOP\CourseWorkOOP\obj\Debug\net8.0\ref\CourseWorkOOP.dll
