@@ -20,7 +20,14 @@ namespace MovieRentApi.Controllers
         public async Task<IActionResult> GetAllMovies()
         {
             var movies = await context.Movies.ToListAsync();
-            return Ok(movies);
+            if (movies != null)
+            {
+                return Ok(movies);
+            }
+            else
+            {
+                return NotFound();
+            }
         }
 
         [HttpGet]
@@ -28,15 +35,29 @@ namespace MovieRentApi.Controllers
         {
             var movies = await context.Movies.ToListAsync();
             var movie = movies.Find(x => x.ID == id);
-            return Ok(movie);
+            if (movie != null)
+            {
+                return Ok(movie);
+            }
+            else
+            {
+                return NotFound();
+            }
         }
 
         [HttpGet]
         public async Task<IActionResult> GetMovieByName(string name)
         {
             var movies = await context.Movies.ToListAsync();
-            var movieByName = movies.FirstOrDefault(x => x.Name == name,new Movie { Name = "Not Found"});
-            return Ok(movieByName);
+            var movieByName = movies.First(x => x.Name == name);
+            if (movieByName != null)
+            {
+                return Ok(movieByName);
+            }
+            else
+            {
+                return NotFound();
+            }
         }
     }
 }

@@ -18,5 +18,9 @@ namespace Infrastructure.Models
 
         [Required,DefaultValue(false)]
         public bool IsDeleted { get ; set; }
+
+        public DateTime DateCreated => DateTime.Now;
+
+        public DateTime DateLastModified { get; set; }
     }
 }

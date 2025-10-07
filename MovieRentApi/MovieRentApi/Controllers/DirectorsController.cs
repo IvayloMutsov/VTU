@@ -21,7 +21,14 @@ namespace MovieRentApi.Controllers
         public async Task<IActionResult> GetDirectors()
         {
             var directors = await context.Directors.ToListAsync();
-            return Ok(directors);
+            if (directors != null)
+            {
+                return Ok(directors);
+            }
+            else
+            {
+                return NotFound();
+            }
         } 
 
         [HttpGet]
@@ -29,15 +36,42 @@ namespace MovieRentApi.Controllers
         {
             var directors = await context.Directors.ToListAsync();
             var director = directors.Find(x => x.ID == id);
-            return Ok(director);
+            if (director != null)
+            {
+                return Ok(director);
+            }
+            else
+            {
+                return NotFound();
+            }
         }
 
         [HttpGet]
         public async Task<IActionResult> GetDirectorByName(string name)
         {
             var directors = await context.Directors.ToListAsync();
-            var directorByName = directors.FirstOrDefault(x => x.Name == name,new Director { Name = name});
-            return Ok(directorByName);
+            var directorByName = directors.First(x => x.Name == name);
+            if (directorByName != null)
+            {
+                return Ok(directorByName);
+            }
+            else
+            {
+                return NotFound();
+            }
+        }
+
+        [HttpPost]
+        public async Task AddDirector(string name)
+        {
+            var directors = await context.Directors.ToListAsync();
+            int lastDirectorId = directors.Last().ID;
+            using (context)
+            {
+                Director director = new Director { ID = lastDirectorId++, Name = name };
+                context.Directors.Add(director);
+                await context.SaveChangesAsync();
+            }
         }
     }
 }
