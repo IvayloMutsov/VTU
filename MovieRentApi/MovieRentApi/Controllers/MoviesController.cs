@@ -19,7 +19,7 @@ namespace MovieRentApi.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAllMovies()
         {
-            var movies = await context.Movies.ToListAsync();
+            var movies = await context.Movies.Where(x => x.IsDeleted == false).ToListAsync();
             if (movies != null)
             {
                 return Ok(movies);
@@ -57,6 +57,85 @@ namespace MovieRentApi.Controllers
             else
             {
                 return NotFound();
+            }
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> AddMovie(string name, int duration, int releaseDate, double rating, int directorId, int genreId)
+        {
+            using (context)
+            {
+                var genres = await context.Genres.ToListAsync();
+                Genre genre = genres.Find(x => x.ID == genreId);
+
+                var directors = await context.Directors.ToListAsync();
+                Director director = directors.Find(x => x.ID == directorId);
+
+                if (genre == null || director == null)
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    Movie movie = new Movie
+                    {
+                        Name = name,
+                        Duration = duration,
+                        ReleaseDate = releaseDate,
+                        Rating = rating,
+                        Genre = genre,
+                        Director = director,
+                    };
+
+                    await context.Movies.AddAsync(movie);
+                    await context.SaveChangesAsync();
+                    return Ok(movie);
+                }
+            }
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> UpdateMovies(int id, string name, int duration, int releaseDate, double rating)
+        {
+            var movies = await context.Movies.ToListAsync();
+            var movie = movies.Find(x => x.ID == id);
+            if (movie != null)
+            {
+                movie.Name = name;
+                movie.Duration = duration;
+                movie.ReleaseDate = releaseDate;
+                movie.Rating = rating;
+                movie.DateLastModified = DateTime.Now;
+
+                context.Movies.Update(movie);
+                await context.SaveChangesAsync();
+
+                return Ok(movie);
+            }
+            else
+            {
+                return NotFound();
+            }
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> DeleteMovie(int id)
+        {
+            var movies = await context.Movies.ToListAsync();
+            var movie = movies.Find(x => x.ID == id);
+            if (movie == null)
+            {
+                return NotFound(); 
+            }
+            else
+            {
+                movie.IsDeleted = true;
+                movie.DateLastModified = DateTime.Now;
+                FakeDelete del = new FakeDelete { EntityID = id, Name = movie.Name, IsDeleted = true };
+                await context.SoftDelete.AddAsync(del);
+                context.Movies.Update(movie);
+                await context.SaveChangesAsync();
+                return Ok();
             }
         }
     }

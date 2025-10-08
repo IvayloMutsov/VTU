@@ -21,7 +21,7 @@ namespace MovieRentApi.Controllers
         [HttpGet]
         public async Task<IActionResult> GetGenres()
         {
-            var genres = await appContext.Genres.ToListAsync();
+            var genres = await appContext.Genres.Where(x => x.IsDeleted == false).ToListAsync();
             if (genres != null)
             {
                 return Ok(genres);
@@ -63,15 +63,14 @@ namespace MovieRentApi.Controllers
         }
 
         [HttpPost]
-        public async Task AddGenre(string name)
+        public async Task<IActionResult> AddGenre(string name)
         {
-            var genres = await appContext.Genres.ToListAsync();
-            int lastGenreId = genres.Last().ID;
             using (appContext)
             {
-                Genre newGenre = new Genre { ID = lastGenreId++, Name = name };
-                appContext.Genres.Add(newGenre);
+                Genre newGenre = new Genre { Name = name };
+                await appContext.Genres.AddAsync(newGenre);
                 await appContext.SaveChangesAsync();
+                return Ok(newGenre);
             }
         }
 
@@ -91,6 +90,27 @@ namespace MovieRentApi.Controllers
             else
             {
                 return NotFound();
+            }
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> DeleteGenre(int id)
+        {
+            var genres = await appContext.Genres.ToListAsync();
+            var genreDelete = genres.Find(x => x.ID == id);
+            if (genreDelete == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                FakeDelete del = new FakeDelete { EntityID = id, Name = genreDelete.Name, IsDeleted = true };
+                genreDelete.IsDeleted = true;
+                genreDelete.DateLastModified = DateTime.Now;
+                await appContext.SoftDelete.AddAsync(del);
+                appContext.Genres.Update(genreDelete);
+                await appContext.SaveChangesAsync();
+                return Ok();
             }
         }
     }
