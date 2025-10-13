@@ -9,11 +9,11 @@ namespace MovieRentApi.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class GenresController : ControllerBase
+    public class GenreController : ControllerBase
     {
         private readonly ApplicationDbContext appContext;
 
-        public GenresController(ApplicationDbContext _context)
+        public GenreController(ApplicationDbContext _context)
         {
             appContext = _context;
         }
@@ -32,7 +32,7 @@ namespace MovieRentApi.Controllers
             }
         }
 
-        [HttpGet]
+        [HttpGet("id")]
         public async Task<IActionResult> GetGenreByID(int id)
         {
             var genres = await appContext.Genres.ToListAsync();
@@ -47,7 +47,7 @@ namespace MovieRentApi.Controllers
             }
         }
 
-        [HttpGet]
+        [HttpGet("name")]
         public async Task<IActionResult> GetGenreByName(string name)
         {
             var genres = await appContext.Genres.ToListAsync();
@@ -62,7 +62,7 @@ namespace MovieRentApi.Controllers
             }
         }
 
-        [HttpPost]
+        [HttpPost("add")]
         public async Task<IActionResult> AddGenre(string name)
         {
             using (appContext)
@@ -74,7 +74,7 @@ namespace MovieRentApi.Controllers
             }
         }
 
-        [HttpPost]
+        [HttpPost("update")]
         public async Task<IActionResult> UpdateGenre(int id, string name)
         {
             var genres = await appContext.Genres.ToListAsync();
@@ -93,7 +93,7 @@ namespace MovieRentApi.Controllers
             }
         }
 
-        [HttpPost]
+        [HttpPost("delete")]
         public async Task<IActionResult> DeleteGenre(int id)
         {
             var genres = await appContext.Genres.ToListAsync();

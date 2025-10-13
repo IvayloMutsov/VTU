@@ -7,11 +7,11 @@ namespace MovieRentApi.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class MoviesController : ControllerBase
+    public class MovieController : ControllerBase
     {
         private readonly ApplicationDbContext context;
 
-        public MoviesController(ApplicationDbContext _context)
+        public MovieController(ApplicationDbContext _context)
         {
             context = _context;
         }
@@ -30,7 +30,7 @@ namespace MovieRentApi.Controllers
             }
         }
 
-        [HttpGet]
+        [HttpGet("id")]
         public async Task<IActionResult> GetMovieByID(int id)
         {
             var movies = await context.Movies.ToListAsync();
@@ -45,7 +45,7 @@ namespace MovieRentApi.Controllers
             }
         }
 
-        [HttpGet]
+        [HttpGet("name")]
         public async Task<IActionResult> GetMovieByName(string name)
         {
             var movies = await context.Movies.ToListAsync();
@@ -60,7 +60,7 @@ namespace MovieRentApi.Controllers
             }
         }
 
-        [HttpPost]
+        [HttpPost("add")]
         public async Task<IActionResult> AddMovie(string name, int duration, int releaseDate, double rating, int directorId, int genreId)
         {
             using (context)
@@ -94,7 +94,7 @@ namespace MovieRentApi.Controllers
             }
         }
 
-        [HttpPost]
+        [HttpPost("update")]
         public async Task<IActionResult> UpdateMovies(int id, string name, int duration, int releaseDate, double rating)
         {
             var movies = await context.Movies.ToListAsync();
@@ -118,7 +118,7 @@ namespace MovieRentApi.Controllers
             }
         }
 
-        [HttpPost]
+        [HttpPost("delete")]
         public async Task<IActionResult> DeleteMovie(int id)
         {
             var movies = await context.Movies.ToListAsync();

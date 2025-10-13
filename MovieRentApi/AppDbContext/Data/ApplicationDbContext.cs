@@ -12,6 +12,8 @@ namespace AppDbContext.Data
     {
         private string connectionString = "Server=IVAYLO\\SQLEXPRESS;Database=WebMovies;Trusted_Connection=True;TrustServerCertificate = True;";
 
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options): base(options){}
+
         public DbSet<Movie> Movies { get; set; }
 
         public DbSet<Genre> Genres { get; set; }

@@ -9,11 +9,11 @@ namespace MovieRentApi.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class DirectorsController : ControllerBase
+    public class DirectorController : ControllerBase
     {
         private readonly ApplicationDbContext context;
 
-        public DirectorsController(ApplicationDbContext _context)
+        public DirectorController(ApplicationDbContext _context)
         {
             context = _context;
         }
@@ -32,7 +32,7 @@ namespace MovieRentApi.Controllers
             }
         } 
 
-        [HttpGet]
+        [HttpGet("id")]
         public async Task<IActionResult> GetDirectorByID(int id)
         {
             var directors = await context.Directors.ToListAsync();
@@ -47,7 +47,7 @@ namespace MovieRentApi.Controllers
             }
         }
 
-        [HttpGet]
+        [HttpGet("name")]
         public async Task<IActionResult> GetDirectorByName(string name)
         {
             var directors = await context.Directors.ToListAsync();
@@ -62,19 +62,19 @@ namespace MovieRentApi.Controllers
             }
         }
 
-        [HttpPost]
-        public async Task<IActionResult> AddDirector(string name)
+        [HttpPost("add")]
+        public async Task<IActionResult> AddDirector(string name, int age)
         {
             using (context)
             {
-                Director director = new Director { Name = name };
+                Director director = new Director { Name = name, Age = age };
                 await context.Directors.AddAsync(director);
                 await context.SaveChangesAsync();
                 return Ok(director);
             }
         }
 
-        [HttpPost]
+        [HttpPost("update")]
         public async Task<IActionResult> UpdateDirector(int id, string name)
         {
             var directors = await context.Directors.ToListAsync();
@@ -93,7 +93,7 @@ namespace MovieRentApi.Controllers
             }
         }
 
-        [HttpPost]
+        [HttpPost("delete")]
         public async Task<IActionResult> DeleteDirector(int id)
         {
             var directors = await context.Directors.ToListAsync();

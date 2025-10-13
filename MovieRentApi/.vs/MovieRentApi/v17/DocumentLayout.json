@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\igmut\\source\\repos\\VTU\\MovieRentApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{468F03E6-FE1F-4E45-9C06-8E91B5141AC3}|MovieRentApi\\MovieRentApi.csproj|c:\\users\\igmut\\source\\repos\\vtu\\movierentapi\\movierentapi\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{468F03E6-FE1F-4E45-9C06-8E91B5141AC3}|MovieRentApi\\MovieRentApi.csproj|solutionrelative:movierentapi\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{468F03E6-FE1F-4E45-9C06-8E91B5141AC3}|MovieRentApi\\MovieRentApi.csproj|c:\\users\\igmut\\source\\repos\\vtu\\movierentapi\\movierentapi\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{468F03E6-FE1F-4E45-9C06-8E91B5141AC3}|MovieRentApi\\MovieRentApi.csproj|solutionrelative:movierentapi\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{468F03E6-FE1F-4E45-9C06-8E91B5141AC3}|MovieRentApi\\MovieRentApi.csproj|c:\\users\\igmut\\source\\repos\\vtu\\movierentapi\\movierentapi\\controllers\\directorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{468F03E6-FE1F-4E45-9C06-8E91B5141AC3}|MovieRentApi\\MovieRentApi.csproj|solutionrelative:movierentapi\\controllers\\directorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{468F03E6-FE1F-4E45-9C06-8E91B5141AC3}|MovieRentApi\\MovieRentApi.csproj|c:\\users\\igmut\\source\\repos\\vtu\\movierentapi\\movierentapi\\controllers\\directorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{468F03E6-FE1F-4E45-9C06-8E91B5141AC3}|MovieRentApi\\MovieRentApi.csproj|solutionrelative:movierentapi\\controllers\\directorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{468F03E6-FE1F-4E45-9C06-8E91B5141AC3}|MovieRentApi\\MovieRentApi.csproj|c:\\users\\igmut\\source\\repos\\vtu\\movierentapi\\movierentapi\\controllers\\genrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{468F03E6-FE1F-4E45-9C06-8E91B5141AC3}|MovieRentApi\\MovieRentApi.csproj|solutionrelative:movierentapi\\controllers\\genrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{260AF5B2-C739-4F50-BFDC-3767A50132B9}|Infrastructure\\Infrastructure.csproj|c:\\users\\igmut\\source\\repos\\vtu\\movierentapi\\infrastructure\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{260AF5B2-C739-4F50-BFDC-3767A50132B9}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{260AF5B2-C739-4F50-BFDC-3767A50132B9}|Infrastructure\\Infrastructure.csproj|c:\\users\\igmut\\source\\repos\\vtu\\movierentapi\\infrastructure\\models\\director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260AF5B2-C739-4F50-BFDC-3767A50132B9}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\models\\director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{260AF5B2-C739-4F50-BFDC-3767A50132B9}|Infrastructure\\Infrastructure.csproj|c:\\users\\igmut\\source\\repos\\vtu\\movierentapi\\infrastructure\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{260AF5B2-C739-4F50-BFDC-3767A50132B9}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03929603-41FF-4966-BE84-3E3929AB26C2}|AppDbContext\\AppDbContext.csproj|c:\\users\\igmut\\source\\repos\\vtu\\movierentapi\\appdbcontext\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03929603-41FF-4966-BE84-3E3929AB26C2}|AppDbContext\\AppDbContext.csproj|solutionrelative:appdbcontext\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{260AF5B2-C739-4F50-BFDC-3767A50132B9}|Infrastructure\\Infrastructure.csproj|c:\\users\\igmut\\source\\repos\\vtu\\movierentapi\\infrastructure\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,20 +27,28 @@
       "RelativeMoniker": "D:0:0:{468F03E6-FE1F-4E45-9C06-8E91B5141AC3}|MovieRentApi\\MovieRentApi.csproj|solutionrelative:movierentapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{260AF5B2-C739-4F50-BFDC-3767A50132B9}|Infrastructure\\Infrastructure.csproj|c:\\users\\igmut\\source\\repos\\vtu\\movierentapi\\infrastructure\\models\\fakedelete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{260AF5B2-C739-4F50-BFDC-3767A50132B9}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\models\\fakedelete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{468F03E6-FE1F-4E45-9C06-8E91B5141AC3}|MovieRentApi\\MovieRentApi.csproj|c:\\users\\igmut\\source\\repos\\vtu\\movierentapi\\movierentapi\\controllers\\genrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{468F03E6-FE1F-4E45-9C06-8E91B5141AC3}|MovieRentApi\\MovieRentApi.csproj|solutionrelative:movierentapi\\controllers\\genrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{260AF5B2-C739-4F50-BFDC-3767A50132B9}|Infrastructure\\Infrastructure.csproj|c:\\users\\igmut\\source\\repos\\vtu\\movierentapi\\infrastructure\\models\\ientitycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{260AF5B2-C739-4F50-BFDC-3767A50132B9}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\models\\ientitycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03929603-41FF-4966-BE84-3E3929AB26C2}|AppDbContext\\AppDbContext.csproj|c:\\users\\igmut\\source\\repos\\vtu\\movierentapi\\appdbcontext\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03929603-41FF-4966-BE84-3E3929AB26C2}|AppDbContext\\AppDbContext.csproj|solutionrelative:appdbcontext\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{468F03E6-FE1F-4E45-9C06-8E91B5141AC3}|MovieRentApi\\MovieRentApi.csproj|c:\\users\\igmut\\source\\repos\\vtu\\movierentapi\\movierentapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{468F03E6-FE1F-4E45-9C06-8E91B5141AC3}|MovieRentApi\\MovieRentApi.csproj|solutionrelative:movierentapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{260AF5B2-C739-4F50-BFDC-3767A50132B9}|Infrastructure\\Infrastructure.csproj|c:\\users\\igmut\\source\\repos\\vtu\\movierentapi\\infrastructure\\models\\director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{260AF5B2-C739-4F50-BFDC-3767A50132B9}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\models\\director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{260AF5B2-C739-4F50-BFDC-3767A50132B9}|Infrastructure\\Infrastructure.csproj|c:\\users\\igmut\\source\\repos\\vtu\\movierentapi\\infrastructure\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260AF5B2-C739-4F50-BFDC-3767A50132B9}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260AF5B2-C739-4F50-BFDC-3767A50132B9}|Infrastructure\\Infrastructure.csproj|c:\\users\\igmut\\source\\repos\\vtu\\movierentapi\\infrastructure\\models\\fakedelete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260AF5B2-C739-4F50-BFDC-3767A50132B9}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\models\\fakedelete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260AF5B2-C739-4F50-BFDC-3767A50132B9}|Infrastructure\\Infrastructure.csproj|c:\\users\\igmut\\source\\repos\\vtu\\movierentapi\\infrastructure\\models\\ientitycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260AF5B2-C739-4F50-BFDC-3767A50132B9}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\models\\ientitycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -63,12 +63,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MoviesController.cs",
-              "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\MovieRentApi\\MovieRentApi\\Controllers\\MoviesController.cs",
-              "RelativeDocumentMoniker": "MovieRentApi\\Controllers\\MoviesController.cs",
-              "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\MovieRentApi\\MovieRentApi\\Controllers\\MoviesController.cs",
-              "RelativeToolTip": "MovieRentApi\\Controllers\\MoviesController.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAAAIkAAAAcAAAAAAAAAA==",
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\MovieRentApi\\MovieRentApi\\Controllers\\MovieController.cs",
+              "RelativeDocumentMoniker": "MovieRentApi\\Controllers\\MovieController.cs",
+              "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\MovieRentApi\\MovieRentApi\\Controllers\\MovieController.cs",
+              "RelativeToolTip": "MovieRentApi\\Controllers\\MovieController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEcAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-03T15:58:18.533Z",
               "EditorCaption": ""
@@ -76,32 +76,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DirectorsController.cs",
-              "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\MovieRentApi\\MovieRentApi\\Controllers\\DirectorsController.cs",
-              "RelativeDocumentMoniker": "MovieRentApi\\Controllers\\DirectorsController.cs",
-              "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\MovieRentApi\\MovieRentApi\\Controllers\\DirectorsController.cs",
-              "RelativeToolTip": "MovieRentApi\\Controllers\\DirectorsController.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAAAGMAAABBAAAAAAAAAA==",
+              "Title": "DirectorController.cs",
+              "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\MovieRentApi\\MovieRentApi\\Controllers\\DirectorController.cs",
+              "RelativeDocumentMoniker": "MovieRentApi\\Controllers\\DirectorController.cs",
+              "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\MovieRentApi\\MovieRentApi\\Controllers\\DirectorController.cs",
+              "RelativeToolTip": "MovieRentApi\\Controllers\\DirectorController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAEUAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-03T15:49:03.304Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GenresController.cs",
-              "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\MovieRentApi\\MovieRentApi\\Controllers\\GenresController.cs",
-              "RelativeDocumentMoniker": "MovieRentApi\\Controllers\\GenresController.cs",
-              "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\MovieRentApi\\MovieRentApi\\Controllers\\GenresController.cs",
-              "RelativeToolTip": "MovieRentApi\\Controllers\\GenresController.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAAAEIAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "GenreController.cs",
+              "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\MovieRentApi\\MovieRentApi\\Controllers\\GenreController.cs",
+              "RelativeDocumentMoniker": "MovieRentApi\\Controllers\\GenreController.cs",
+              "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\MovieRentApi\\MovieRentApi\\Controllers\\GenreController.cs",
+              "RelativeToolTip": "MovieRentApi\\Controllers\\GenreController.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAF8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-02T20:01:41.674Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "FakeDelete.cs",
               "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\MovieRentApi\\Infrastructure\\Models\\FakeDelete.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Models\\FakeDelete.cs",
@@ -113,32 +113,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\MovieRentApi\\MovieRentApi\\appsettings.json",
               "RelativeDocumentMoniker": "MovieRentApi\\appsettings.json",
               "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\MovieRentApi\\MovieRentApi\\appsettings.json",
               "RelativeToolTip": "MovieRentApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-09-27T22:15:46.488Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\MovieRentApi\\AppDbContext\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "AppDbContext\\Data\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\MovieRentApi\\AppDbContext\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "AppDbContext\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswA4AAABkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-27T22:02:30.703Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "IEntityContext.cs",
               "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\MovieRentApi\\Infrastructure\\Models\\IEntityContext.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Models\\IEntityContext.cs",
@@ -150,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
               "Title": "Director.cs",
               "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\MovieRentApi\\Infrastructure\\Models\\Director.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Models\\Director.cs",
@@ -158,11 +158,12 @@
               "RelativeToolTip": "Infrastructure\\Models\\Director.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T21:48:54.721Z"
+              "WhenOpened": "2025-09-27T21:48:54.721Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Genre.cs",
               "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\MovieRentApi\\Infrastructure\\Models\\Genre.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Models\\Genre.cs",
@@ -170,11 +171,12 @@
               "RelativeToolTip": "Infrastructure\\Models\\Genre.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T21:47:23.462Z"
+              "WhenOpened": "2025-09-27T21:47:23.462Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\MovieRentApi\\Infrastructure\\Models\\BaseEntity.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Models\\BaseEntity.cs",
@@ -187,7 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "Movie.cs",
               "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\MovieRentApi\\Infrastructure\\Models\\Movie.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Models\\Movie.cs",
@@ -195,20 +197,20 @@
               "RelativeToolTip": "Infrastructure\\Models\\Movie.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T21:44:22.072Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-27T21:44:22.072Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\MovieRentApi\\MovieRentApi\\Program.cs",
               "RelativeDocumentMoniker": "MovieRentApi\\Program.cs",
               "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\MovieRentApi\\MovieRentApi\\Program.cs",
               "RelativeToolTip": "MovieRentApi\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwCcAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T21:40:28.154Z"
+              "WhenOpened": "2025-09-27T21:40:28.154Z",
+              "EditorCaption": ""
             }
           ]
         }
