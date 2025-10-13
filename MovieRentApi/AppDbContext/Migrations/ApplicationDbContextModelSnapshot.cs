@@ -49,29 +49,6 @@ namespace AppDbContext.Migrations
                     b.ToTable("Directors");
                 });
 
-            modelBuilder.Entity("Infrastructure.Models.FakeDelete", b =>
-                {
-                    b.Property<int>("ID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
-
-                    b.Property<int>("EntityID")
-                        .HasColumnType("int");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("ID");
-
-                    b.ToTable("SoftDelete");
-                });
-
             modelBuilder.Entity("Infrastructure.Models.Genre", b =>
                 {
                     b.Property<int>("ID")
@@ -139,10 +116,33 @@ namespace AppDbContext.Migrations
                     b.ToTable("Movies");
                 });
 
+            modelBuilder.Entity("Infrastructure.Models.SoftDelete", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
+
+                    b.Property<int>("EntityID")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ID");
+
+                    b.ToTable("SoftDelete");
+                });
+
             modelBuilder.Entity("Infrastructure.Models.Movie", b =>
                 {
                     b.HasOne("Infrastructure.Models.Director", "Director")
-                        .WithMany("MoviesDirected")
+                        .WithMany()
                         .HasForeignKey("DirectorID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -156,11 +156,6 @@ namespace AppDbContext.Migrations
                     b.Navigation("Director");
 
                     b.Navigation("Genre");
-                });
-
-            modelBuilder.Entity("Infrastructure.Models.Director", b =>
-                {
-                    b.Navigation("MoviesDirected");
                 });
 #pragma warning restore 612, 618
         }

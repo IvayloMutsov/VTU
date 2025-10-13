@@ -20,7 +20,7 @@ namespace AppDbContext.Data
 
         public DbSet<Director> Directors { get; set; }
 
-        public DbSet<FakeDelete> SoftDelete { get; set; }
+        public DbSet<SoftDelete> SoftDelete { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

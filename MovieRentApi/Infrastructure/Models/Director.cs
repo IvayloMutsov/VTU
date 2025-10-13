@@ -10,7 +10,5 @@ namespace Infrastructure.Models
     public class Director : BaseEntity
     {
         public int Age { get; set; }
-
-        public List<Movie> MoviesDirected { get; set; }
     }
 }

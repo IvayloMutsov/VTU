@@ -131,7 +131,7 @@ namespace MovieRentApi.Controllers
             {
                 movie.IsDeleted = true;
                 movie.DateLastModified = DateTime.Now;
-                FakeDelete del = new FakeDelete { EntityID = id, Name = movie.Name, IsDeleted = true };
+                SoftDelete del = new SoftDelete { EntityID = id, Name = movie.Name, IsDeleted = true };
                 await context.SoftDelete.AddAsync(del);
                 context.Movies.Update(movie);
                 await context.SaveChangesAsync();

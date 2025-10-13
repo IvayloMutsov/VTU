@@ -104,7 +104,7 @@ namespace MovieRentApi.Controllers
             }
             else
             {
-                FakeDelete del = new FakeDelete { EntityID = id, Name = directorDelete.Name, IsDeleted = true };
+                SoftDelete del = new SoftDelete { EntityID = id, Name = directorDelete.Name, IsDeleted = true };
                 directorDelete.IsDeleted = true;
                 directorDelete.DateLastModified = DateTime.Now;
                 await context.SoftDelete.AddAsync(del);

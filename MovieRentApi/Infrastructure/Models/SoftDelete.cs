@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Infrastructure.Models
 {
-    public class FakeDelete : IEntityContext
+    public class SoftDelete : IEntityContext
     {
         [Required,Key]
         public int ID { get; set; }
