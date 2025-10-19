@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using LibraryMVC.Data;
+using Database.Data;
 
 namespace LibraryMVC;
 

@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Infrastructure.Models
+﻿namespace Infrastructure.Models
 {
     public interface ILibraryEntity // a contract for all different objects in the library
     {
