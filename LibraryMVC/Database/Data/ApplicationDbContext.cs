@@ -1,5 +1,6 @@
 ﻿using Infrastructure.AppUserModels;
 using Infrastructure.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
@@ -15,8 +16,15 @@ public class ApplicationDbContext : IdentityDbContext<AppUser>
 
     public DbSet<Book> Books { get; set; }
 
-    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    protected override void OnModelCreating(ModelBuilder builder)
     {
-        base.OnModelCreating(modelBuilder);
+        base.OnModelCreating(builder);
+
+        foreach (var foreignKey in builder.Model.GetEntityTypes()
+             .SelectMany(e => e.GetForeignKeys()))
+        {
+            foreignKey.DeleteBehavior = DeleteBehavior.Restrict;
+        }
+
     }
 }

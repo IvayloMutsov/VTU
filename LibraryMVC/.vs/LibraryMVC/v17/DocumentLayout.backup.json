@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{925EF9DA-5E2F-4CEF-8A8B-7CB1174A5617}|LibraryMVC\\LibraryMVC.csproj|c:\\users\\igmut\\source\\repos\\vtu\\librarymvc\\librarymvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{925EF9DA-5E2F-4CEF-8A8B-7CB1174A5617}|LibraryMVC\\LibraryMVC.csproj|solutionrelative:librarymvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\Database\\Migrations\\20251019201252_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Database\\Migrations\\20251019201252_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3FEE1CC-A869-4121-94DE-7E8966FD999C}|Database\\Database.csproj|c:\\users\\igmut\\source\\repos\\vtu\\librarymvc\\database\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3FEE1CC-A869-4121-94DE-7E8966FD999C}|Database\\Database.csproj|solutionrelative:database\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\Program.cs",
-              "RelativeDocumentMoniker": "LibraryMVC\\Program.cs",
-              "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\Program.cs",
-              "RelativeToolTip": "LibraryMVC\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
+              "Title": "20251019201252_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\Database\\Migrations\\20251019201252_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Database\\Migrations\\20251019201252_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\Database\\Migrations\\20251019201252_InitialCreate.cs",
+              "RelativeToolTip": "Database\\Migrations\\20251019201252_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T19:31:07.457Z",
+              "WhenOpened": "2025-10-19T20:12:52.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\Database\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Database\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\Database\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Database\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAwwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T20:04:21.819Z",
               "EditorCaption": ""
             }
           ]

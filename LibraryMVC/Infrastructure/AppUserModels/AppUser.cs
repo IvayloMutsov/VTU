@@ -2,7 +2,7 @@
 
 namespace Infrastructure.AppUserModels
 {
-    public abstract class AppUser: IdentityUser
+    public class AppUser: IdentityUser
     {
         public IdentityRole Role { get; set; }
     }
