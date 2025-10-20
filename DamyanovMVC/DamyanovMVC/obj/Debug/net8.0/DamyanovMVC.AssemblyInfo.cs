@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DamyanovMVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57d6f8cf5d60a1033868ff6aea815a7c9237129f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb52057c42bd19e1931764314f3caa5ad7fe13e2")]
 [assembly: System.Reflection.AssemblyProductAttribute("DamyanovMVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DamyanovMVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,12 +1,21 @@
 ﻿using Services.BaseServices;
 using Infrastructure.Models;
 using Microsoft.EntityFrameworkCore;
+using Database.Data;
+using Services.AuthorServices;
 
 namespace Services.GenreServices
 {
-    public class GenreService: BaseService
+    public class GenreService: IGenreService
     {
-        public async Task AddGenre(string name)
+        private ApplicationDbContext context;
+
+        public GenreService(ApplicationDbContext context)
+        {
+            this.context = context;
+        }
+
+        public async Task Add(string name)
         {
             Genre genre = new Genre
             {
@@ -18,7 +27,7 @@ namespace Services.GenreServices
             await context.SaveChangesAsync();
         }
 
-        public async Task UpdateGenre(int id, string name)
+        public async Task Update(int id, string name)
         {
             var genre = await context.Genres.FindAsync(id);
             genre.DateLastModified = DateTime.Now;
@@ -26,7 +35,7 @@ namespace Services.GenreServices
             await context.SaveChangesAsync();
         }
 
-        public async Task DeleteGenre(int id)
+        public async Task Delete(int id)
         {
             var genre = await context.Genres.FindAsync(id);
             genre.DateLastModified = DateTime.Now;
@@ -35,13 +44,13 @@ namespace Services.GenreServices
             await context.SaveChangesAsync();
         }
 
-        public async Task<Genre> GetGenreByID(int id)
+        public async Task<Genre> GetByID(int id)
         {
             var genre = await context.Genres.FindAsync(id);
             return genre;
         }
 
-        public async Task<List<Genre>> GetGenresList()
+        public async Task<List<Genre>> GetList()
         {
             var genres = await context.Genres.Where(x => x.IsDeleted == false).ToListAsync();
             return genres;

@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\igmut\\source\\repos\\VTU\\MovieRentApi\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{468F03E6-FE1F-4E45-9C06-8E91B5141AC3}|MovieRentApi\\MovieRentApi.csproj|c:\\users\\igmut\\source\\repos\\vtu\\movierentapi\\movierentapi\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{468F03E6-FE1F-4E45-9C06-8E91B5141AC3}|MovieRentApi\\MovieRentApi.csproj|solutionrelative:movierentapi\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\MovieRentApi\\MovieRentApi\\Controllers\\MovieController.cs",
+              "RelativeDocumentMoniker": "MovieRentApi\\Controllers\\MovieController.cs",
+              "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\MovieRentApi\\MovieRentApi\\Controllers\\MovieController.cs",
+              "RelativeToolTip": "MovieRentApi\\Controllers\\MovieController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T05:47:32.748Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

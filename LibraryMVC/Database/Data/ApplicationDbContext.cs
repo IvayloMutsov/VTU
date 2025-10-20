@@ -16,6 +16,8 @@ public class ApplicationDbContext : IdentityDbContext<AppUser>
 
     public DbSet<Book> Books { get; set; }
 
+    public DbSet<AppUser> Users { get; set; }
+
     protected override void OnModelCreating(ModelBuilder builder)
     {
         base.OnModelCreating(builder);
@@ -25,6 +27,5 @@ public class ApplicationDbContext : IdentityDbContext<AppUser>
         {
             foreignKey.DeleteBehavior = DeleteBehavior.Restrict;
         }
-
     }
 }

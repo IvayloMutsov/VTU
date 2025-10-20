@@ -9,6 +9,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{01E30D2A-3CC6-42FB-845B-82A394C5B34C}|DamyanovMVC\\DamyanovMVC.csproj|c:\\users\\igmut\\source\\repos\\vtu\\damyanovmvc\\damyanovmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01E30D2A-3CC6-42FB-845B-82A394C5B34C}|DamyanovMVC\\DamyanovMVC.csproj|solutionrelative:damyanovmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01E30D2A-3CC6-42FB-845B-82A394C5B34C}|DamyanovMVC\\DamyanovMVC.csproj|c:\\users\\igmut\\source\\repos\\vtu\\damyanovmvc\\damyanovmvc\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01E30D2A-3CC6-42FB-845B-82A394C5B34C}|DamyanovMVC\\DamyanovMVC.csproj|solutionrelative:damyanovmvc\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\DamyanovMVC\\DamyanovMVC\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "DamyanovMVC\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\DamyanovMVC\\DamyanovMVC\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "DamyanovMVC\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T05:46:33.445Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -28,7 +45,7 @@
               "RelativeDocumentMoniker": "DamyanovMVC\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\DamyanovMVC\\DamyanovMVC\\Controllers\\HomeController.cs",
               "RelativeToolTip": "DamyanovMVC\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-06T06:38:25.462Z",
               "EditorCaption": ""
@@ -41,7 +58,7 @@
               "RelativeDocumentMoniker": "DamyanovMVC\\Program.cs",
               "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\DamyanovMVC\\DamyanovMVC\\Program.cs",
               "RelativeToolTip": "DamyanovMVC\\Program.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACUAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-06T06:31:08.227Z",
               "EditorCaption": ""
