@@ -2,6 +2,10 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Database.Data;
 using Infrastructure.AppUserModels;
+using Services.BaseServices;
+using Services.GenreServices;
+using Services.AuthorServices;
+using Services.BookServices;
 
 namespace LibraryMVC;
 
@@ -21,6 +25,9 @@ public class Program
                .AddDefaultTokenProviders();
         builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
             .AddEntityFrameworkStores<ApplicationDbContext>();
+        builder.Services.AddScoped<IGenreService, GenreService>();
+        builder.Services.AddScoped<IAuthorService, AuthorService>();
+        builder.Services.AddScoped<IBookService, BookService>();
         builder.Services.AddControllersWithViews();
 
         var app = builder.Build();
