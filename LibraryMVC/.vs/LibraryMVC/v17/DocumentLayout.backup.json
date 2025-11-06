@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{925EF9DA-5E2F-4CEF-8A8B-7CB1174A5617}|LibraryMVC\\LibraryMVC.csproj|c:\\users\\igmut\\source\\repos\\vtu\\librarymvc\\librarymvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{925EF9DA-5E2F-4CEF-8A8B-7CB1174A5617}|LibraryMVC\\LibraryMVC.csproj|solutionrelative:librarymvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\Program.cs",
+              "RelativeDocumentMoniker": "LibraryMVC\\Program.cs",
+              "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\Program.cs",
+              "RelativeToolTip": "LibraryMVC\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T13:07:54.238Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
