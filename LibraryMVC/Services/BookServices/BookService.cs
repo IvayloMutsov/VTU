@@ -10,10 +10,10 @@ namespace Services.BookServices
     public class BookService: IBookService
     {
         private ApplicationDbContext context;
-        private GenreService genreService;
-        private AuthorService authorService;
+        private IGenreService genreService;
+        private IAuthorService authorService;
 
-        public BookService(ApplicationDbContext context, GenreService genreService, AuthorService authorService)
+        public BookService(ApplicationDbContext context, IGenreService genreService, IAuthorService authorService)
         {
             this.context = context;
             this.genreService = genreService;

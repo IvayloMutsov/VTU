@@ -1,0 +1,33 @@
+﻿@model Author
+<h2>Author Search Result</h2>
+
+@if (Model == null)
+{
+    <p>No author found.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Birthdate</th>
+                <th>Nationality</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@Model.ID</td>
+                <td>@Model.Name</td>
+                <td>@Model.Age</td>
+                <td>@Model.BirthDate</td>
+                <td>@Model.Nationality</td>
+            </tr>
+        </tbody>
+    </table>
+}
+
+<a asp-controller="Author" asp-action="AuthorView">📚 Back to Authors</a>
+

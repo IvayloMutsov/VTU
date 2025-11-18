@@ -1,0 +1,48 @@
+﻿@model IEnumerable<Genre>
+
+<h2>Genres</h2>
+
+<!-- SEARCH -->
+<form method="get" asp-controller="Genre" asp-action="SearchByID">
+    <input type="number" name="id" placeholder="Search by ID" required />
+    <button type="submit">Search</button>
+</form>
+
+<!-- ADD -->
+<h3>Add Genre</h3>
+<form method="post" asp-controller="Genre" asp-action="AddGenre">
+    <input type="text" name="name" placeholder="Name" required />
+    <button type="submit">Add</button>
+</form>
+
+<!-- UPDATE -->
+<h3>Update Genre</h3>
+<form method="post" asp-controller="Genre" asp-action="UpdateGenre">
+    <input type="number" name="id" placeholder="ID" required />
+    <input type="text" name="name" placeholder="Name" />
+    <button type="submit">Update</button>
+</form>
+
+<!-- DELETE -->
+<h3>Delete Genre</h3>
+<form method="post" asp-controller="Genre" asp-action="DeleteGenre">
+    <input type="number" name="id" placeholder="ID" required />
+    <button type="submit">Delete</button>
+</form>
+
+<hr />
+
+<table class="table">
+    <thead>
+        <tr><th>ID</th><th>Name</th></tr>
+    </thead>
+    <tbody>
+        @foreach (var g in Model)
+        {
+            <tr>
+                <td>@g.ID</td>
+                <td>@g.Name</td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,24 @@
+﻿@model Genre
+
+<h2>Genre Search Result</h2>
+
+@if (Model == null)
+{
+    <p>No genre found.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr><th>ID</th><th>Name</th></tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@Model.ID</td>
+                <td>@Model.Name</td>
+            </tr>
+        </tbody>
+    </table>
+}
+
+<a asp-controller="Genre" asp-action="GenreView">🏷 Back to Genres</a>

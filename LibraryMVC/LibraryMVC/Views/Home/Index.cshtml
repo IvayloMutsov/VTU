@@ -2,7 +2,22 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<h1>Welcome</h1>
+<div style="text-align:center; padding-top:40px;">
+    <h1>📚 Library Management System</h1>
+    <p>Select a section to continue:</p>
+
+    <div style="margin-top:30px; font-size:22px;">
+        <ul style="list-style-type:none; padding:0; font-size:20px;">
+            <li style="margin-bottom:10px;">
+                <a asp-controller="Author" asp-action="AuthorView">📚 Author Management</a>
+            </li>
+            <li style="margin-bottom:10px;">
+                <a asp-controller="Genre" asp-action="GenreView">🏷 Genre Management</a>
+            </li>
+            <li style="margin-bottom:10px;">
+                <a asp-controller="Book" asp-action="BookView">📖 Book Management</a>
+            </li>
+        </ul>
+    </div>
 </div>

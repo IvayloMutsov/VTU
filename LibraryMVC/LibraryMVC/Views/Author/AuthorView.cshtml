@@ -1,0 +1,70 @@
+﻿@model IEnumerable<Author>
+
+@{
+    ViewData["Title"] = "Author View";
+}
+
+<h2>Authors</h2>
+
+<!-- SEARCH BY ID -->
+<form method="get" asp-controller="Author" asp-action="SearchByID" style="margin-bottom:20px;">
+    <label>Search by ID:</label>
+    <input type="number" name="id" required />
+    <button type="submit">Search</button>
+</form>
+
+<!-- ADD AUTHOR -->
+<h3>Add Author</h3>
+<form method="post" asp-controller="Author" asp-action="AddAuthor">
+    <input type="text" name="name" placeholder="Name" required />
+    <input type="number" name="age" placeholder="Age" required />
+    <input type="date" name="bd" required />
+    <input type="text" name="nationality" placeholder="Nationality" required />
+    <button type="submit">Add</button>
+</form>
+
+<!-- UPDATE AUTHOR -->
+<h3>Update Author</h3>
+<form method="post" asp-controller="Author" asp-action="UpdateAuthor">
+    <input type="number" name="id" placeholder="ID" required />
+    <input type="text" name="name" placeholder="Name" />
+    <input type="number" name="age" placeholder="Age" />
+    <input type="date" name="bd" />
+    <input type="text" name="nationality" placeholder="Nationality" />
+
+    <button type="submit">Update</button>
+</form>
+
+<!-- DELETE AUTHOR -->
+<h3>Delete Author</h3>
+<form method="post" asp-controller="Author" asp-action="DeleteAuthor">
+    <input type="number" name="id" placeholder="ID" required />
+    <button type="submit">Delete</button>
+</form>
+
+<hr />
+
+<!-- TABLE OF AUTHORS -->
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Birthdate</th>
+            <th>Nationality</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var a in Model)
+        {
+            <tr>
+                <td>@a.ID</td>
+                <td>@a.Name</td>
+                <td>@a.Age</td>
+                <td>@a.BirthDate</td>
+                <td>@a.Nationality</td>
+            </tr>
+        }
+    </tbody>
+</table>

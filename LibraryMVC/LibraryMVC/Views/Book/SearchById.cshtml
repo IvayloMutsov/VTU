@@ -1,0 +1,31 @@
+﻿@model Book
+
+<h2>Book Search Result</h2>
+
+@if (Model == null)
+{
+    <p>No book found.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Genre</th>
+                <th>Author</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@Model.ID</td>
+                <td>@Model.Name</td>
+                <td>@Model.Genre</td>
+                <td>@Model.Author</td>
+            </tr>
+        </tbody>
+    </table>
+}
+
+<a asp-controller="Book" asp-action="BookView">📖 Back to Books</a>
