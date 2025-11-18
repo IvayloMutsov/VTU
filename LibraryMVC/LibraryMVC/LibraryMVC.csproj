@@ -23,4 +23,10 @@
     <ProjectReference Include="..\Services\Services.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Views\Author\" />
+    <Folder Include="Views\Genre\" />
+    <Folder Include="Views\Book\" />
+  </ItemGroup>
+
 </Project>
