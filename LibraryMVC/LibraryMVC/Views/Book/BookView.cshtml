@@ -36,24 +36,29 @@
 
 <hr />
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>ID</th>
-            <th>Name</th>
-            <th>GenreID</th>
-            <th>AuthorID</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var b in Model)
-        {
-            <tr>
-                <td>@b.ID</td>
-                <td>@b.Name</td>
-                <td>@b.Genre</td>
-                <td>@b.Author</td>
-            </tr>
-        }
-    </tbody>
-</table>
+@{
+    if (Model.Any())
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>GenreID</th>
+                    <th>AuthorID</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var b in Model)
+                {
+                    <tr>
+                        <td>@b.ID</td>
+                        <td>@b.Name</td>
+                        <td>@b.Genre</td>
+                        <td>@b.Author</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+}

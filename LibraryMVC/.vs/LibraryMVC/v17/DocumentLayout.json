@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{925EF9DA-5E2F-4CEF-8A8B-7CB1174A5617}|LibraryMVC\\LibraryMVC.csproj|c:\\users\\igmut\\source\\repos\\vtu\\librarymvc\\librarymvc\\views\\genre\\genreview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{925EF9DA-5E2F-4CEF-8A8B-7CB1174A5617}|LibraryMVC\\LibraryMVC.csproj|solutionrelative:librarymvc\\views\\genre\\genreview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{925EF9DA-5E2F-4CEF-8A8B-7CB1174A5617}|LibraryMVC\\LibraryMVC.csproj|c:\\users\\igmut\\source\\repos\\vtu\\librarymvc\\librarymvc\\views\\author\\authorview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{925EF9DA-5E2F-4CEF-8A8B-7CB1174A5617}|LibraryMVC\\LibraryMVC.csproj|solutionrelative:librarymvc\\views\\author\\authorview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{925EF9DA-5E2F-4CEF-8A8B-7CB1174A5617}|LibraryMVC\\LibraryMVC.csproj|c:\\users\\igmut\\source\\repos\\vtu\\librarymvc\\librarymvc\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{925EF9DA-5E2F-4CEF-8A8B-7CB1174A5617}|LibraryMVC\\LibraryMVC.csproj|solutionrelative:librarymvc\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{925EF9DA-5E2F-4CEF-8A8B-7CB1174A5617}|LibraryMVC\\LibraryMVC.csproj|c:\\users\\igmut\\source\\repos\\vtu\\librarymvc\\librarymvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{925EF9DA-5E2F-4CEF-8A8B-7CB1174A5617}|LibraryMVC\\LibraryMVC.csproj|solutionrelative:librarymvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{925EF9DA-5E2F-4CEF-8A8B-7CB1174A5617}|LibraryMVC\\LibraryMVC.csproj|c:\\users\\igmut\\source\\repos\\vtu\\librarymvc\\librarymvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{925EF9DA-5E2F-4CEF-8A8B-7CB1174A5617}|LibraryMVC\\LibraryMVC.csproj|solutionrelative:librarymvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{925EF9DA-5E2F-4CEF-8A8B-7CB1174A5617}|LibraryMVC\\LibraryMVC.csproj|c:\\users\\igmut\\source\\repos\\vtu\\librarymvc\\librarymvc\\views\\genre\\genreview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{925EF9DA-5E2F-4CEF-8A8B-7CB1174A5617}|LibraryMVC\\LibraryMVC.csproj|solutionrelative:librarymvc\\views\\genre\\genreview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{925EF9DA-5E2F-4CEF-8A8B-7CB1174A5617}|LibraryMVC\\LibraryMVC.csproj|c:\\users\\igmut\\source\\repos\\vtu\\librarymvc\\librarymvc\\views\\book\\bookview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{925EF9DA-5E2F-4CEF-8A8B-7CB1174A5617}|LibraryMVC\\LibraryMVC.csproj|solutionrelative:librarymvc\\views\\book\\bookview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +30,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GenreView.cshtml",
+              "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\Views\\Genre\\GenreView.cshtml",
+              "RelativeDocumentMoniker": "LibraryMVC\\Views\\Genre\\GenreView.cshtml",
+              "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\Views\\Genre\\GenreView.cshtml",
+              "RelativeToolTip": "LibraryMVC\\Views\\Genre\\GenreView.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-22T00:16:01.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookView.cshtml",
+              "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\Views\\Book\\BookView.cshtml",
+              "RelativeDocumentMoniker": "LibraryMVC\\Views\\Book\\BookView.cshtml",
+              "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\Views\\Book\\BookView.cshtml",
+              "RelativeToolTip": "LibraryMVC\\Views\\Book\\BookView.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAwwD0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-22T00:15:55.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthorView.cshtml",
+              "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\Views\\Author\\AuthorView.cshtml",
+              "RelativeDocumentMoniker": "LibraryMVC\\Views\\Author\\AuthorView.cshtml",
+              "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\Views\\Author\\AuthorView.cshtml",
+              "RelativeToolTip": "LibraryMVC\\Views\\Author\\AuthorView.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAC8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-22T00:15:22.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "AuthorController.cs",
+              "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\Controllers\\AuthorController.cs",
+              "RelativeDocumentMoniker": "LibraryMVC\\Controllers\\AuthorController.cs",
+              "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\Controllers\\AuthorController.cs",
+              "RelativeToolTip": "LibraryMVC\\Controllers\\AuthorController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T00:15:12.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "LibraryMVC\\Views\\Home\\Index.cshtml",
@@ -34,33 +94,7 @@
               "RelativeToolTip": "LibraryMVC\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-18T20:28:20.151Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GenreView.cshtml",
-              "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\Views\\Genre\\GenreView.cshtml",
-              "RelativeDocumentMoniker": "LibraryMVC\\Views\\Genre\\GenreView.cshtml",
-              "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\Views\\Genre\\GenreView.cshtml",
-              "RelativeToolTip": "LibraryMVC\\Views\\Genre\\GenreView.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-18T20:23:38.078Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\Program.cs",
-              "RelativeDocumentMoniker": "LibraryMVC\\Program.cs",
-              "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\Program.cs",
-              "RelativeToolTip": "LibraryMVC\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T18:38:26.402Z",
+              "WhenOpened": "2025-11-22T00:06:01.486Z",
               "EditorCaption": ""
             }
           ]
