@@ -1,40 +1,6 @@
 ﻿@model IEnumerable<Book>
 
-<h2>Books</h2>
-
-<!-- SEARCH -->
-<form method="get" asp-controller="Book" asp-action="SearchByID">
-    <input type="number" name="id" placeholder="Search by ID" required />
-    <button type="submit">Search</button>
-</form>
-
-<!-- ADD -->
-<h3>Add Book</h3>
-<form method="post" asp-controller="Book" asp-action="AddBook">
-    <input type="text" name="name" placeholder="Name" required />
-    <input type="number" name="genreID" placeholder="Genre ID" required />
-    <input type="number" name="authorID" placeholder="Author ID" required />
-    <button type="submit">Add</button>
-</form>
-
-<!-- UPDATE -->
-<h3>Update Book</h3>
-<form method="post" asp-controller="Book" asp-action="UpdateBook">
-    <input type="number" name="id" placeholder="ID" required />
-    <input type="text" name="name" placeholder="Name" />
-    <input type="number" name="genreID" placeholder="Genre ID" />
-    <input type="number" name="authorID" placeholder="Author ID" />
-    <button type="submit">Update</button>
-</form>
-
-<!-- DELETE -->
-<h3>Delete Book</h3>
-<form method="post" asp-controller="Book" asp-action="DeleteBook">
-    <input type="number" name="id" placeholder="ID" required />
-    <button type="submit">Delete</button>
-</form>
-
-<hr />
+@await Html.PartialAsync("_BookPartial")
 
 @{
     if (Model.Any())
@@ -54,8 +20,8 @@
                     <tr>
                         <td>@b.ID</td>
                         <td>@b.Name</td>
-                        <td>@b.Genre</td>
-                        <td>@b.Author</td>
+                        <td>@b.Genre.ID</td>
+                        <td>@b.Author.ID</td>
                     </tr>
                 }
             </tbody>

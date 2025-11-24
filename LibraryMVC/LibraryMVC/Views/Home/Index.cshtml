@@ -10,13 +10,16 @@
     <div style="margin-top:30px; font-size:22px;">
         <ul style="list-style-type:none; padding:0; font-size:20px;">
             <li style="margin-bottom:10px;">
-                <a asp-controller="Author" asp-action="AuthorView">📚 Author Management</a>
+                <a asp-controller="Author" asp-action="AuthorView">📚 View Authors</a>
+                @await Html.PartialAsync("_AuthorPartial");
             </li>
             <li style="margin-bottom:10px;">
-                <a asp-controller="Genre" asp-action="GenreView">🏷 Genre Management</a>
+                <a asp-controller="Genre" asp-action="GenreView">🏷 View Genres</a>
+                @await Html.PartialAsync("_GenrePartial");
             </li>
             <li style="margin-bottom:10px;">
-                <a asp-controller="Book" asp-action="BookView">📖 Book Management</a>
+                <a asp-controller="Book" asp-action="BookView">📖 View Books</a>
+                @await Html.PartialAsync("_BookPartial");
             </li>
         </ul>
     </div>

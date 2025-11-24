@@ -48,7 +48,7 @@ namespace LibraryMVC.Controllers
                 return BadRequest();
             }
             await service.Add(name);
-            return Ok();
+            return PartialView("_TaskCompleted");
         }
 
         [HttpPost]
@@ -59,7 +59,7 @@ namespace LibraryMVC.Controllers
                 return BadRequest();
             }
             await service.Update(id, name);
-            return Ok();
+            return PartialView("_TaskCompleted");
         }
 
         [HttpPost]
@@ -70,7 +70,7 @@ namespace LibraryMVC.Controllers
                 return BadRequest();
             }
             await service.Delete(id);
-            return Ok();
+            return PartialView("_TaskCompleted");
         }
     }
 }

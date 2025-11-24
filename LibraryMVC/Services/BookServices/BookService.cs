@@ -61,7 +61,9 @@ namespace Services.BookServices
 
         public async Task<List<Book>> GetList()
         {
-            var books = await context.Books.Where(x => x.IsDeleted == false).ToListAsync();
+            var books = await context.Books.Where(x => x.IsDeleted == false)
+                                           .Include(b => b.Author)
+                                           .Include(b => b.Genre).ToListAsync();
             return books;
         }
     }
