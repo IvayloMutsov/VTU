@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Database.Data;
 
-public class ApplicationDbContext : IdentityDbContext<IdentityUser>
+public class ApplicationDbContext : IdentityDbContext<IdentityUser>, IDbContextInterceptor
 {
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
@@ -33,12 +33,17 @@ public class ApplicationDbContext : IdentityDbContext<IdentityUser>
             .HasOne<IdentityUser>()
             .WithMany()
             .HasForeignKey(ur => ur.UserId)
-            .OnDelete(DeleteBehavior.Restrict); // <- no cascade
+            .OnDelete(DeleteBehavior.Restrict);
 
         builder.Entity<IdentityUserRole<string>>()
             .HasOne<IdentityRole>()
             .WithMany()
             .HasForeignKey(ur => ur.RoleId)
             .OnDelete(DeleteBehavior.Restrict);
+    }
+
+    public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+    {
+        return base.SaveChangesAsync();
     }
 }

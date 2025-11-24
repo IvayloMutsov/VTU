@@ -12,7 +12,8 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "9.0.10",
           "Microsoft.EntityFrameworkCore.Design": "9.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.10",
-          "Microsoft.EntityFrameworkCore.Tools": "9.0.10"
+          "Microsoft.EntityFrameworkCore.Tools": "9.0.10",
+          "Services": "1.0.0.0"
         },
         "runtime": {
           "Database.dll": {}
@@ -1077,6 +1078,14 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "Services/1.0.0.0": {
+        "runtime": {
+          "Services.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -1676,6 +1685,11 @@
     },
     "Infrastructure/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Services/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

@@ -6,9 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Services.BaseServices
+namespace Database.Data
 {
-    public interface IDbInterceptor
+    public interface IDbContextInterceptor
     {
         public DbSet<Genre> Genres { get; set; }
 
@@ -16,6 +16,6 @@ namespace Services.BaseServices
 
         public DbSet<Book> Books { get; set; }
 
-        public Task<int> SaveChangesAsync();
+        public Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
     }
 }

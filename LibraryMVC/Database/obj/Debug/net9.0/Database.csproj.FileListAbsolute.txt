@@ -16,3 +16,5 @@ C:\Users\igmut\source\repos\VTU\LibraryMVC\Database\obj\Debug\net9.0\refint\Data
 C:\Users\igmut\source\repos\VTU\LibraryMVC\Database\obj\Debug\net9.0\Database.pdb
 C:\Users\igmut\source\repos\VTU\LibraryMVC\Database\obj\Debug\net9.0\Database.genruntimeconfig.cache
 C:\Users\igmut\source\repos\VTU\LibraryMVC\Database\obj\Debug\net9.0\ref\Database.dll
+C:\Users\igmut\source\repos\VTU\LibraryMVC\Database\bin\Debug\net9.0\Services.dll
+C:\Users\igmut\source\repos\VTU\LibraryMVC\Database\bin\Debug\net9.0\Services.pdb
