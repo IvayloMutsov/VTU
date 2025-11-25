@@ -2,6 +2,7 @@
 using Infrastructure.Models;
 using Services.GenreServices;
 using Services.BaseServices;
+using Microsoft.AspNetCore.Authorization;
 
 namespace LibraryMVC.Controllers
 {
@@ -41,6 +42,7 @@ namespace LibraryMVC.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> AddGenre(string name)
         {
             if (name == null)
@@ -52,6 +54,7 @@ namespace LibraryMVC.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> UpdateGenre(int id, string name)
         {
             if (id == 0 || name == null)
@@ -63,6 +66,7 @@ namespace LibraryMVC.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeleteGenre(int id)
         {
             if (id == 0)

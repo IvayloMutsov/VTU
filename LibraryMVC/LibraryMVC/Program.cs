@@ -26,7 +26,6 @@ public class Program
           .AddRoles<IdentityRole>()
           .AddEntityFrameworkStores<ApplicationDbContext>()
           .AddDefaultTokenProviders();
-        builder.Services.AddScoped<IDbContextInterceptor,ApplicationDbContext>();
         builder.Services.AddScoped<IGenreService, GenreService>();
         builder.Services.AddScoped<IAuthorService, AuthorService>();
         builder.Services.AddScoped<IBookService, BookService>();
@@ -34,7 +33,7 @@ public class Program
         builder.Services.AddRazorPages();
 
         var app = builder.Build();
-
+        
         // Configure the HTTP request pipeline.
         if (app.Environment.IsDevelopment())
         {

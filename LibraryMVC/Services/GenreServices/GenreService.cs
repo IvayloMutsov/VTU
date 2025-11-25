@@ -8,9 +8,9 @@ namespace Services.GenreServices
 {
     public class GenreService: IGenreService
     {
-        private IDbContextInterceptor context;
+        private ApplicationDbContext context;
 
-        public GenreService(IDbContextInterceptor context)
+        public GenreService(ApplicationDbContext context)
         {
             this.context = context;
         }

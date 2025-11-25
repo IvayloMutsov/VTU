@@ -1,4 +1,5 @@
 ﻿using Infrastructure.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Services.BaseServices;
 
@@ -40,6 +41,7 @@ namespace LibraryMVC.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> AddBook(string name, int genreID, int authorID)
         {
             if (name == null || genreID == 0 || authorID == 0)
@@ -51,6 +53,7 @@ namespace LibraryMVC.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> UpdateBook(int id, string name, int genreID, int authorID)
         {
             if (id == 0 || name == null || genreID == 0 || authorID == 0)
@@ -62,6 +65,7 @@ namespace LibraryMVC.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeleteBook(int id)
         {
             if (id == 0)

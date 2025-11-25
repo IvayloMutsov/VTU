@@ -9,11 +9,11 @@ namespace Services.BookServices
 {
     public class BookService: IBookService
     {
-        private IDbContextInterceptor context;
+        private ApplicationDbContext context;
         private IGenreService genreService;
         private IAuthorService authorService;
 
-        public BookService(IDbContextInterceptor context, IGenreService genreService, IAuthorService authorService)
+        public BookService(ApplicationDbContext context, IGenreService genreService, IAuthorService authorService)
         {
             this.context = context;
             this.genreService = genreService;

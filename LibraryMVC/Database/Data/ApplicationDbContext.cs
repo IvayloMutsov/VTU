@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Database.Data;
 
-public class ApplicationDbContext : IdentityDbContext<IdentityUser>, IDbContextInterceptor
+public class ApplicationDbContext : IdentityDbContext<IdentityUser>
 {
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
@@ -15,12 +15,11 @@ public class ApplicationDbContext : IdentityDbContext<IdentityUser>, IDbContextI
 
     public DbSet<Book> Books { get; set; }
 
-
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    {
-        optionsBuilder.UseSqlServer("Server=IVAYLO\\SQLEXPRESS;Database=aspnet-LibraryMVC;Trusted_Connection=True;TrustServerCertificate=True;");
-        base.OnConfiguring(optionsBuilder);
-    }
+    //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    //{
+    //    optionsBuilder.UseSqlServer("Server=IVAYLO\\SQLEXPRESS;Database=aspnet-LibraryMVC;Trusted_Connection=True;TrustServerCertificate=True;");
+    //    base.OnConfiguring(optionsBuilder);
+    //}
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
@@ -40,10 +39,5 @@ public class ApplicationDbContext : IdentityDbContext<IdentityUser>, IDbContextI
             .WithMany()
             .HasForeignKey(ur => ur.RoleId)
             .OnDelete(DeleteBehavior.Restrict);
-    }
-
-    public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
-    {
-        return base.SaveChangesAsync();
     }
 }

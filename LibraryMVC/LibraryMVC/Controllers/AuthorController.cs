@@ -1,4 +1,5 @@
 ﻿using Infrastructure.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Services.BaseServices;
 
@@ -40,6 +41,7 @@ namespace LibraryMVC.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> AddAuthor(string name, int age, DateOnly bd, string nationality)
         {
             if (name == null || age < 0 || bd == DateOnly.MinValue || nationality == null)
@@ -51,6 +53,7 @@ namespace LibraryMVC.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> UpdateAuthor(int id, string name, int age, DateOnly bd, string nationality)
         {
             if (id ==0 || name == null || age < 0 || bd == DateOnly.MinValue || nationality == null)
@@ -62,6 +65,7 @@ namespace LibraryMVC.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeleteAuthor(int id)
         {
             if (id == 0)
