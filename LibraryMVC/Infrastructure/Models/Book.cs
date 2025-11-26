@@ -9,5 +9,7 @@ namespace Infrastructure.Models
 
         [Required]
         public Author Author { get; set; }
+
+        public Publisher Publisher { get; set; }
     }
 }

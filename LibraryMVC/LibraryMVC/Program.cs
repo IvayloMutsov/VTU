@@ -5,6 +5,7 @@ using Services.BaseServices;
 using Services.GenreServices;
 using Services.AuthorServices;
 using Services.BookServices;
+using Services.PublisherServices;
 
 namespace LibraryMVC;
 
@@ -29,6 +30,7 @@ public class Program
         builder.Services.AddScoped<IGenreService, GenreService>();
         builder.Services.AddScoped<IAuthorService, AuthorService>();
         builder.Services.AddScoped<IBookService, BookService>();
+        builder.Services.AddScoped<IPublisherService, PublisherService>();
         builder.Services.AddControllersWithViews();
         builder.Services.AddRazorPages();
 

@@ -42,25 +42,25 @@ namespace LibraryMVC.Controllers
 
         [HttpPost]
         [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> AddBook(string name, int genreID, int authorID)
+        public async Task<IActionResult> AddBook(string name, int genreID, int authorID, int publisherID)
         {
-            if (name == null || genreID == 0 || authorID == 0)
+            if (name == null || genreID == 0 || authorID == 0 || publisherID == 0)
             {
                 return BadRequest();
             }
-            await service.Add(name, genreID, authorID);
+            await service.Add(name, genreID, authorID, publisherID);
             return PartialView("_TaskCompleted");
         }
 
         [HttpPost]
         [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> UpdateBook(int id, string name, int genreID, int authorID)
+        public async Task<IActionResult> UpdateBook(int id, string name, int genreID, int authorID, int publisherID)
         {
-            if (id == 0 || name == null || genreID == 0 || authorID == 0)
+            if (id == 0 || name == null || genreID == 0 || authorID == 0 || publisherID == 0)
             {
                 return BadRequest();
             }
-            await service.Update(id, name, genreID, authorID);
+            await service.Update(id, name, genreID, authorID,publisherID);
             return PartialView("_TaskCompleted");
         }
 

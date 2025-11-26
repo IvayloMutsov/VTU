@@ -15,6 +15,8 @@ public class ApplicationDbContext : IdentityDbContext<IdentityUser>
 
     public DbSet<Book> Books { get; set; }
 
+    public DbSet<Publisher> Publishers { get; set; }
+
     //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     //{
     //    optionsBuilder.UseSqlServer("Server=IVAYLO\\SQLEXPRESS;Database=aspnet-LibraryMVC;Trusted_Connection=True;TrustServerCertificate=True;");

@@ -42,7 +42,7 @@ namespace Services.AuthorServices
 
         public async Task Delete(int id)
         {
-            var author = await context.Genres.FindAsync(id);
+            var author = await context.Authors.FindAsync(id);
             author.DateLastModified = DateTime.Now;
             author.DateDeleted = DateTime.Now;
             author.IsDeleted = true;

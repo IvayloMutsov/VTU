@@ -1,0 +1,43 @@
+﻿@model IEnumerable<Publisher>
+
+@{
+    ViewData["Title"] = "Publisher View";
+}
+
+@await Html.PartialAsync("_PublisherPartial")
+
+@{
+    if (Model.Any())
+    {
+        <!-- TABLE OF PUBLISHERS -->
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>City</th>
+                    <th>Country</th>
+                    <th>Email</th>
+                    <th>Year Founded</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var p in Model)
+                {
+                    <tr>
+                        <td>@p.ID</td>
+                        <td>@p.Name</td>
+                        <td>@p.City</td>
+                        <td>@p.Country</td>
+                        <td>@p.Email</td>
+                        <td>@p.YearFounded</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>No publishers found.</p>
+    }
+}

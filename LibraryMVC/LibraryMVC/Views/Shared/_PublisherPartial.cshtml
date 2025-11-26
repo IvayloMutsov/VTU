@@ -1,0 +1,45 @@
+﻿<h2>Publishers</h2>
+
+<!-- SEARCH -->
+<form method="get" asp-controller="Publisher" asp-action="SearchByID">
+    <input type="number" name="id" placeholder="Search by ID" required />
+    <button type="submit">Search</button>
+</form>
+
+@{
+    if (User.IsInRole("Admin"))
+    {
+        <!-- ADD -->
+        <h3>Add Publisher</h3>
+        <form method="post" asp-controller="Publisher" asp-action="AddPublisher">
+            <input type="text" name="name" placeholder="Name" required />
+            <input type="text" name="city" placeholder="City" required />
+            <input type="text" name="country" placeholder="Country" required />
+            <input type="email" name="email" placeholder="Email" required />
+            <input type="number" name="yearFounded" placeholder="Year Founded" required />
+            <button type="submit">Add</button>
+        </form>
+
+        <!-- UPDATE -->
+        <h3>Update Publisher</h3>
+        <form method="post" asp-controller="Publisher" asp-action="UpdatePublisher">
+            <input type="number" name="id" placeholder="ID" required />
+            <input type="text" name="name" placeholder="Name" />
+            <input type="text" name="city" placeholder="City" />
+            <input type="text" name="country" placeholder="Country" />
+            <input type="email" name="email" placeholder="Email" />
+            <input type="number" name="yearFounded" placeholder="Year Founded" />
+            <button type="submit">Update</button>
+        </form>
+
+        <!-- DELETE -->
+        <h3>Delete Publisher</h3>
+        <form method="post" asp-controller="Publisher" asp-action="DeletePublisher">
+            <input type="number" name="id" placeholder="ID" required />
+            <button type="submit">Delete</button>
+        </form>
+    }
+}
+
+<hr />
+

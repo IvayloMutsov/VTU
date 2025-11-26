@@ -12,6 +12,7 @@
                     <th>Name</th>
                     <th>GenreID</th>
                     <th>AuthorID</th>
+                    <th>Publisher</th>
                 </tr>
             </thead>
             <tbody>
@@ -20,11 +21,16 @@
                     <tr>
                         <td>@b.ID</td>
                         <td>@b.Name</td>
-                        <td>@b.Genre.ID</td>
-                        <td>@b.Author.ID</td>
+                        <td>@b.Genre.Name</td>
+                        <td>@b.Author.Name</td>
+                        <td>@b.Publisher.Name</td>
                     </tr>
                 }
             </tbody>
         </table>
+    }
+    else
+    {
+        <p>No books found.</p>
     }
 }

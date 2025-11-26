@@ -1,4 +1,6 @@
-﻿<!-- SEARCH -->
+﻿<h2>Books</h2>
+
+<!-- SEARCH -->
 <form method="get" asp-controller="Book" asp-action="SearchByID">
     <input type="number" name="id" placeholder="Search by ID" required />
     <button type="submit">Search</button>
@@ -13,6 +15,7 @@
             <input type="text" name="name" placeholder="Name" required />
             <input type="number" name="genreID" placeholder="Genre ID" required />
             <input type="number" name="authorID" placeholder="Author ID" required />
+            <input type="number" name="publisherID" placeholder="Publisher ID" required />
             <button type="submit">Add</button>
         </form>
 
@@ -22,7 +25,7 @@
             <input type="number" name="id" placeholder="ID" required />
             <input type="text" name="name" placeholder="Name" />
             <input type="number" name="genreID" placeholder="Genre ID" />
-            <input type="number" name="authorID" placeholder="Author ID" />
+            <input type="number" name="publisherID" placeholder="Publisher ID" required />
             <button type="submit">Update</button>
         </form>
 
