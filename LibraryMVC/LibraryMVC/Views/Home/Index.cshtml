@@ -3,23 +3,27 @@
 }
 
 <h1>Welcome</h1>
-<div style="text-align:center; padding-top:40px;">
+<div class="home-container">
     <h1>📚 Library Management System</h1>
     <p>Select a section to continue:</p>
 
-    <div style="margin-top:30px; font-size:22px;">
-        <ul style="list-style-type:none; padding:0; font-size:20px;">
-            <li style="margin-bottom:10px;">
+    <div class="section-links">
+        <ul>
+            <li>
                 <a asp-controller="Author" asp-action="AuthorView">📚 View Authors</a>
-                @await Html.PartialAsync("_AuthorPartial");
+                @await Html.PartialAsync("_AuthorPartial")
             </li>
-            <li style="margin-bottom:10px;">
+            <li>
                 <a asp-controller="Genre" asp-action="GenreView">🏷 View Genres</a>
-                @await Html.PartialAsync("_GenrePartial");
+                @await Html.PartialAsync("_GenrePartial")
             </li>
-            <li style="margin-bottom:10px;">
+            <li>
                 <a asp-controller="Book" asp-action="BookView">📖 View Books</a>
-                @await Html.PartialAsync("_BookPartial");
+                @await Html.PartialAsync("_BookPartial")
+            </li>
+            <li>
+                <a asp-controller="Publisher" asp-action="PublisherView">📖 View Publishers</a>
+                @await Html.PartialAsync("_PublisherPartial")
             </li>
         </ul>
     </div>

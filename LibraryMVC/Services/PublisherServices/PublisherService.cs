@@ -7,9 +7,9 @@ namespace Services.PublisherServices
 {
     public class PublisherService : IPublisherService
     {
-        ApplicationDbContext context;
+        IApplicationDbContext context;
 
-        public PublisherService(ApplicationDbContext context)
+        public PublisherService(IApplicationDbContext context)
         {
             this.context = context;
         }

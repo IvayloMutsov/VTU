@@ -6,6 +6,8 @@ using Services.GenreServices;
 using Services.AuthorServices;
 using Services.BookServices;
 using Services.PublisherServices;
+using Microsoft.EntityFrameworkCore.Diagnostics;
+using Services.LoanServices;
 
 namespace LibraryMVC;
 
@@ -27,10 +29,13 @@ public class Program
           .AddRoles<IdentityRole>()
           .AddEntityFrameworkStores<ApplicationDbContext>()
           .AddDefaultTokenProviders();
+        builder.Services.AddScoped<IApplicationDbContext>(sp =>
+              sp.GetRequiredService<ApplicationDbContext>());
         builder.Services.AddScoped<IGenreService, GenreService>();
         builder.Services.AddScoped<IAuthorService, AuthorService>();
         builder.Services.AddScoped<IBookService, BookService>();
         builder.Services.AddScoped<IPublisherService, PublisherService>();
+        builder.Services.AddScoped<ILoanService, LoanService>();
         builder.Services.AddControllersWithViews();
         builder.Services.AddRazorPages();
 

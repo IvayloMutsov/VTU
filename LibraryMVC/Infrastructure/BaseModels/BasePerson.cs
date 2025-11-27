@@ -1,4 +1,6 @@
-﻿namespace Infrastructure.Models
+﻿using Infrastructure.Interfaces;
+
+namespace Infrastructure.BaseModels
 {
     public abstract class BasePerson: BaseEntity, IPerson //base class for all people objects (authors,workers,etc.)
     {

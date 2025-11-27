@@ -9,8 +9,8 @@ namespace Services.BaseServices
 {
     public interface IBookService : IBaseService<Book>
     {
-        public Task Add(string name, int genreID, int authorID, int publisherID);
-        public Task Update(int id, string name, int genreID, int authorID, int publisherID);
+        public Task Add(string name, int genreID, int authorID, int publisherID, int yearPublished);
+        public Task Update(int id, string name, int genreID, int authorID, int publisherID, int yearPublished);
         public Task<Book> GetByID(int id);
         public Task<List<Book>> GetList();
     }

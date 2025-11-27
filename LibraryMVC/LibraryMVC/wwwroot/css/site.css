@@ -1,31 +1,338 @@
-html {
-  font-size: 14px;
+/* Dark background for the whole page */
+body {
+    background-color: #121212; /* dark gray/black */
+    color: #f0f0f0; /* light text */
+    font-family: Arial, sans-serif;
+    padding: 20px;
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+/* Style forms */
+form {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #1e1e1e; /* slightly lighter than body */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+/* Inputs */
+input {
+    padding: 5px 8px;
+    margin: 5px 0;
+    border-radius: 4px;
+    border: 1px solid #555;
+    background-color: #2a2a2a;
+    color: #f0f0f0;
 }
 
-html {
-  position: relative;
-  min-height: 100%;
+/* Buttons */
+button, .btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white !important; /* force text white */
+}
+
+/* Specific button colors */
+.btn-add {
+    background-color: #28a745 !important; /* green */
+    color: white !important;
+}
+
+.btn-update {
+    background-color: #007bff !important; /* blue */
+    color: white !important;
+}
+
+.btn-delete {
+    background-color: #dc3545 !important; /* red */
+    color: white !important;
+}
+
+.btn-search {
+    background-color: #17a2b8 !important; /* teal/cyan */
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+/* Hover effect */
+button:hover, .btn:hover {
+    opacity: 0.8;
+}
+
+/* Placeholder text styling */
+input.form-control, textarea.form-control, select.form-control {
+    background-color: #2a2a2a !important; /* dark background */
+    color: #ffffff !important; /* white text */
+    border: 1px solid #555 !important; /* subtle border */
+}
+
+input.form-control::placeholder,
+textarea.form-control::placeholder {
+    color: #aaa !important;               /* placeholder color */
+}
+
+/* Headings */
+h2, h3 {
+    color: #f0f0f0;
+}
+
+/* Global text white */
+body, body * {
+    color: #ffffff !important;
+}
+
+/* Links */
+a {
+  color: #00bfff; /* bright blue for links */
+  text-decoration: none;
+}
+
+a:hover {
+   color: #1e90ff;
+   text-decoration: underline;
+}
+
+/* Navbar override for dark mode */
+.navbar {
+    background-color: #1e1e1e !important;  /* dark navbar */
+    margin: 0 !important;                   /* remove default margin */
+    padding: 0.5rem 1rem !important;       /* adjust padding */
+    width: 100%;                             /* full width */
+    position: relative;                      /* ensure it’s not shifted */
+    top: 0;                                  /* stick to top */
+}
+
+/* Remove any white gaps above navbar */
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #121212;              /* page background dark */
+}
+
+/* Navbar links */
+.navbar {
+    background-color: #1e1e1e !important; /* dark background */
+    margin: 0 !important;                /* remove default margin */
+    padding: 1rem 2rem !important;       /* taller navbar */
+    width: 100%;                          /* full width */
+    position: fixed;                      /* stick to top */
+    top: 0;
+    left: 0;
+    z-index: 1030;                        /* stay above content */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5); /* subtle shadow */
+}
+
+body .btn-link.text-dark {
+    --bs-text-opacity: 1; /* Ensure full opacity */
+    --bs-dark-rgb: 255, 255, 255; /* Force white color */
+    color: #ffffff !important; /* Override color to white */
+}
+
+/* Hover state for the logout button */
+body .btn-link.text-dark:hover {
+    color: #00bfff !important;  /* Light blue text on hover */
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Navbar brand and links */
+.navbar .navbar-brand,
+.navbar .nav-link,
+.navbar .btn-link {
+    color: #ffffff !important;
+    font-size: 1.2rem; /* larger text */
+    font-weight: bold;
+    padding: 0.5rem 1rem; /* spacing inside links */
+    transition: color 0.2s ease-in-out;
+}
+
+/* Navbar hover */
+.navbar .navbar-brand:hover,
+.navbar .nav-link:hover,
+.navbar .btn-link:hover {
+    color: #00bfff !important;
+    text-decoration: underline;
+}
+
+html, body {
+    height: 100%;           /* ensure body covers full viewport */
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* dark background for entire page */
+    color: #ffffff;             /* default text color */
+    font-family: Arial, sans-serif;
 }
 
 body {
-  margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* full viewport height */
 }
 
-.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
-  color: var(--bs-secondary-color);
-  text-align: end;
+.content-wrapper {
+    flex: 1; /* THIS makes main take all remaining vertical space */
+    display: flex;
+    flex-direction: column;
 }
 
-.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
-  text-align: start;
+main {
+    flex: 1; /* ensures main fills remaining vertical space */
+    padding: 20px;
+    background-color: #121212; /* dark background for the main area */
+    color: #ffffff; /* ensure text is white */
+}
+
+footer.footer {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+table.table {
+    background-color: #1e1e1e; /* dark table background */
+    color: #ffffff;            /* white text */
+    border-collapse: collapse;  /* keep borders clean */
+    width: 100%;
+}
+
+table.table th,
+table.table td {
+    border: 1px solid #444;    /* subtle borders so table is recognizable */
+    padding: 8px;
+    background-color: #1e1e1e; /* enforce dark background on all cells */
+    color: #ffffff;             /* enforce white text */
+}
+
+/* Table header slightly darker */
+table.table thead th {
+    background-color: #2a2a2a;
+}
+
+/* Optional: row hover effect */
+table.table tbody tr:hover {
+    background-color: #2f2f2f;
+}
+
+/* Dark shadow for images */
+.shadow-dark {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+}
+
+/* Headings and paragraphs already inherit white from body */
+h1.display-4, p.lead {
+    color: #ffffff; /* ensure white text */
+}
+
+/* Center container padding for dark page */
+.container.text-center {
+    padding: 40px 20px;
+    background-color: #1e1e1e; /* optional slightly lighter bg behind content */
+    border-radius: 12px;
+}
+
+/* Full dark background for home page */
+.home-container {
+    min-height: 100vh; /* full viewport height */
+    background-color: #121212; /* same as body for consistency */
+    padding: 60px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* content starts at top */
+}
+
+/* Links styling */
+.home-container a {
+    color: #00bfff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.home-container a:hover {
+    color: #1e90ff;
+    text-decoration: underline;
+}
+
+/* Section links list */
+.home-container ul {
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+}
+
+.home-container {
+    flex: 1;                     /* fill remaining space inside content-wrapper */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* start content at top */
+    padding: 60px 20px;
+    background-color: #121212;   /* same as body for full-page dark */
+    color: #ffffff;
+}
+
+/* Links */
+.section-links a {
+    color: #00bfff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.section-links a:hover {
+    color: #1e90ff;
+    text-decoration: underline;
+}
+
+.section-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+.section-links li {
+    margin-bottom: 20px;
+}
+
+body.dark-mode, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* full dark background */
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.content-wrapper {
+    min-height: 100vh; /* ensures full viewport height */
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label {
+    display: none !important;
+}
+
+/* Logout form inputs/buttons */
+#logout-form, 
+#logout-form input, 
+#logout-form button {
+    background-color: #2a2a2a !important; /* dark background */
+    color: #ffffff !important;            /* white text */
+    border: 1px solid #555 !important;    /* subtle border */
+}
+
+#logout-form button {
+    background-color: #dc3545 !important; /* red for logout */
+    color: #ffffff !important;
+}
+
+nav.navbar {
+    margin-bottom: 0 !important;
 }

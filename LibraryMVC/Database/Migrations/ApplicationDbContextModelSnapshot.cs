@@ -96,6 +96,9 @@ namespace Database.Migrations
                     b.Property<int>("PublisherID")
                         .HasColumnType("int");
 
+                    b.Property<int>("YearPublished")
+                        .HasColumnType("int");
+
                     b.HasKey("ID");
 
                     b.HasIndex("AuthorID");
@@ -135,6 +138,45 @@ namespace Database.Migrations
                     b.HasKey("ID");
 
                     b.ToTable("Genres");
+                });
+
+            modelBuilder.Entity("Infrastructure.Models.Loan", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
+
+                    b.Property<int>("BookID")
+                        .HasColumnType("int");
+
+                    b.Property<DateOnly>("DateLoaned")
+                        .HasColumnType("date");
+
+                    b.Property<int>("LoanPeriodDays")
+                        .HasColumnType("int");
+
+                    b.Property<DateOnly>("ReturnDate")
+                        .HasColumnType("date");
+
+                    b.Property<Guid>("User")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<bool>("isCancelled")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("isExtended")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("isReturned")
+                        .HasColumnType("bit");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("BookID");
+
+                    b.ToTable("BookLoans");
                 });
 
             modelBuilder.Entity("Infrastructure.Models.Publisher", b =>
@@ -409,6 +451,17 @@ namespace Database.Migrations
                     b.Navigation("Genre");
 
                     b.Navigation("Publisher");
+                });
+
+            modelBuilder.Entity("Infrastructure.Models.Loan", b =>
+                {
+                    b.HasOne("Infrastructure.Models.Book", "Book")
+                        .WithMany()
+                        .HasForeignKey("BookID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Book");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

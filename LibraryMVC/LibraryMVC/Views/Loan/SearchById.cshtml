@@ -1,0 +1,37 @@
+﻿@model Loan
+
+<h2>Loan Search Result</h2>
+
+@if (Model == null)
+{
+    <p>No Loans found</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Book</th>
+                <th>Genre</th>
+                <th>Author</th>
+                <th>Date loaned</th>
+                <th>Duration</th>
+                <th>Return date</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@Model.ID</td>
+                <td>@Model.Book.Name</td>
+                <td>@Model.Book.Genre.Name</td>
+                <td>@Model.Book.Author.Name</td>
+                <td>@Model.DateLoaned.ToString()</td>
+                <td>@Model.LoanPeriodDays</td>
+                <td>@Model.ReturnDate.ToString()</td>
+            </tr>
+        </tbody>
+    </table>
+}
+
+<a asp-controller="Loan" asp-action="LoanView">📚 Back to Loans</a>

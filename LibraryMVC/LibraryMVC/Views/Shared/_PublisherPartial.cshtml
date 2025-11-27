@@ -3,7 +3,7 @@
 <!-- SEARCH -->
 <form method="get" asp-controller="Publisher" asp-action="SearchByID">
     <input type="number" name="id" placeholder="Search by ID" required />
-    <button type="submit">Search</button>
+    <button type="submit" class="btn btn-search">Search</button>
 </form>
 
 @{
@@ -17,7 +17,7 @@
             <input type="text" name="country" placeholder="Country" required />
             <input type="email" name="email" placeholder="Email" required />
             <input type="number" name="yearFounded" placeholder="Year Founded" required />
-            <button type="submit">Add</button>
+            <button type="submit" class="btn btn-add">Add</button>
         </form>
 
         <!-- UPDATE -->
@@ -29,14 +29,14 @@
             <input type="text" name="country" placeholder="Country" />
             <input type="email" name="email" placeholder="Email" />
             <input type="number" name="yearFounded" placeholder="Year Founded" />
-            <button type="submit">Update</button>
+            <button type="submit" class="btn btn-update">Update</button>
         </form>
 
         <!-- DELETE -->
         <h3>Delete Publisher</h3>
         <form method="post" asp-controller="Publisher" asp-action="DeletePublisher">
             <input type="number" name="id" placeholder="ID" required />
-            <button type="submit">Delete</button>
+            <button type="submit" class="btn btn-delete">Delete</button>
         </form>
     }
 }

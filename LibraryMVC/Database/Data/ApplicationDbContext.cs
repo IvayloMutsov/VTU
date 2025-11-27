@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Database.Data;
 
-public class ApplicationDbContext : IdentityDbContext<IdentityUser>
+public class ApplicationDbContext : IdentityDbContext<IdentityUser>, IApplicationDbContext
 {
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
@@ -16,6 +16,8 @@ public class ApplicationDbContext : IdentityDbContext<IdentityUser>
     public DbSet<Book> Books { get; set; }
 
     public DbSet<Publisher> Publishers { get; set; }
+
+    public DbSet<Loan> BookLoans { get; set; }
 
     //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     //{

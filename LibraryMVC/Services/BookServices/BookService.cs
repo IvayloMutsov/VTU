@@ -9,12 +9,12 @@ namespace Services.BookServices
 {
     public class BookService: IBookService
     {
-        private ApplicationDbContext context;
+        private IApplicationDbContext context;
         private IGenreService genreService;
         private IAuthorService authorService;
         private IPublisherService publisherService;
 
-        public BookService(ApplicationDbContext context, IGenreService genreService, IAuthorService authorService, IPublisherService publisherService)
+        public BookService(IApplicationDbContext context, IGenreService genreService, IAuthorService authorService, IPublisherService publisherService)
         {
             this.context = context;
             this.genreService = genreService;
@@ -23,7 +23,7 @@ namespace Services.BookServices
 
         }
 
-        public async Task Add(string name, int genreID, int authorID, int publisherID)
+        public async Task Add(string name, int genreID, int authorID, int publisherID, int yearPublished)
         {
             Book book = new Book
             {
@@ -31,14 +31,15 @@ namespace Services.BookServices
                 DateLastModified = DateTime.Now,
                 Genre = await genreService.GetByID(genreID),
                 Author = await authorService.GetByID(authorID),
-                Publisher = await publisherService.GetByID(publisherID)
+                Publisher = await publisherService.GetByID(publisherID),
+                YearPublished = yearPublished
             };
 
             await context.Books.AddAsync(book);
             await context.SaveChangesAsync();
         }
 
-        public async Task Update(int id, string name, int genreID, int authorID, int publisherID)
+        public async Task Update(int id, string name, int genreID, int authorID, int publisherID, int yearPublished)
         {
             var book = await context.Books.FindAsync(id);
             book.DateLastModified = DateTime.Now;
@@ -46,6 +47,7 @@ namespace Services.BookServices
             book.Genre = await genreService.GetByID(genreID);
             book.Author = await authorService.GetByID(authorID);
             book.Publisher = await publisherService.GetByID(publisherID);
+            book.YearPublished = yearPublished;
             await context.SaveChangesAsync();
         }
 

@@ -1,4 +1,4 @@
-﻿namespace Infrastructure.Models
+﻿namespace Infrastructure.Interfaces
 {
     public interface IPerson // contract for all people in the library (authors,workers,etc.)
     {

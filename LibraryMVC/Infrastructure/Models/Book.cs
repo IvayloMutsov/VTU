@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Infrastructure.BaseModels;
+using System.ComponentModel.DataAnnotations;
 
 namespace Infrastructure.Models
 {
@@ -11,5 +12,7 @@ namespace Infrastructure.Models
         public Author Author { get; set; }
 
         public Publisher Publisher { get; set; }
+
+        public int YearPublished { get; set; }
     }
 }

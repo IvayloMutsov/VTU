@@ -1,4 +1,4 @@
-﻿namespace Infrastructure.Models
+﻿namespace Infrastructure.Interfaces
 {
     public interface ILibraryEntity // a contract for all different objects in the library
     {

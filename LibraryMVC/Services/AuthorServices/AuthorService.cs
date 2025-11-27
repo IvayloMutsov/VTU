@@ -7,9 +7,9 @@ namespace Services.AuthorServices
 {
     public class AuthorService: IAuthorService
     {
-        private ApplicationDbContext context;
+        private IApplicationDbContext context;
 
-        public AuthorService(ApplicationDbContext context)
+        public AuthorService(IApplicationDbContext context)
         {
             this.context = context;
         }

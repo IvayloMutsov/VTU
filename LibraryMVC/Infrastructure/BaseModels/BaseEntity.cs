@@ -1,7 +1,8 @@
-﻿using System.ComponentModel;
+﻿using Infrastructure.Interfaces;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
-namespace Infrastructure.Models
+namespace Infrastructure.BaseModels
 {
     public abstract class BaseEntity: ILibraryEntity //base entity for all objects in the library
     {

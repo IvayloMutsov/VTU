@@ -4,7 +4,7 @@
 <form method="get" asp-controller="Author" asp-action="SearchByID" style="margin-bottom:20px;">
     <label>Search by ID:</label>
     <input type="number" name="id" required />
-    <button type="submit">Search</button>
+    <button type="submit" class="btn btn-search">Search</button>
 </form>
 
 @{
@@ -17,7 +17,7 @@
             <input type="number" name="age" placeholder="Age" required />
             <input type="date" name="bd" required />
             <input type="text" name="nationality" placeholder="Nationality" required />
-            <button type="submit">Add</button>
+            <button type="submit" class="btn btn-add">Add</button>
         </form>
 
         <!-- UPDATE AUTHOR -->
@@ -29,14 +29,14 @@
             <input type="date" name="bd" />
             <input type="text" name="nationality" placeholder="Nationality" />
 
-            <button type="submit">Update</button>
+            <button type="submit" class="btn btn-update">Update</button>
         </form>
 
         <!-- DELETE AUTHOR -->
         <h3>Delete Author</h3>
         <form method="post" asp-controller="Author" asp-action="DeleteAuthor">
             <input type="number" name="id" placeholder="ID" required />
-            <button type="submit">Delete</button>
+            <button type="submit" class="btn btn-delete">Delete</button>
         </form>
     }
 }
