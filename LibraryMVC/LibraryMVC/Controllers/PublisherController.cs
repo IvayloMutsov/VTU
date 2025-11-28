@@ -31,12 +31,12 @@ namespace LibraryMVC.Controllers
         {
             if (id == 0)
             {
-                return BadRequest();
+                return BadRequest("Invalid ID");
             }
             Publisher p = await service.GetByID(id);
             if (p == null)
             {
-                return NotFound();
+                return NotFound("Publisher not found");
             }
 
             return View(p);
@@ -48,7 +48,7 @@ namespace LibraryMVC.Controllers
         {
             if (name == null || city == null || country == null || email == null || yearFounded == 0)
             {
-                return BadRequest();
+                return BadRequest("Invalid input data");
             }
             await service.Add(name, city, country, email, yearFounded);
             return PartialView("_TaskCompleted");
@@ -60,7 +60,7 @@ namespace LibraryMVC.Controllers
         {
             if (id == 0 || name == null || city == null || country == null || email == null || yearFounded == 0)
             {
-                return BadRequest();
+                return BadRequest("Invalid input data");
             }
             await service.Update(id, name, city, country, email, yearFounded);
             return PartialView("_TaskCompleted");
@@ -72,7 +72,7 @@ namespace LibraryMVC.Controllers
         {
             if (id == 0)
             {
-                return BadRequest();
+                return BadRequest("Invalid input data");
             }
             await service.Delete(id);
             return PartialView("_TaskCompleted");

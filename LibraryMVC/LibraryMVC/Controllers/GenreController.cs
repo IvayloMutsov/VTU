@@ -31,12 +31,12 @@ namespace LibraryMVC.Controllers
         {
             if (id == 0)
             {
-                return BadRequest();
+                return BadRequest("Invalid ID");
             }
             Genre genre = await service.GetByID(id);
             if (genre == null)
             {
-                return NotFound(); 
+                return NotFound("Genre not found"); 
             }
             return View(genre);
         }
@@ -47,7 +47,7 @@ namespace LibraryMVC.Controllers
         {
             if (name == null)
             {
-                return BadRequest();
+                return BadRequest("Invalid input data");
             }
             await service.Add(name);
             return PartialView("_TaskCompleted");
@@ -59,7 +59,7 @@ namespace LibraryMVC.Controllers
         {
             if (id == 0 || name == null)
             {
-                return BadRequest();
+                return BadRequest("Invalid input data");
             }
             await service.Update(id, name);
             return PartialView("_TaskCompleted");
@@ -71,7 +71,7 @@ namespace LibraryMVC.Controllers
         {
             if (id == 0)
             {
-                return BadRequest();
+                return BadRequest("Invalid ID");
             }
             await service.Delete(id);
             return PartialView("_TaskCompleted");

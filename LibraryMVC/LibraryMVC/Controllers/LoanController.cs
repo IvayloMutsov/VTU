@@ -24,7 +24,7 @@ namespace LibraryMVC.Controllers
             var userIdString = User.FindFirstValue(ClaimTypes.NameIdentifier);
             if (!Guid.TryParse(userIdString, out var userId))
             {
-                return Unauthorized();
+                return Unauthorized("Access not allowed");
             } 
             var loans = await service.GetLoans(userId);
             return View(loans);
@@ -35,7 +35,7 @@ namespace LibraryMVC.Controllers
         {
             if (id == 0)
             {
-                return BadRequest();
+                return BadRequest("Invalid ID");
             }
             Loan loan = await service.GetLoan(id);
             if (loan == null)
@@ -45,11 +45,11 @@ namespace LibraryMVC.Controllers
             var userIdString = User.FindFirstValue(ClaimTypes.NameIdentifier);
             if (!Guid.TryParse(userIdString, out var userId))
             {
-                return Unauthorized();
+                return Unauthorized("Access not allowed");
             }
             if (loan.User != userId)
             {
-                return Unauthorized();
+                return Unauthorized("Access not allowed");
             }
             return View(loan);
         }
@@ -77,7 +77,7 @@ namespace LibraryMVC.Controllers
             var userIdString = User.FindFirstValue(ClaimTypes.NameIdentifier);
             if (!Guid.TryParse(userIdString, out var userId))
             {
-                return Unauthorized();
+                return Unauthorized("Access not allowed");
             }
             await service.AddLoan(userId, bookID, loanPeriod);
             return PartialView("_TaskCompleted");
