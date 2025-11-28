@@ -1,4 +1,5 @@
 ﻿using Infrastructure.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -46,10 +47,15 @@ namespace LibraryMVC.Controllers
             {
                 return Unauthorized();
             }
+            if (loan.User != userId)
+            {
+                return Unauthorized();
+            }
             return View(loan);
         }
 
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> ExtendLoan(int loanID, int loanPeriod)
         {
             await service.ExtendLoan(loanID, loanPeriod);
@@ -57,6 +63,7 @@ namespace LibraryMVC.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> CancellLoan(int loanID)
         {
             await service.CancellLoan(loanID);

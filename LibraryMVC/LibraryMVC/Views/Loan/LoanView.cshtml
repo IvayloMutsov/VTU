@@ -26,54 +26,59 @@
     <button type="submit" class="btn btn-add">Add Loan</button>
 </form>
 
-<!-- EXTEND -->
-<form method="post" asp-controller="Loan" asp-action="ExtendLoan">
-    <div class="mb-3">
-        <label for="loanID" class="form-label">Loan ID</label>
-        <input type="number" id="loanID" name="loanID" class="form-control" placeholder="Enter your Loan ID" required />
-    </div>
-    <div class="mb-3">
-        <label for="loanPeriod" class="form-label">Extend By (days)</label>
-        <input type="number" id="loanPeriod" name="loanPeriod" class="form-control" placeholder="Number of days" required />
-    </div>
-    <button type="submit" class="btn btn-update">Extend Loan</button>
-</form>
+@{
+    if (User.IsInRole("Admin"))
+    {
+        <!-- EXTEND -->
+        <form method="post" asp-controller="Loan" asp-action="ExtendLoan">
+            <div class="mb-3">
+                <label for="loanID" class="form-label">Loan ID</label>
+                <input type="number" id="loanID" name="loanID" class="form-control" placeholder="Enter your Loan ID" required />
+            </div>
+            <div class="mb-3">
+                <label for="loanPeriod" class="form-label">Extend By (days)</label>
+                <input type="number" id="loanPeriod" name="loanPeriod" class="form-control" placeholder="Number of days" required />
+            </div>
+            <button type="submit" class="btn btn-update">Extend Loan</button>
+        </form>
 
-<!-- CANCELL -->
-<h3>Cancell a loan</h3>
-<form method="post" asp-controller="Loan" asp-action="CancellLoan">
-    <input type="number" name="loanID" placeholder="ID" required />
-    <button type="submit" class="btn btn-delete">Delete</button>
-</form>
+        <!-- CANCELL -->
+        <h3>Cancell a loan</h3>
+        <form method="post" asp-controller="Loan" asp-action="CancellLoan">
+            <input type="number" name="loanID" placeholder="ID" required />
+            <button type="submit" class="btn btn-delete">Delete</button>
+        </form>
+    }
+}
 
 @{
-    foreach(var item in Model)
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Book</th>
+                <th>Genre</th>
+                <th>Author</th>
+                <th>Date loaned</th>
+                <th>Duration</th>
+                <th>Return date</th>
+            </tr>
+        </thead>
+    @foreach(var item in Model)
     {
-        <table class="table table-striped">
-            <thead>
-                <tr>
-                    <th>ID</th>
-                    <th>Book</th>
-                    <th>Genre</th>
-                    <th>Author</th>
-                    <th>Date loaned</th>
-                    <th>Duration</th>
-                    <th>Return date</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>@item.ID</td>
-                    <td>@item.Book.Name</td>
-                    <td>@item.Book.Genre.Name</td>
-                    <td>@item.Book.Author.Name</td>
-                    <td>@item.DateLoaned.ToString()</td>
-                    <td>@item.LoanPeriodDays</td>
-                    <td>@item.ReturnDate.ToString()</td>
-                </tr>
-            </tbody>
-        </table>
+        <tbody>
+            <tr>
+                <td>@item.ID</td>
+                <td>@item.Book.Name</td>
+                <td>@item.Book.Genre.Name</td>
+                <td>@item.Book.Author.Name</td>
+                <td>@item.DateLoaned.ToString()</td>
+                <td>@item.LoanPeriodDays</td>
+                <td>@item.ReturnDate.ToString()</td>
+            </tr>
+        </tbody>
     }
+    </table>
 }
 
 <hr />
