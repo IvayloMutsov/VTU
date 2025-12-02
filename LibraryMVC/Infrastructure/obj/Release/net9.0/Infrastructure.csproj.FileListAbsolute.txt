@@ -1,0 +1,13 @@
+C:\Users\igmut\source\repos\VTU\LibraryMVC\Infrastructure\bin\Release\net9.0\Infrastructure.deps.json
+C:\Users\igmut\source\repos\VTU\LibraryMVC\Infrastructure\bin\Release\net9.0\Infrastructure.dll
+C:\Users\igmut\source\repos\VTU\LibraryMVC\Infrastructure\bin\Release\net9.0\Infrastructure.pdb
+C:\Users\igmut\source\repos\VTU\LibraryMVC\Infrastructure\obj\Release\net9.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\igmut\source\repos\VTU\LibraryMVC\Infrastructure\obj\Release\net9.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\igmut\source\repos\VTU\LibraryMVC\Infrastructure\obj\Release\net9.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\igmut\source\repos\VTU\LibraryMVC\Infrastructure\obj\Release\net9.0\Infrastructure.AssemblyInfo.cs
+C:\Users\igmut\source\repos\VTU\LibraryMVC\Infrastructure\obj\Release\net9.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\igmut\source\repos\VTU\LibraryMVC\Infrastructure\obj\Release\net9.0\Infrastructure.sourcelink.json
+C:\Users\igmut\source\repos\VTU\LibraryMVC\Infrastructure\obj\Release\net9.0\Infrastructure.dll
+C:\Users\igmut\source\repos\VTU\LibraryMVC\Infrastructure\obj\Release\net9.0\refint\Infrastructure.dll
+C:\Users\igmut\source\repos\VTU\LibraryMVC\Infrastructure\obj\Release\net9.0\Infrastructure.pdb
+C:\Users\igmut\source\repos\VTU\LibraryMVC\Infrastructure\obj\Release\net9.0\ref\Infrastructure.dll

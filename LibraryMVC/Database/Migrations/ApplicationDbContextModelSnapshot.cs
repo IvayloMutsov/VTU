@@ -96,6 +96,9 @@ namespace Database.Migrations
                     b.Property<int>("PublisherID")
                         .HasColumnType("int");
 
+                    b.Property<int>("TimesLoaned")
+                        .HasColumnType("int");
+
                     b.Property<int>("YearPublished")
                         .HasColumnType("int");
 

@@ -6,7 +6,6 @@ using Services.GenreServices;
 using Services.AuthorServices;
 using Services.BookServices;
 using Services.PublisherServices;
-using Microsoft.EntityFrameworkCore.Diagnostics;
 using Services.LoanServices;
 
 namespace LibraryMVC;

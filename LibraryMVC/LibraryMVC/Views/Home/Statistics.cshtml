@@ -1,0 +1,34 @@
+﻿@using Infrastructure.ViewModels
+@model StatisticsViewModel
+
+<h2>Most popular books</h2>
+@if (Model.FavouriteBooks.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Book</th>
+                <th>Genre</th>
+                <th>Author</th>
+                <th>Year published</th>
+                <th>Publisher</th>
+            </tr>
+        </thead>
+        @foreach (var item in Model.FavouriteBooks)
+        {
+            <tbody>
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Genre.Name</td>
+                    <td>@item.Author.Name</td>
+                    <td>@item.YearPublished</td>
+                    <td>@item.Publisher.Name</td>
+                </tr>
+            </tbody>
+        }
+    </table>
+}
+else
+{
+    <p>No books found</p>
+}

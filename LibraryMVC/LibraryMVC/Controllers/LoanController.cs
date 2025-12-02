@@ -27,6 +27,10 @@ namespace LibraryMVC.Controllers
                 return Unauthorized("Access not allowed");
             } 
             var loans = await service.GetLoans(userId);
+            foreach (var item in loans)
+            {
+                service.ReturnLoan(item.ID);
+            }
             return View(loans);
         }
 
@@ -51,6 +55,7 @@ namespace LibraryMVC.Controllers
             {
                 return Unauthorized("Access not allowed");
             }
+            service.ReturnLoan(loan.ID);
             return View(loan);
         }
 

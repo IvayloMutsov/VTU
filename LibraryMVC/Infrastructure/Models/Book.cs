@@ -1,4 +1,5 @@
 ﻿using Infrastructure.BaseModels;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
 namespace Infrastructure.Models
@@ -14,5 +15,8 @@ namespace Infrastructure.Models
         public Publisher Publisher { get; set; }
 
         public int YearPublished { get; set; }
+
+        [DefaultValue(0)]
+        public int TimesLoaned { get; set; }
     }
 }

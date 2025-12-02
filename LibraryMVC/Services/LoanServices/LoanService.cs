@@ -35,6 +35,7 @@ namespace Services.LoanServices
                 DateLoaned = DateOnly.FromDateTime(DateTime.Today)
             };
             loan.ReturnDate = loan.DateLoaned.AddDays(loan.LoanPeriodDays);
+            book.TimesLoaned++;
             context.BookLoans.Add(loan);
             await context.SaveChangesAsync();
         }
@@ -89,6 +90,16 @@ namespace Services.LoanServices
             .ThenInclude(b => b.Author)
             .Where(l => l.User == userId && l.isReturned == false)
             .ToListAsync();
+        }
+
+        public async Task ReturnLoan(int id)
+        {
+            Loan l = await context.BookLoans.FindAsync(id);
+            if (l != null && l.ReturnDate == DateOnly.FromDateTime(DateTime.Now))
+            {
+                l.isReturned = true;
+            }
+            await context.SaveChangesAsync();
         }
     }
 }

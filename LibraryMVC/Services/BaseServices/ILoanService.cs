@@ -15,5 +15,6 @@ namespace Services.BaseServices
         public Task ExtendLoan(int loanID, int loanPeriod);
         public Task<Loan> GetLoan(int loanID);
         public Task<List<Loan>> GetLoans(Guid userId);
+        public Task ReturnLoan(int id);
     }
 }
