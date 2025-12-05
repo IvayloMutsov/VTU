@@ -39,9 +39,11 @@ public class HomeController : Controller
                                              .Include(x => x.Author)
                                              .Include(x => x.Publisher)
                                              .Take(3).ToListAsync();
+        List<Author> authors = await context.Authors.OrderByDescending(x => x.TimesBookHasBeenLoaned).Take(3).ToListAsync();
         StatisticsViewModel model = new StatisticsViewModel
         {
-            FavouriteBooks = list
+            FavouriteBooks = list,
+            PopularAuthors = authors
         };
         return View(model);
     }

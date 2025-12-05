@@ -36,6 +36,7 @@ namespace Services.LoanServices
             };
             loan.ReturnDate = loan.DateLoaned.AddDays(loan.LoanPeriodDays);
             book.TimesLoaned++;
+            book.Author.TimesBookHasBeenLoaned++;
             context.BookLoans.Add(loan);
             await context.SaveChangesAsync();
         }

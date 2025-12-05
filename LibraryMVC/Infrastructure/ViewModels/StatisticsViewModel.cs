@@ -10,5 +10,7 @@ namespace Infrastructure.ViewModels
     public class StatisticsViewModel
     {
         public List<Book> FavouriteBooks { get; set; }
+
+        public List<Author> PopularAuthors { get; set; }
     }
 }

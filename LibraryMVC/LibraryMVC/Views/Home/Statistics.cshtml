@@ -7,6 +7,7 @@
     <table class="table">
         <thead>
             <tr>
+                <th>№</th>
                 <th>Book</th>
                 <th>Genre</th>
                 <th>Author</th>
@@ -18,6 +19,7 @@
         {
             <tbody>
                 <tr>
+                    <td>@((Model.FavouriteBooks.IndexOf(item) + 1).ToString())</td>
                     <td>@item.Name</td>
                     <td>@item.Genre.Name</td>
                     <td>@item.Author.Name</td>
@@ -31,4 +33,28 @@
 else
 {
     <p>No books found</p>
+}
+
+<h2>Most popular Authors</h2>
+@if (Model.PopularAuthors.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>№</th>
+                <th>Author</th>
+                <th>Nationality</th>
+            </tr>
+        </thead>
+        @foreach (var item in Model.PopularAuthors)
+        {
+            <tbody>
+                <tr>
+                    <td>@((Model.PopularAuthors.IndexOf(item) + 1).ToString())</td>
+                    <td>@item.Name</td>
+                    <td>@item.Nationality</td>
+                </tr>
+            </tbody>
+        }
+    </table>
 }

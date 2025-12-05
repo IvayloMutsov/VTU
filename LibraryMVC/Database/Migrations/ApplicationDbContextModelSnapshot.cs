@@ -57,6 +57,9 @@ namespace Database.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("TimesBookHasBeenLoaned")
+                        .HasColumnType("int");
+
                     b.HasKey("ID");
 
                     b.ToTable("Authors");

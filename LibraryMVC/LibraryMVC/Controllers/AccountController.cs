@@ -10,15 +10,18 @@ namespace LibraryMVC.Controllers
         private readonly UserManager<IdentityUser> _userManager;
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly RoleManager<IdentityRole> _roleManager;
+        private readonly IConfiguration _configuration;
 
         public AccountController(
             UserManager<IdentityUser> userManager,
             SignInManager<IdentityUser> signInManager,
-            RoleManager<IdentityRole> roleManager)
+            RoleManager<IdentityRole> roleManager,
+            IConfiguration configuration)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _roleManager = roleManager;
+            _configuration = configuration;
         }
 
         // GET: /Account/Register
@@ -88,23 +91,25 @@ namespace LibraryMVC.Controllers
             return RedirectToAction("Index", "Home");
         }
 
-        [Authorize(Roles = "Admin")]
         [HttpPost]
-        public IActionResult RegisterAdmin(string email, string password)
+        public async Task<IActionResult> RegisterAdmin(string email, string password, string code)
         {
+            var adminCode = _configuration["AdminRegistrationCode"];
+            if (code != adminCode)
+                return BadRequest("Invalid admin code.");
+
             if (string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(password))
                 return BadRequest("Email and password required");
 
             var user = new IdentityUser { UserName = email, Email = email };
-            var result = _userManager.CreateAsync(user, password).GetAwaiter().GetResult();
-
+            var result = await _userManager.CreateAsync(user, password);
             if (!result.Succeeded)
                 return BadRequest(result.Errors);
 
-            if (!_roleManager.RoleExistsAsync("Admin").GetAwaiter().GetResult())
-                _roleManager.CreateAsync(new IdentityRole("Admin")).GetAwaiter().GetResult();
+            if (!await _roleManager.RoleExistsAsync("Admin"))
+                await _roleManager.CreateAsync(new IdentityRole("Admin"));
 
-            _userManager.AddToRoleAsync(user, "Admin").GetAwaiter().GetResult();
+            await _userManager.AddToRoleAsync(user, "Admin");
 
             return Ok("Admin created successfully");
         }
