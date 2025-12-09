@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vZSOFF9LZr2/3hIniOMUdxt2KaLgaSScmS1DtMc8KCw=",
+  "Hash": "ipTVgA4Txd90A+fOINKf7Eo0WG/Af1JRlmROOeATmfQ=",
   "Source": "LibraryMVC",
   "BasePath": "_content/LibraryMVC",
   "Mode": "Default",
@@ -3314,12 +3314,12 @@
       "OriginalItemSpec": "C:\\Users\\igmut\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.10\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\obj\\Debug\\net9.0\\compressed\\rig9q26nji-gozyj8lbci.gz",
+      "Identity": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\obj\\Debug\\net9.0\\compressed\\rig9q26nji-81di4musbh.gz",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/LibraryMVC",
-      "RelativePath": "css/site#[.{fingerprint=gozyj8lbci}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=81di4musbh}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -3328,8 +3328,8 @@
       "RelatedAsset": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "59zet3b4ft",
-      "Integrity": "B33Mg1xuhh/mTx/CNK/TrBeVZ9UAMrb8NWab0HEwRX4=",
+      "Fingerprint": "dbiu467t2w",
+      "Integrity": "xzurAWISzwGGf0auEEneEZthJ7Se4+XcMwK5v0bJwNk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\wwwroot\\css\\site.css"
@@ -4042,8 +4042,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "gozyj8lbci",
-      "Integrity": "IAwSGrm1W7kq4kokvsh1BwzYPkx/GZwWV4xf9/Gj/D0=",
+      "Fingerprint": "81di4musbh",
+      "Integrity": "fI4vor1ind4NIAh8tT7WroCrNxn9eYap+tdxMNMErag=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -4068,6 +4068,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\wwwroot\\images\\books\\b561386e-eb96-4bd2-9c28-99cd4b6afaa1.jpg",
+      "SourceId": "LibraryMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\wwwroot\\",
+      "BasePath": "_content/LibraryMVC",
+      "RelativePath": "images/books/b561386e-eb96-4bd2-9c28-99cd4b6afaa1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "scf4hr8vgs",
+      "Integrity": "RJw30o2KF+mVNeNX+j8Mk/tk8HrlYvIC21iJT3x6jaA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\books\\b561386e-eb96-4bd2-9c28-99cd4b6afaa1.jpg"
     },
     {
       "Identity": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\wwwroot\\images\\library.jpg",
@@ -5374,13 +5395,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\obj\\Debug\\net9.0\\compressed\\rig9q26nji-gozyj8lbci.gz",
+      "Route": "css/site.81di4musbh.css",
+      "AssetFile": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\obj\\Debug\\net9.0\\compressed\\rig9q26nji-81di4musbh.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000474383302"
+          "Quality": "0.000395100751"
         }
       ],
       "ResponseHeaders": [
@@ -5390,19 +5411,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2107"
+          "Value": "2530"
         },
         {
           "Name": "ETag",
-          "Value": "\"B33Mg1xuhh/mTx/CNK/TrBeVZ9UAMrb8NWab0HEwRX4=\""
+          "Value": "\"xzurAWISzwGGf0auEEneEZthJ7Se4+XcMwK5v0bJwNk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Nov 2025 23:17:37 GMT"
+          "Value": "Tue, 09 Dec 2025 16:55:18 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -5418,18 +5439,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"IAwSGrm1W7kq4kokvsh1BwzYPkx/GZwWV4xf9/Gj/D0=\""
+          "Value": "W/\"fI4vor1ind4NIAh8tT7WroCrNxn9eYap+tdxMNMErag=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "81di4musbh"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-IAwSGrm1W7kq4kokvsh1BwzYPkx/GZwWV4xf9/Gj/D0="
+          "Value": "sha256-fI4vor1ind4NIAh8tT7WroCrNxn9eYap+tdxMNMErag="
         }
       ]
     },
     {
-      "Route": "css/site.css",
+      "Route": "css/site.81di4musbh.css",
       "AssetFile": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -5439,7 +5468,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8012"
+          "Value": "9730"
         },
         {
           "Name": "Content-Type",
@@ -5447,121 +5476,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"IAwSGrm1W7kq4kokvsh1BwzYPkx/GZwWV4xf9/Gj/D0=\""
+          "Value": "\"fI4vor1ind4NIAh8tT7WroCrNxn9eYap+tdxMNMErag=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Nov 2025 23:17:37 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-IAwSGrm1W7kq4kokvsh1BwzYPkx/GZwWV4xf9/Gj/D0="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\obj\\Debug\\net9.0\\compressed\\rig9q26nji-gozyj8lbci.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2107"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"B33Mg1xuhh/mTx/CNK/TrBeVZ9UAMrb8NWab0HEwRX4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 27 Nov 2025 23:17:37 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-B33Mg1xuhh/mTx/CNK/TrBeVZ9UAMrb8NWab0HEwRX4="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.gozyj8lbci.css",
-      "AssetFile": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\obj\\Debug\\net9.0\\compressed\\rig9q26nji-gozyj8lbci.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000474383302"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2107"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"B33Mg1xuhh/mTx/CNK/TrBeVZ9UAMrb8NWab0HEwRX4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 27 Nov 2025 23:17:37 GMT"
+          "Value": "Tue, 09 Dec 2025 16:55:18 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"IAwSGrm1W7kq4kokvsh1BwzYPkx/GZwWV4xf9/Gj/D0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "gozyj8lbci"
+          "Value": "81di4musbh"
         },
         {
           "Name": "label",
@@ -5569,13 +5498,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-IAwSGrm1W7kq4kokvsh1BwzYPkx/GZwWV4xf9/Gj/D0="
+          "Value": "sha256-fI4vor1ind4NIAh8tT7WroCrNxn9eYap+tdxMNMErag="
         }
       ]
     },
     {
-      "Route": "css/site.gozyj8lbci.css",
-      "AssetFile": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\wwwroot\\css\\site.css",
+      "Route": "css/site.81di4musbh.css.gz",
+      "AssetFile": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\obj\\Debug\\net9.0\\compressed\\rig9q26nji-81di4musbh.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5584,7 +5513,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8012"
+          "Value": "2530"
         },
         {
           "Name": "Content-Type",
@@ -5592,56 +5521,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"IAwSGrm1W7kq4kokvsh1BwzYPkx/GZwWV4xf9/Gj/D0=\""
+          "Value": "\"xzurAWISzwGGf0auEEneEZthJ7Se4+XcMwK5v0bJwNk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Nov 2025 23:17:37 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "gozyj8lbci"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-IAwSGrm1W7kq4kokvsh1BwzYPkx/GZwWV4xf9/Gj/D0="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.gozyj8lbci.css.gz",
-      "AssetFile": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\obj\\Debug\\net9.0\\compressed\\rig9q26nji-gozyj8lbci.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2107"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"B33Mg1xuhh/mTx/CNK/TrBeVZ9UAMrb8NWab0HEwRX4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 27 Nov 2025 23:17:37 GMT"
+          "Value": "Tue, 09 Dec 2025 16:55:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5659,7 +5543,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "gozyj8lbci"
+          "Value": "81di4musbh"
         },
         {
           "Name": "label",
@@ -5667,7 +5551,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-B33Mg1xuhh/mTx/CNK/TrBeVZ9UAMrb8NWab0HEwRX4="
+          "Value": "sha256-xzurAWISzwGGf0auEEneEZthJ7Se4+XcMwK5v0bJwNk="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\obj\\Debug\\net9.0\\compressed\\rig9q26nji-81di4musbh.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000395100751"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2530"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xzurAWISzwGGf0auEEneEZthJ7Se4+XcMwK5v0bJwNk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 16:55:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"fI4vor1ind4NIAh8tT7WroCrNxn9eYap+tdxMNMErag=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fI4vor1ind4NIAh8tT7WroCrNxn9eYap+tdxMNMErag="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9730"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fI4vor1ind4NIAh8tT7WroCrNxn9eYap+tdxMNMErag=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 16:55:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fI4vor1ind4NIAh8tT7WroCrNxn9eYap+tdxMNMErag="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\obj\\Debug\\net9.0\\compressed\\rig9q26nji-81di4musbh.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2530"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xzurAWISzwGGf0auEEneEZthJ7Se4+XcMwK5v0bJwNk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 16:55:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xzurAWISzwGGf0auEEneEZthJ7Se4+XcMwK5v0bJwNk="
         }
       ]
     },
@@ -14497,6 +14518,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-1HkjQSVuV0/ji/X/lGeDTHeagBS0BwopMrHDQuwqgtU="
+        }
+      ]
+    },
+    {
+      "Route": "images/books/b561386e-eb96-4bd2-9c28-99cd4b6afaa1.jpg",
+      "AssetFile": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\wwwroot\\images\\books\\b561386e-eb96-4bd2-9c28-99cd4b6afaa1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "537547"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RJw30o2KF+mVNeNX+j8Mk/tk8HrlYvIC21iJT3x6jaA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 16:36:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RJw30o2KF+mVNeNX+j8Mk/tk8HrlYvIC21iJT3x6jaA="
+        }
+      ]
+    },
+    {
+      "Route": "images/books/b561386e-eb96-4bd2-9c28-99cd4b6afaa1.scf4hr8vgs.jpg",
+      "AssetFile": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\wwwroot\\images\\books\\b561386e-eb96-4bd2-9c28-99cd4b6afaa1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "537547"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RJw30o2KF+mVNeNX+j8Mk/tk8HrlYvIC21iJT3x6jaA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 16:36:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "scf4hr8vgs"
+        },
+        {
+          "Name": "label",
+          "Value": "images/books/b561386e-eb96-4bd2-9c28-99cd4b6afaa1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RJw30o2KF+mVNeNX+j8Mk/tk8HrlYvIC21iJT3x6jaA="
         }
       ]
     },

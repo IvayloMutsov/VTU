@@ -88,6 +88,9 @@ namespace Database.Migrations
                     b.Property<int>("GenreID")
                         .HasColumnType("int");
 
+                    b.Property<string>("ImageFileName")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 

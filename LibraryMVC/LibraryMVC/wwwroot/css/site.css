@@ -336,3 +336,74 @@ body.dark-mode, html {
 nav.navbar {
     margin-bottom: 0 !important;
 }
+
+.book-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.book-item {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.book-info {
+    border-collapse: collapse;
+}
+
+    .book-info th,
+    .book-info td {
+        padding: 5px 10px;
+        text-align: left;
+        vertical-align: top;
+    }
+
+    /* Rotate header text sideways */
+    .book-info th {
+        white-space: nowrap;
+    }
+
+.book-image img {
+    max-height: 250px; /* make image bigger */
+    max-width: 400px; /* optional: limit width */
+    object-fit: contain;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.book-item-single {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start; /* don’t stretch image */
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    max-width: 900px;
+    margin-bottom: 20px;
+}
+
+.book-info-single {
+    border-collapse: collapse;
+}
+
+/* Image container */
+.book-image-single {
+    flex: 1; /* take remaining horizontal space */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; /* center image vertically if smaller */
+}
+
+.book-image-single img {
+    max-height: 300px; /* smaller image height */
+    max-width: 100%;   /* fit container width */
+    object-fit: contain; /* entire image visible */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+}

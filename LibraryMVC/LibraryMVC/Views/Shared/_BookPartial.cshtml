@@ -11,23 +11,26 @@
     {
         <!-- ADD -->
         <h3>Add Book</h3>
-        <form method="post" asp-controller="Book" asp-action="AddBook">
+        <form method="post" asp-controller="Book" asp-action="AddBook" enctype="multipart/form-data">
             <input type="text" name="name" placeholder="Name" required />
             <input type="number" name="genreID" placeholder="Genre ID" required />
             <input type="number" name="authorID" placeholder="Author ID" required />
             <input type="number" name="publisherID" placeholder="Publisher ID" required />
             <input type="number" name="yearPublished" placeholder="Year published" required />
+            <input type="file" name="imageFile" />
             <button type="submit" class="btn btn-add">Add</button>
         </form>
 
         <!-- UPDATE -->
         <h3>Update Book</h3>
-        <form method="post" asp-controller="Book" asp-action="UpdateBook">
+        <form method="post" asp-controller="Book" asp-action="UpdateBook" enctype="multipart/form-data">
             <input type="number" name="id" placeholder="ID" required />
             <input type="text" name="name" placeholder="Name" />
             <input type="number" name="genreID" placeholder="Genre ID" />
+            <input type="number" name="authorID" placeholder="Author ID" />
             <input type="number" name="publisherID" placeholder="Publisher ID" />
             <input type="number" name="yearPublished" placeholder="Year published" />
+            <input type="file" name="imageFile" />
             <button type="submit" class="btn btn-update">Update</button>
         </form>
 

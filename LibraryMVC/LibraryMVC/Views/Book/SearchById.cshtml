@@ -1,4 +1,7 @@
 ﻿@model Book
+@{
+    ViewData["Title"] = "Book Search";
+}
 
 <h2>Book Search Result</h2>
 
@@ -8,27 +11,45 @@
 }
 else
 {
-    <table class="table">
-        <thead>
+    <div class="book-item-single">
+        <table class="book-info-single">
             <tr>
                 <th>ID</th>
-                <th>Name</th>
-                <th>Genre</th>
-                <th>Author</th>
-                <th>Year published</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
                 <td>@Model.ID</td>
+            </tr>
+            <tr>
+                <th>Name</th>
                 <td>@Model.Name</td>
+            </tr>
+            <tr>
+                <th>Genre</th>
                 <td>@Model.Genre.Name</td>
+            </tr>
+            <tr>
+                <th>Author</th>
                 <td>@Model.Author.Name</td>
+            </tr>
+            <tr>
+                <th>Publisher</th>
                 <td>@Model.Publisher.Name</td>
+            </tr>
+            <tr>
+                <th>Year</th>
                 <td>@Model.YearPublished</td>
             </tr>
-        </tbody>
-    </table>
+        </table>
+
+        <div class="book-image-single">
+            @if (!string.IsNullOrEmpty(Model.ImageFileName))
+            {
+                <img src="~/images/books/@Model.ImageFileName" alt="@Model.Name" />
+            }
+            else
+            {
+                <span>No image</span>
+            }
+        </div>
+    </div>
 }
 
 <a asp-controller="Book" asp-action="BookView">📖 Back to Books</a>

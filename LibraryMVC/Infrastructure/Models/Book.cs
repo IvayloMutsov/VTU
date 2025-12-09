@@ -18,5 +18,7 @@ namespace Infrastructure.Models
 
         [DefaultValue(0)]
         public int TimesLoaned { get; set; }
+
+        public string? ImageFileName { get; set; }
     }
 }

@@ -1,5 +1,8 @@
 ﻿@using Infrastructure.ViewModels
 @model StatisticsViewModel
+@{
+    ViewData["Title"] = "Statistics";
+}
 
 <h2>Most popular books</h2>
 @if (Model.FavouriteBooks.Any())

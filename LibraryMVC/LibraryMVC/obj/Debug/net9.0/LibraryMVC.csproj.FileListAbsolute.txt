@@ -299,7 +299,6 @@ C:\Users\igmut\source\repos\VTU\LibraryMVC\LibraryMVC\obj\Debug\net9.0\compresse
 C:\Users\igmut\source\repos\VTU\LibraryMVC\LibraryMVC\obj\Debug\net9.0\compressed\o5cr23u7np-jfsiqqwiad.gz
 C:\Users\igmut\source\repos\VTU\LibraryMVC\LibraryMVC\obj\Debug\net9.0\compressed\080afxqvui-sd03c8g4dl.gz
 C:\Users\igmut\source\repos\VTU\LibraryMVC\LibraryMVC\obj\Debug\net9.0\compressed\arshd2b8ee-nkr4w5xuec.gz
-C:\Users\igmut\source\repos\VTU\LibraryMVC\LibraryMVC\obj\Debug\net9.0\compressed\rig9q26nji-gozyj8lbci.gz
 C:\Users\igmut\source\repos\VTU\LibraryMVC\LibraryMVC\bin\Debug\net9.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\igmut\source\repos\VTU\LibraryMVC\LibraryMVC\bin\Debug\net9.0\Microsoft.Build.dll
 C:\Users\igmut\source\repos\VTU\LibraryMVC\LibraryMVC\bin\Debug\net9.0\Microsoft.Build.Framework.dll
@@ -443,3 +442,4 @@ C:\Users\igmut\source\repos\VTU\LibraryMVC\LibraryMVC\bin\Debug\net9.0\runtimes\
 C:\Users\igmut\source\repos\VTU\LibraryMVC\LibraryMVC\bin\Debug\net9.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\igmut\source\repos\VTU\LibraryMVC\LibraryMVC\bin\Debug\net9.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\igmut\source\repos\VTU\LibraryMVC\LibraryMVC\bin\Debug\net9.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\igmut\source\repos\VTU\LibraryMVC\LibraryMVC\obj\Debug\net9.0\compressed\rig9q26nji-81di4musbh.gz

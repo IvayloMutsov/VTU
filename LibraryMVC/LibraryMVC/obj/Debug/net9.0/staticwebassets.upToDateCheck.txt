@@ -62,6 +62,7 @@ C:\Users\igmut\source\repos\VTU\LibraryMVC\LibraryMVC\wwwroot\lib\bootstrap\dist
 C:\Users\igmut\source\repos\VTU\LibraryMVC\LibraryMVC\wwwroot\lib\jquery\dist\jquery.min.map
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\books\b561386e-eb96-4bd2-9c28-99cd4b6afaa1.jpg
 wwwroot\images\library.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
