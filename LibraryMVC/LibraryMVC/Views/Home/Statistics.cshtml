@@ -58,3 +58,9 @@ else
         }
     </table>
 }
+
+@if (User.IsInRole("Admin"))
+{
+    <h2>Active Loans</h2>
+    @await Html.PartialAsync("_ActiveLoanPartial",Model.ActiveLoans)
+}

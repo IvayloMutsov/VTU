@@ -96,7 +96,7 @@ namespace Services.LoanServices
         public async Task ReturnLoan(int id)
         {
             Loan l = await context.BookLoans.FindAsync(id);
-            if (l != null && l.ReturnDate == DateOnly.FromDateTime(DateTime.Now))
+            if (l != null && l.ReturnDate <= DateOnly.FromDateTime(DateTime.Now))
             {
                 l.isReturned = true;
             }

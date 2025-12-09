@@ -4,6 +4,7 @@ using Infrastructure.ViewModels;
 using Database.Data;
 using Microsoft.EntityFrameworkCore;
 using Infrastructure.Models;
+using Services.BaseServices;
 namespace LibraryMVC.Controllers;
 
 public class HomeController : Controller
@@ -40,10 +41,15 @@ public class HomeController : Controller
                                              .Include(x => x.Publisher)
                                              .Take(3).ToListAsync();
         List<Author> authors = await context.Authors.OrderByDescending(x => x.TimesBookHasBeenLoaned).Take(3).ToListAsync();
+        var loans = await context.BookLoans.Where(x => x.isReturned == false)
+                                              .Include(x => x.Book)
+                                              .Include(x => x.Book.Genre)
+                                              .Include(x => x.Book.Author).ToListAsync();
         StatisticsViewModel model = new StatisticsViewModel
         {
             FavouriteBooks = list,
-            PopularAuthors = authors
+            PopularAuthors = authors,
+            ActiveLoans = loans
         };
         return View(model);
     }

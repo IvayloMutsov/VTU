@@ -12,5 +12,7 @@ namespace Infrastructure.ViewModels
         public List<Book> FavouriteBooks { get; set; }
 
         public List<Author> PopularAuthors { get; set; }
+
+        public List<Loan> ActiveLoans { get; set; }
     }
 }

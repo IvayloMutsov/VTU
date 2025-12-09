@@ -1,0 +1,39 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model IEnumerable<Loan>
+@inject UserManager<IdentityUser> UserManager
+@if (Model.Any())
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>User</th>
+                <th>Book</th>
+                <th>Genre</th>
+                <th>Author</th>
+                <th>Date loaned</th>
+                <th>Duration</th>
+                <th>Return date</th>
+            </tr>
+        </thead>
+        @foreach (var item in Model)
+        {
+            <tbody>
+                <tr>
+                    <td>@item.ID</td>
+                    <td>@(await UserManager.FindByIdAsync(item.User.ToString()))</td>
+                    <td>@item.Book.Name</td>
+                    <td>@item.Book.Genre.Name</td>
+                    <td>@item.Book.Author.Name</td>
+                    <td>@item.DateLoaned.ToString()</td>
+                    <td>@item.LoanPeriodDays</td>
+                    <td>@item.ReturnDate.ToString()</td>
+                </tr>
+            </tbody>
+        }
+    </table>
+}
+else
+{
+    <p>No active loans</p>
+}
