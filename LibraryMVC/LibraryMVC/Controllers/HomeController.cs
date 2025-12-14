@@ -10,11 +10,11 @@ namespace LibraryMVC.Controllers;
 public class HomeController : Controller
 {
     private IApplicationDbContext context;
-    private readonly ILogger<HomeController> _logger;
+    private ILoanService loanService;
 
-    public HomeController(ILogger<HomeController> logger, IApplicationDbContext dbContext)
+    public HomeController(ILoanService loanService, IApplicationDbContext dbContext)
     {
-        _logger = logger;
+        this.loanService = loanService;
         context = dbContext;
     }
 
@@ -45,11 +45,15 @@ public class HomeController : Controller
                                               .Include(x => x.Book)
                                               .Include(x => x.Book.Genre)
                                               .Include(x => x.Book.Author).ToListAsync();
+        foreach(var item in loans)
+        {
+            loanService.ReturnLoan(item.ID);
+        }
         StatisticsViewModel model = new StatisticsViewModel
         {
             FavouriteBooks = list,
             PopularAuthors = authors,
-            ActiveLoans = loans
+            ActiveLoans = loans.Where(x => x.isReturned == false).ToList()
         };
         return View(model);
     }

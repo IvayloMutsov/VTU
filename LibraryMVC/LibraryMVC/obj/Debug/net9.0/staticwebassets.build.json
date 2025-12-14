@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ipTVgA4Txd90A+fOINKf7Eo0WG/Af1JRlmROOeATmfQ=",
+  "Hash": "1a+4DV+jNUSaLBCaN+fErEMYzTAXVJ2+r7SdjKd0lpM=",
   "Source": "LibraryMVC",
   "BasePath": "_content/LibraryMVC",
   "Mode": "Default",
@@ -3314,12 +3314,12 @@
       "OriginalItemSpec": "C:\\Users\\igmut\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.10\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\obj\\Debug\\net9.0\\compressed\\rig9q26nji-81di4musbh.gz",
+      "Identity": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\obj\\Debug\\net9.0\\compressed\\rig9q26nji-8ipxrvfw9v.gz",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/LibraryMVC",
-      "RelativePath": "css/site#[.{fingerprint=81di4musbh}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=8ipxrvfw9v}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -3328,8 +3328,8 @@
       "RelatedAsset": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "dbiu467t2w",
-      "Integrity": "xzurAWISzwGGf0auEEneEZthJ7Se4+XcMwK5v0bJwNk=",
+      "Fingerprint": "qcqrr4yuk7",
+      "Integrity": "KundYNGX169MIvFHdGDPlByd85x1Z5PvJ9zDdm+Fo2c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\wwwroot\\css\\site.css"
@@ -4042,8 +4042,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "81di4musbh",
-      "Integrity": "fI4vor1ind4NIAh8tT7WroCrNxn9eYap+tdxMNMErag=",
+      "Fingerprint": "8ipxrvfw9v",
+      "Integrity": "oDlbiibDknmpC+eNef/AReFyyGow72URNGR7iJQ+pBw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -4068,6 +4068,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\wwwroot\\images\\books\\004924b5-d1e7-4c55-af6b-f835026043ee.jpg",
+      "SourceId": "LibraryMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\wwwroot\\",
+      "BasePath": "_content/LibraryMVC",
+      "RelativePath": "images/books/004924b5-d1e7-4c55-af6b-f835026043ee#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jd9r9nwa3j",
+      "Integrity": "ybKxiqxT0qTS4+uYYiN7S6WdH3bE2LhK5w3UiCnWmDI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\books\\004924b5-d1e7-4c55-af6b-f835026043ee.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\wwwroot\\images\\books\\992e1fba-13f8-4c66-b610-afe5a66b8c35.jpg",
+      "SourceId": "LibraryMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\wwwroot\\",
+      "BasePath": "_content/LibraryMVC",
+      "RelativePath": "images/books/992e1fba-13f8-4c66-b610-afe5a66b8c35#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fn4zuj6ljg",
+      "Integrity": "tVNjRjZ9aPbaR4E74HnDsAhrwn4H9HqOs+yoQUSvs3w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\books\\992e1fba-13f8-4c66-b610-afe5a66b8c35.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\wwwroot\\images\\books\\ac9c111c-48ab-4039-a201-be7a5beeb234.jpg",
+      "SourceId": "LibraryMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\wwwroot\\",
+      "BasePath": "_content/LibraryMVC",
+      "RelativePath": "images/books/ac9c111c-48ab-4039-a201-be7a5beeb234#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "aqdfezxwcm",
+      "Integrity": "Qj1TU7GfDr1jtxeCOH1fDXhguHxzOudR05PB6lDM/Zk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\books\\ac9c111c-48ab-4039-a201-be7a5beeb234.jpg"
     },
     {
       "Identity": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\wwwroot\\images\\books\\b561386e-eb96-4bd2-9c28-99cd4b6afaa1.jpg",
@@ -5395,13 +5458,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.81di4musbh.css",
-      "AssetFile": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\obj\\Debug\\net9.0\\compressed\\rig9q26nji-81di4musbh.gz",
+      "Route": "css/site.8ipxrvfw9v.css",
+      "AssetFile": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\obj\\Debug\\net9.0\\compressed\\rig9q26nji-8ipxrvfw9v.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000395100751"
+          "Quality": "0.000408163265"
         }
       ],
       "ResponseHeaders": [
@@ -5411,15 +5474,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2530"
+          "Value": "2449"
         },
         {
           "Name": "ETag",
-          "Value": "\"xzurAWISzwGGf0auEEneEZthJ7Se4+XcMwK5v0bJwNk=\""
+          "Value": "\"KundYNGX169MIvFHdGDPlByd85x1Z5PvJ9zDdm+Fo2c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 09 Dec 2025 16:55:18 GMT"
+          "Value": "Tue, 09 Dec 2025 17:09:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5439,13 +5502,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"fI4vor1ind4NIAh8tT7WroCrNxn9eYap+tdxMNMErag=\""
+          "Value": "W/\"oDlbiibDknmpC+eNef/AReFyyGow72URNGR7iJQ+pBw=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "81di4musbh"
+          "Value": "8ipxrvfw9v"
         },
         {
           "Name": "label",
@@ -5453,12 +5516,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-fI4vor1ind4NIAh8tT7WroCrNxn9eYap+tdxMNMErag="
+          "Value": "sha256-oDlbiibDknmpC+eNef/AReFyyGow72URNGR7iJQ+pBw="
         }
       ]
     },
     {
-      "Route": "css/site.81di4musbh.css",
+      "Route": "css/site.8ipxrvfw9v.css",
       "AssetFile": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -5468,7 +5531,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9730"
+          "Value": "9457"
         },
         {
           "Name": "Content-Type",
@@ -5476,11 +5539,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fI4vor1ind4NIAh8tT7WroCrNxn9eYap+tdxMNMErag=\""
+          "Value": "\"oDlbiibDknmpC+eNef/AReFyyGow72URNGR7iJQ+pBw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 09 Dec 2025 16:55:18 GMT"
+          "Value": "Tue, 09 Dec 2025 17:09:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5490,7 +5553,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "81di4musbh"
+          "Value": "8ipxrvfw9v"
         },
         {
           "Name": "label",
@@ -5498,13 +5561,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-fI4vor1ind4NIAh8tT7WroCrNxn9eYap+tdxMNMErag="
+          "Value": "sha256-oDlbiibDknmpC+eNef/AReFyyGow72URNGR7iJQ+pBw="
         }
       ]
     },
     {
-      "Route": "css/site.81di4musbh.css.gz",
-      "AssetFile": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\obj\\Debug\\net9.0\\compressed\\rig9q26nji-81di4musbh.gz",
+      "Route": "css/site.8ipxrvfw9v.css.gz",
+      "AssetFile": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\obj\\Debug\\net9.0\\compressed\\rig9q26nji-8ipxrvfw9v.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5513,7 +5576,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2530"
+          "Value": "2449"
         },
         {
           "Name": "Content-Type",
@@ -5521,11 +5584,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xzurAWISzwGGf0auEEneEZthJ7Se4+XcMwK5v0bJwNk=\""
+          "Value": "\"KundYNGX169MIvFHdGDPlByd85x1Z5PvJ9zDdm+Fo2c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 09 Dec 2025 16:55:18 GMT"
+          "Value": "Tue, 09 Dec 2025 17:09:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5543,7 +5606,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "81di4musbh"
+          "Value": "8ipxrvfw9v"
         },
         {
           "Name": "label",
@@ -5551,18 +5614,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-xzurAWISzwGGf0auEEneEZthJ7Se4+XcMwK5v0bJwNk="
+          "Value": "sha256-KundYNGX169MIvFHdGDPlByd85x1Z5PvJ9zDdm+Fo2c="
         }
       ]
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\obj\\Debug\\net9.0\\compressed\\rig9q26nji-81di4musbh.gz",
+      "AssetFile": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\obj\\Debug\\net9.0\\compressed\\rig9q26nji-8ipxrvfw9v.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000395100751"
+          "Quality": "0.000408163265"
         }
       ],
       "ResponseHeaders": [
@@ -5572,15 +5635,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2530"
+          "Value": "2449"
         },
         {
           "Name": "ETag",
-          "Value": "\"xzurAWISzwGGf0auEEneEZthJ7Se4+XcMwK5v0bJwNk=\""
+          "Value": "\"KundYNGX169MIvFHdGDPlByd85x1Z5PvJ9zDdm+Fo2c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 09 Dec 2025 16:55:18 GMT"
+          "Value": "Tue, 09 Dec 2025 17:09:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5600,13 +5663,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"fI4vor1ind4NIAh8tT7WroCrNxn9eYap+tdxMNMErag=\""
+          "Value": "W/\"oDlbiibDknmpC+eNef/AReFyyGow72URNGR7iJQ+pBw=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-fI4vor1ind4NIAh8tT7WroCrNxn9eYap+tdxMNMErag="
+          "Value": "sha256-oDlbiibDknmpC+eNef/AReFyyGow72URNGR7iJQ+pBw="
         }
       ]
     },
@@ -5621,7 +5684,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9730"
+          "Value": "9457"
         },
         {
           "Name": "Content-Type",
@@ -5629,11 +5692,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fI4vor1ind4NIAh8tT7WroCrNxn9eYap+tdxMNMErag=\""
+          "Value": "\"oDlbiibDknmpC+eNef/AReFyyGow72URNGR7iJQ+pBw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 09 Dec 2025 16:55:18 GMT"
+          "Value": "Tue, 09 Dec 2025 17:09:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5643,13 +5706,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-fI4vor1ind4NIAh8tT7WroCrNxn9eYap+tdxMNMErag="
+          "Value": "sha256-oDlbiibDknmpC+eNef/AReFyyGow72URNGR7iJQ+pBw="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\obj\\Debug\\net9.0\\compressed\\rig9q26nji-81di4musbh.gz",
+      "AssetFile": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\obj\\Debug\\net9.0\\compressed\\rig9q26nji-8ipxrvfw9v.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5658,7 +5721,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2530"
+          "Value": "2449"
         },
         {
           "Name": "Content-Type",
@@ -5666,11 +5729,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xzurAWISzwGGf0auEEneEZthJ7Se4+XcMwK5v0bJwNk=\""
+          "Value": "\"KundYNGX169MIvFHdGDPlByd85x1Z5PvJ9zDdm+Fo2c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 09 Dec 2025 16:55:18 GMT"
+          "Value": "Tue, 09 Dec 2025 17:09:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5688,7 +5751,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-xzurAWISzwGGf0auEEneEZthJ7Se4+XcMwK5v0bJwNk="
+          "Value": "sha256-KundYNGX169MIvFHdGDPlByd85x1Z5PvJ9zDdm+Fo2c="
         }
       ]
     },
@@ -14518,6 +14581,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-1HkjQSVuV0/ji/X/lGeDTHeagBS0BwopMrHDQuwqgtU="
+        }
+      ]
+    },
+    {
+      "Route": "images/books/004924b5-d1e7-4c55-af6b-f835026043ee.jd9r9nwa3j.jpg",
+      "AssetFile": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\wwwroot\\images\\books\\004924b5-d1e7-4c55-af6b-f835026043ee.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68792"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ybKxiqxT0qTS4+uYYiN7S6WdH3bE2LhK5w3UiCnWmDI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 14 Dec 2025 20:59:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jd9r9nwa3j"
+        },
+        {
+          "Name": "label",
+          "Value": "images/books/004924b5-d1e7-4c55-af6b-f835026043ee.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ybKxiqxT0qTS4+uYYiN7S6WdH3bE2LhK5w3UiCnWmDI="
+        }
+      ]
+    },
+    {
+      "Route": "images/books/004924b5-d1e7-4c55-af6b-f835026043ee.jpg",
+      "AssetFile": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\wwwroot\\images\\books\\004924b5-d1e7-4c55-af6b-f835026043ee.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68792"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ybKxiqxT0qTS4+uYYiN7S6WdH3bE2LhK5w3UiCnWmDI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 14 Dec 2025 20:59:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ybKxiqxT0qTS4+uYYiN7S6WdH3bE2LhK5w3UiCnWmDI="
+        }
+      ]
+    },
+    {
+      "Route": "images/books/992e1fba-13f8-4c66-b610-afe5a66b8c35.fn4zuj6ljg.jpg",
+      "AssetFile": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\wwwroot\\images\\books\\992e1fba-13f8-4c66-b610-afe5a66b8c35.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6916"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tVNjRjZ9aPbaR4E74HnDsAhrwn4H9HqOs+yoQUSvs3w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 14 Dec 2025 20:57:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fn4zuj6ljg"
+        },
+        {
+          "Name": "label",
+          "Value": "images/books/992e1fba-13f8-4c66-b610-afe5a66b8c35.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tVNjRjZ9aPbaR4E74HnDsAhrwn4H9HqOs+yoQUSvs3w="
+        }
+      ]
+    },
+    {
+      "Route": "images/books/992e1fba-13f8-4c66-b610-afe5a66b8c35.jpg",
+      "AssetFile": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\wwwroot\\images\\books\\992e1fba-13f8-4c66-b610-afe5a66b8c35.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6916"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tVNjRjZ9aPbaR4E74HnDsAhrwn4H9HqOs+yoQUSvs3w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 14 Dec 2025 20:57:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tVNjRjZ9aPbaR4E74HnDsAhrwn4H9HqOs+yoQUSvs3w="
+        }
+      ]
+    },
+    {
+      "Route": "images/books/ac9c111c-48ab-4039-a201-be7a5beeb234.aqdfezxwcm.jpg",
+      "AssetFile": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\wwwroot\\images\\books\\ac9c111c-48ab-4039-a201-be7a5beeb234.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8289"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Qj1TU7GfDr1jtxeCOH1fDXhguHxzOudR05PB6lDM/Zk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 14 Dec 2025 20:58:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aqdfezxwcm"
+        },
+        {
+          "Name": "label",
+          "Value": "images/books/ac9c111c-48ab-4039-a201-be7a5beeb234.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Qj1TU7GfDr1jtxeCOH1fDXhguHxzOudR05PB6lDM/Zk="
+        }
+      ]
+    },
+    {
+      "Route": "images/books/ac9c111c-48ab-4039-a201-be7a5beeb234.jpg",
+      "AssetFile": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\wwwroot\\images\\books\\ac9c111c-48ab-4039-a201-be7a5beeb234.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8289"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Qj1TU7GfDr1jtxeCOH1fDXhguHxzOudR05PB6lDM/Zk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 14 Dec 2025 20:58:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Qj1TU7GfDr1jtxeCOH1fDXhguHxzOudR05PB6lDM/Zk="
         }
       ]
     },

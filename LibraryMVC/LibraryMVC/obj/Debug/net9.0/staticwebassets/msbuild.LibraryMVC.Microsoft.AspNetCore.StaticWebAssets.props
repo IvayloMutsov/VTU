@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>81di4musbh</Fingerprint>
-      <Integrity>fI4vor1ind4NIAh8tT7WroCrNxn9eYap+tdxMNMErag=</Integrity>
+      <Fingerprint>8ipxrvfw9v</Fingerprint>
+      <Integrity>oDlbiibDknmpC+eNef/AReFyyGow72URNGR7iJQ+pBw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>
@@ -35,6 +35,60 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\books\004924b5-d1e7-4c55-af6b-f835026043ee.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LibraryMVC</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LibraryMVC</BasePath>
+      <RelativePath>images/books/004924b5-d1e7-4c55-af6b-f835026043ee.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>jd9r9nwa3j</Fingerprint>
+      <Integrity>ybKxiqxT0qTS4+uYYiN7S6WdH3bE2LhK5w3UiCnWmDI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\books\004924b5-d1e7-4c55-af6b-f835026043ee.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\books\992e1fba-13f8-4c66-b610-afe5a66b8c35.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LibraryMVC</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LibraryMVC</BasePath>
+      <RelativePath>images/books/992e1fba-13f8-4c66-b610-afe5a66b8c35.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>fn4zuj6ljg</Fingerprint>
+      <Integrity>tVNjRjZ9aPbaR4E74HnDsAhrwn4H9HqOs+yoQUSvs3w=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\books\992e1fba-13f8-4c66-b610-afe5a66b8c35.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\books\ac9c111c-48ab-4039-a201-be7a5beeb234.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LibraryMVC</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LibraryMVC</BasePath>
+      <RelativePath>images/books/ac9c111c-48ab-4039-a201-be7a5beeb234.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>aqdfezxwcm</Fingerprint>
+      <Integrity>Qj1TU7GfDr1jtxeCOH1fDXhguHxzOudR05PB6lDM/Zk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\books\ac9c111c-48ab-4039-a201-be7a5beeb234.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\books\b561386e-eb96-4bd2-9c28-99cd4b6afaa1.jpg'))">
       <SourceType>Package</SourceType>
