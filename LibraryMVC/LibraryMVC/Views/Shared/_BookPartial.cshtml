@@ -1,4 +1,4 @@
-﻿<h2>Books</h2>
+﻿<h2 class="welcome">Books</h2>
 
 <!-- SEARCH -->
 <form method="get" asp-controller="Book" asp-action="SearchByID">
@@ -10,7 +10,7 @@
     if (User.IsInRole("Admin"))
     {
         <!-- ADD -->
-        <h3>Add Book</h3>
+        <h3 class="welcome">Add Book</h3>
         <form method="post" asp-controller="Book" asp-action="AddBook" enctype="multipart/form-data">
             <input type="text" name="name" placeholder="Name" required />
             <input type="number" name="genreID" placeholder="Genre ID" required />
@@ -22,7 +22,7 @@
         </form>
 
         <!-- UPDATE -->
-        <h3>Update Book</h3>
+        <h3 class="welcome">Update Book</h3>
         <form method="post" asp-controller="Book" asp-action="UpdateBook" enctype="multipart/form-data">
             <input type="number" name="id" placeholder="ID" required />
             <input type="text" name="name" placeholder="Name" />
@@ -35,7 +35,7 @@
         </form>
 
         <!-- DELETE -->
-        <h3>Delete Book</h3>
+        <h3 class="welcome">Delete Book</h3>
         <form method="post" asp-controller="Book" asp-action="DeleteBook">
             <input type="number" name="id" placeholder="ID" required />
             <button type="submit" class="btn btn-delete">Delete</button>

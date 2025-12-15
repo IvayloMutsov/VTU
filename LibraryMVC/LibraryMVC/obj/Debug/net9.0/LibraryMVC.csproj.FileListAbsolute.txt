@@ -441,5 +441,5 @@ C:\Users\igmut\source\repos\VTU\LibraryMVC\LibraryMVC\bin\Debug\net9.0\runtimes\
 C:\Users\igmut\source\repos\VTU\LibraryMVC\LibraryMVC\bin\Debug\net9.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\igmut\source\repos\VTU\LibraryMVC\LibraryMVC\bin\Debug\net9.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\igmut\source\repos\VTU\LibraryMVC\LibraryMVC\bin\Debug\net9.0\runtimes\win-x86\native\e_sqlite3.dll
-C:\Users\igmut\source\repos\VTU\LibraryMVC\LibraryMVC\obj\Debug\net9.0\compressed\rig9q26nji-ec527ofxe4.gz
 C:\Users\igmut\source\repos\VTU\LibraryMVC\LibraryMVC\obj\Debug\net9.0\compressed\arshd2b8ee-qy9q3hspxu.gz
+C:\Users\igmut\source\repos\VTU\LibraryMVC\LibraryMVC\obj\Debug\net9.0\compressed\rig9q26nji-xyt1itenlb.gz

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9sZonA1xyJzadxxAZqOCjE/pVxYDosDiPWyckEL4ltA=",
+  "Hash": "QZ6IJYvRVUQpJ3qL14a+0zrSupQbVK9rFJ3OZ/sES1Q=",
   "Source": "LibraryMVC",
   "BasePath": "_content/LibraryMVC",
   "Mode": "Default",
@@ -3314,12 +3314,12 @@
       "OriginalItemSpec": "C:\\Users\\igmut\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.10\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\obj\\Debug\\net9.0\\compressed\\rig9q26nji-ec527ofxe4.gz",
+      "Identity": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\obj\\Debug\\net9.0\\compressed\\rig9q26nji-xyt1itenlb.gz",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/LibraryMVC",
-      "RelativePath": "css/site#[.{fingerprint=ec527ofxe4}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=xyt1itenlb}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -3328,8 +3328,8 @@
       "RelatedAsset": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "8qcsen261g",
-      "Integrity": "cFl0P4TyunJGl44/jvRjPCis3S6oiTjvhjGjEZ3bg1U=",
+      "Fingerprint": "jyav0dlhnm",
+      "Integrity": "xdLRJJHwErill3dFg1Wzfqz4y3B27c+YRvzyuMe8+2w=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\wwwroot\\css\\site.css"
@@ -4042,8 +4042,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ec527ofxe4",
-      "Integrity": "jn6K/KjaF3dksVW+vn5a9HSujD9lD8l1ukKHiuiW8oo=",
+      "Fingerprint": "xyt1itenlb",
+      "Integrity": "BywBuDzSqfj42AmrL+bz3fs7WZaZADMqEk6pMFuTHbc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -5459,12 +5459,12 @@
   "Endpoints": [
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\obj\\Debug\\net9.0\\compressed\\rig9q26nji-ec527ofxe4.gz",
+      "AssetFile": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\obj\\Debug\\net9.0\\compressed\\rig9q26nji-xyt1itenlb.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000396039604"
+          "Quality": "0.000557413601"
         }
       ],
       "ResponseHeaders": [
@@ -5474,15 +5474,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2524"
+          "Value": "1793"
         },
         {
           "Name": "ETag",
-          "Value": "\"cFl0P4TyunJGl44/jvRjPCis3S6oiTjvhjGjEZ3bg1U=\""
+          "Value": "\"xdLRJJHwErill3dFg1Wzfqz4y3B27c+YRvzyuMe8+2w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 15 Dec 2025 06:49:26 GMT"
+          "Value": "Mon, 15 Dec 2025 10:07:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5502,13 +5502,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"jn6K/KjaF3dksVW+vn5a9HSujD9lD8l1ukKHiuiW8oo=\""
+          "Value": "W/\"BywBuDzSqfj42AmrL+bz3fs7WZaZADMqEk6pMFuTHbc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jn6K/KjaF3dksVW+vn5a9HSujD9lD8l1ukKHiuiW8oo="
+          "Value": "sha256-BywBuDzSqfj42AmrL+bz3fs7WZaZADMqEk6pMFuTHbc="
         }
       ]
     },
@@ -5523,7 +5523,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9862"
+          "Value": "7245"
         },
         {
           "Name": "Content-Type",
@@ -5531,11 +5531,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jn6K/KjaF3dksVW+vn5a9HSujD9lD8l1ukKHiuiW8oo=\""
+          "Value": "\"BywBuDzSqfj42AmrL+bz3fs7WZaZADMqEk6pMFuTHbc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 15 Dec 2025 06:49:26 GMT"
+          "Value": "Mon, 15 Dec 2025 10:07:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5545,13 +5545,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jn6K/KjaF3dksVW+vn5a9HSujD9lD8l1ukKHiuiW8oo="
+          "Value": "sha256-BywBuDzSqfj42AmrL+bz3fs7WZaZADMqEk6pMFuTHbc="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\obj\\Debug\\net9.0\\compressed\\rig9q26nji-ec527ofxe4.gz",
+      "AssetFile": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\obj\\Debug\\net9.0\\compressed\\rig9q26nji-xyt1itenlb.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5560,7 +5560,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2524"
+          "Value": "1793"
         },
         {
           "Name": "Content-Type",
@@ -5568,11 +5568,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"cFl0P4TyunJGl44/jvRjPCis3S6oiTjvhjGjEZ3bg1U=\""
+          "Value": "\"xdLRJJHwErill3dFg1Wzfqz4y3B27c+YRvzyuMe8+2w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 15 Dec 2025 06:49:26 GMT"
+          "Value": "Mon, 15 Dec 2025 10:07:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5590,18 +5590,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-cFl0P4TyunJGl44/jvRjPCis3S6oiTjvhjGjEZ3bg1U="
+          "Value": "sha256-xdLRJJHwErill3dFg1Wzfqz4y3B27c+YRvzyuMe8+2w="
         }
       ]
     },
     {
-      "Route": "css/site.ec527ofxe4.css",
-      "AssetFile": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\obj\\Debug\\net9.0\\compressed\\rig9q26nji-ec527ofxe4.gz",
+      "Route": "css/site.xyt1itenlb.css",
+      "AssetFile": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\obj\\Debug\\net9.0\\compressed\\rig9q26nji-xyt1itenlb.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000396039604"
+          "Quality": "0.000557413601"
         }
       ],
       "ResponseHeaders": [
@@ -5611,15 +5611,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2524"
+          "Value": "1793"
         },
         {
           "Name": "ETag",
-          "Value": "\"cFl0P4TyunJGl44/jvRjPCis3S6oiTjvhjGjEZ3bg1U=\""
+          "Value": "\"xdLRJJHwErill3dFg1Wzfqz4y3B27c+YRvzyuMe8+2w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 15 Dec 2025 06:49:26 GMT"
+          "Value": "Mon, 15 Dec 2025 10:07:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5639,13 +5639,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"jn6K/KjaF3dksVW+vn5a9HSujD9lD8l1ukKHiuiW8oo=\""
+          "Value": "W/\"BywBuDzSqfj42AmrL+bz3fs7WZaZADMqEk6pMFuTHbc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ec527ofxe4"
+          "Value": "xyt1itenlb"
         },
         {
           "Name": "label",
@@ -5653,12 +5653,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-jn6K/KjaF3dksVW+vn5a9HSujD9lD8l1ukKHiuiW8oo="
+          "Value": "sha256-BywBuDzSqfj42AmrL+bz3fs7WZaZADMqEk6pMFuTHbc="
         }
       ]
     },
     {
-      "Route": "css/site.ec527ofxe4.css",
+      "Route": "css/site.xyt1itenlb.css",
       "AssetFile": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -5668,7 +5668,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9862"
+          "Value": "7245"
         },
         {
           "Name": "Content-Type",
@@ -5676,11 +5676,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jn6K/KjaF3dksVW+vn5a9HSujD9lD8l1ukKHiuiW8oo=\""
+          "Value": "\"BywBuDzSqfj42AmrL+bz3fs7WZaZADMqEk6pMFuTHbc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 15 Dec 2025 06:49:26 GMT"
+          "Value": "Mon, 15 Dec 2025 10:07:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5690,7 +5690,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ec527ofxe4"
+          "Value": "xyt1itenlb"
         },
         {
           "Name": "label",
@@ -5698,13 +5698,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-jn6K/KjaF3dksVW+vn5a9HSujD9lD8l1ukKHiuiW8oo="
+          "Value": "sha256-BywBuDzSqfj42AmrL+bz3fs7WZaZADMqEk6pMFuTHbc="
         }
       ]
     },
     {
-      "Route": "css/site.ec527ofxe4.css.gz",
-      "AssetFile": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\obj\\Debug\\net9.0\\compressed\\rig9q26nji-ec527ofxe4.gz",
+      "Route": "css/site.xyt1itenlb.css.gz",
+      "AssetFile": "C:\\Users\\igmut\\source\\repos\\VTU\\LibraryMVC\\LibraryMVC\\obj\\Debug\\net9.0\\compressed\\rig9q26nji-xyt1itenlb.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5713,7 +5713,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2524"
+          "Value": "1793"
         },
         {
           "Name": "Content-Type",
@@ -5721,11 +5721,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"cFl0P4TyunJGl44/jvRjPCis3S6oiTjvhjGjEZ3bg1U=\""
+          "Value": "\"xdLRJJHwErill3dFg1Wzfqz4y3B27c+YRvzyuMe8+2w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 15 Dec 2025 06:49:26 GMT"
+          "Value": "Mon, 15 Dec 2025 10:07:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5743,7 +5743,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ec527ofxe4"
+          "Value": "xyt1itenlb"
         },
         {
           "Name": "label",
@@ -5751,7 +5751,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-cFl0P4TyunJGl44/jvRjPCis3S6oiTjvhjGjEZ3bg1U="
+          "Value": "sha256-xdLRJJHwErill3dFg1Wzfqz4y3B27c+YRvzyuMe8+2w="
         }
       ]
     },

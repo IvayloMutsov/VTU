@@ -1,4 +1,4 @@
-﻿<h2>Publishers</h2>
+﻿<h2 class="welcome">Publishers</h2>
 
 <!-- SEARCH -->
 <form method="get" asp-controller="Publisher" asp-action="SearchByID">
@@ -10,7 +10,7 @@
     if (User.IsInRole("Admin"))
     {
         <!-- ADD -->
-        <h3>Add Publisher</h3>
+        <h3 class="welcome">Add Publisher</h3>
         <form method="post" asp-controller="Publisher" asp-action="AddPublisher">
             <input type="text" name="name" placeholder="Name" required />
             <input type="text" name="city" placeholder="City" required />
@@ -21,7 +21,7 @@
         </form>
 
         <!-- UPDATE -->
-        <h3>Update Publisher</h3>
+        <h3 class="welcome">Update Publisher</h3>
         <form method="post" asp-controller="Publisher" asp-action="UpdatePublisher">
             <input type="number" name="id" placeholder="ID" required />
             <input type="text" name="name" placeholder="Name" />
@@ -33,7 +33,7 @@
         </form>
 
         <!-- DELETE -->
-        <h3>Delete Publisher</h3>
+        <h3 class="welcome">Delete Publisher</h3>
         <form method="post" asp-controller="Publisher" asp-action="DeletePublisher">
             <input type="number" name="id" placeholder="ID" required />
             <button type="submit" class="btn btn-delete">Delete</button>

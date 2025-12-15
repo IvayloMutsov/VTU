@@ -27,10 +27,9 @@ a:hover {
 }
 
 /* Headings */
-h1, h2, h3, h4, h5, h6, p {
+h2, h3, h4, h5, h6 {
     color: #e0e0e0;
     margin: 0 0 10px 0;
-    text-align: center;
 }
 
 /* ------------------------- Navbar ------------------------- */
@@ -312,17 +311,17 @@ table.table tbody tr:hover {
 }
 
 /* ------------------------- Misc ------------------------- */
-h1 { text-align: center; }
+.welcome { text-align: center; }
 
 .shadow-dark {
     box-shadow: 0 4px 15px rgba(0,0,0,0.7);
 }
 
-.form-label { display: none !important; }
+/*.form-label { display: none !important; }*/
 
 #logout-form, #logout-form input, #logout-form button {
-    background-color: #2f2f2f !important;
-    color: #e0e0e0 !important;
+    background-color: #ffffff !important;
+    color: #ffffff !important;
     border: 1px solid #555 !important;
 }
 
@@ -331,4 +330,9 @@ h1 { text-align: center; }
     color: #ffffff !important;
 }
 
+/* ASP.NET Identity Logout button */
+.navbar form.form-inline > button.nav-link.btn.btn-link {
+    color: white !important; /* fallback */
+    --bs-btn-color: white; /* Bootstrap source */
+}
 /* Inputs, buttons, navbar links, and other interactive elements inherit colors above */

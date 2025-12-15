@@ -1,4 +1,4 @@
-﻿<h2>Genres</h2>
+﻿<h2 class="welcome">Genres</h2>
 
 <!-- SEARCH -->
 <form method="get" asp-controller="Genre" asp-action="SearchByID">
@@ -10,14 +10,14 @@
     if (User.IsInRole("Admin"))
     {
         <!-- ADD -->
-        <h3>Add Genre</h3>
+        <h3 class="welcome">Add Genre</h3>
         <form method="post" asp-controller="Genre" asp-action="AddGenre">
             <input type="text" name="name" placeholder="Name" required />
             <button type="submit" class="btn btn-add">Add</button>
         </form>
 
         <!-- UPDATE -->
-        <h3>Update Genre</h3>
+        <h3 class="welcome">Update Genre</h3>
         <form method="post" asp-controller="Genre" asp-action="UpdateGenre">
             <input type="number" name="id" placeholder="ID" required />
             <input type="text" name="name" placeholder="Name" />
@@ -25,7 +25,7 @@
         </form>
 
         <!-- DELETE -->
-        <h3>Delete Genre</h3>
+        <h3 class="welcome">Delete Genre</h3>
         <form method="post" asp-controller="Genre" asp-action="DeleteGenre">
             <input type="number" name="id" placeholder="ID" required />
             <button type="submit" class="btn btn-delete">Delete</button>

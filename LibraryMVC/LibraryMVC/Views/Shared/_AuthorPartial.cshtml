@@ -1,4 +1,4 @@
-﻿<h2>Authors</h2>
+﻿<h2 class="welcome">Authors</h2>
 
 <!-- SEARCH BY ID -->
 <form method="get" asp-controller="Author" asp-action="SearchByID" style="margin-bottom:20px;">
@@ -10,7 +10,7 @@
     if (User.IsInRole("Admin"))
     {
         <!-- ADD AUTHOR -->
-        <h3>Add Author</h3>
+        <h3 class="welcome">Add Author</h3>
         <form method="post" asp-controller="Author" asp-action="AddAuthor">
             <input type="text" name="name" placeholder="Name" required />
             <input type="number" name="age" placeholder="Age" required />
@@ -20,7 +20,7 @@
         </form>
 
         <!-- UPDATE AUTHOR -->
-        <h3>Update Author</h3>
+        <h3 class="welcome">Update Author</h3>
         <form method="post" asp-controller="Author" asp-action="UpdateAuthor">
             <input type="number" name="id" placeholder="ID" required />
             <input type="text" name="name" placeholder="Name" />
@@ -32,7 +32,7 @@
         </form>
 
         <!-- DELETE AUTHOR -->
-        <h3>Delete Author</h3>
+        <h3 class="welcome">Delete Author</h3>
         <form method="post" asp-controller="Author" asp-action="DeleteAuthor">
             <input type="number" name="id" placeholder="ID" required />
             <button type="submit" class="btn btn-delete">Delete</button>
