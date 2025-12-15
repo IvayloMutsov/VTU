@@ -4,7 +4,13 @@
     ViewData["Title"] = "Publisher View";
 }
 
-@await Html.PartialAsync("_PublisherPartial")
+<div class="accordion-item">
+    <a href="#" class="accordion-toggle">🏢 Publisher actions</a>
+
+    <div class="submenu">
+        @await Html.PartialAsync("_PublisherPartial")
+    </div>
+</div>
 
 @{
     if (Model.Any())

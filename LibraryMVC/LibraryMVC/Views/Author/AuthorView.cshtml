@@ -4,7 +4,13 @@
     ViewData["Title"] = "Author View";
 }
 
-@await Html.PartialAsync("_AuthorPartial")
+<div class="accordion-item">
+    <a href="#" class="accordion-toggle">📚 Author actions</a>
+
+    <div class="submenu">
+        @await Html.PartialAsync("_AuthorPartial")
+    </div>
+</div>
 
 @{
     if(Model.Any())

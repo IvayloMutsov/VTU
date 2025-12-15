@@ -3,7 +3,13 @@
     ViewData["Title"] = "Book View";
 }
 
-@await Html.PartialAsync("_BookPartial")
+<div class="accordion-item">
+    <a href="#" class="accordion-toggle">📖 Book actions</a>
+
+    <div class="submenu">
+        @await Html.PartialAsync("_BookPartial")
+    </div>
+</div>
 
 @if (Model.Any())
 {

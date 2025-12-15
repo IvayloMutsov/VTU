@@ -1,291 +1,290 @@
-/* Dark background for the whole page */
-body {
-    background-color: #121212; /* dark gray/black */
-    color: #f0f0f0; /* light text */
+/* ------------------------- Global Styles ------------------------- */
+
+/* Base body styling */
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;   /* softer dark background */
+    color: #e0e0e0;              /* softer white text */
     font-family: Arial, sans-serif;
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-/* Style forms */
+/* Links */
+a {
+    color: #66d9ff; /* softer bright blue */
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+    text-align: center;
+}
+
+a:hover {
+    color: #4db8ff;
+    text-decoration: underline;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6, p {
+    color: #e0e0e0;
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+/* ------------------------- Navbar ------------------------- */
+nav.navbar {
+    background-color: #252525 !important; 
+    margin: 0 !important;
+    padding: 0.5rem 1rem !important;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1030;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link,
+.navbar .btn-link {
+    color: #e0e0e0 !important;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    transition: color 0.2s ease-in-out;
+}
+
+.navbar .navbar-brand:hover,
+.navbar .nav-link:hover,
+.navbar .btn-link:hover {
+    color: #66d9ff !important;
+    text-decoration: underline;
+}
+
+/* ------------------------- Footer ------------------------- */
+footer.footer {
+    background-color: #252525;
+    color: #e0e0e0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* ------------------------- Content Wrapper ------------------------- */
+.content-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 80px 20px 20px 20px; /* top padding ~ navbar height */
+}
+
+main {
+    flex: 1;
+    padding: 80px 20px 20px 20px; /* top padding ~ navbar height */
+    background-color: #2b2b2b;
+    color: #e0e0e0;
+}
+
+/* ------------------------- Forms ------------------------- */
 form {
     margin-bottom: 20px;
     padding: 15px;
     border-radius: 8px;
-    background-color: #1e1e1e; /* slightly lighter than body */
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: #252525;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
 }
 
-/* Inputs */
-input {
+input, textarea, select {
     padding: 5px 8px;
     margin: 5px 0;
     border-radius: 4px;
     border: 1px solid #555;
-    background-color: #2a2a2a;
-    color: #f0f0f0;
+    background-color: #2f2f2f;
+    color: #e0e0e0;
 }
 
-/* Buttons */
+input::placeholder,
+textarea::placeholder {
+    color: #aaa;
+}
+
+/* ------------------------- Buttons ------------------------- */
 button, .btn {
     padding: 8px 16px;
     border: none;
     border-radius: 4px;
     font-weight: bold;
     cursor: pointer;
-    color: white !important; /* force text white */
+    color: #ffffff !important;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover, .btn:hover {
+    opacity: 0.9;
 }
 
 /* Specific button colors */
-.btn-add {
-    background-color: #28a745 !important; /* green */
-    color: white !important;
-}
+.btn-add { background-color: #28a745 !important; color: #ffffff !important; }
+.btn-update { background-color: #007bff !important; color: #ffffff !important; }
+.btn-delete { background-color: #dc3545 !important; color: #ffffff !important; }
+.btn-search { background-color: #17a2b8 !important; color: #ffffff !important; }
 
-.btn-update {
-    background-color: #007bff !important; /* blue */
-    color: white !important;
-}
-
-.btn-delete {
-    background-color: #dc3545 !important; /* red */
-    color: white !important;
-}
-
-.btn-search {
-    background-color: #17a2b8 !important; /* teal/cyan */
-    color: #ffffff;
-    border: none;
-    border-radius: 4px;
-    padding: 8px 16px;
-    cursor: pointer;
-}
-
-/* Hover effect */
-button:hover, .btn:hover {
-    opacity: 0.8;
-}
-
-/* Placeholder text styling */
-input.form-control, textarea.form-control, select.form-control {
-    background-color: #2a2a2a !important; /* dark background */
-    color: #ffffff !important; /* white text */
-    border: 1px solid #555 !important; /* subtle border */
-}
-
-input.form-control::placeholder,
-textarea.form-control::placeholder {
-    color: #aaa !important;               /* placeholder color */
-}
-
-/* Headings */
-h2, h3 {
-    color: #f0f0f0;
-}
-
-/* Global text white */
-body, body * {
-    color: #ffffff !important;
-}
-
-/* Links */
-a {
-  color: #00bfff; /* bright blue for links */
-  text-decoration: none;
-}
-
-a:hover {
-   color: #1e90ff;
-   text-decoration: underline;
-}
-
-/* Navbar override for dark mode */
-.navbar {
-    background-color: #1e1e1e !important;  /* dark navbar */
-    margin: 0 !important;                   /* remove default margin */
-    padding: 0.5rem 1rem !important;       /* adjust padding */
-    width: 100%;                             /* full width */
-    position: relative;                      /* ensure it’s not shifted */
-    top: 0;                                  /* stick to top */
-}
-
-/* Remove any white gaps above navbar */
-body, html {
-    margin: 0;
-    padding: 0;
-    background-color: #121212;              /* page background dark */
-}
-
-/* Navbar links */
-.navbar {
-    background-color: #1e1e1e !important; /* dark background */
-    margin: 0 !important;                /* remove default margin */
-    padding: 1rem 2rem !important;       /* taller navbar */
-    width: 100%;                          /* full width */
-    position: fixed;                      /* stick to top */
-    top: 0;
-    left: 0;
-    z-index: 1030;                        /* stay above content */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.5); /* subtle shadow */
-}
-
-body .btn-link.text-dark {
-    --bs-text-opacity: 1; /* Ensure full opacity */
-    --bs-dark-rgb: 255, 255, 255; /* Force white color */
-    color: #ffffff !important; /* Override color to white */
-}
-
-/* Hover state for the logout button */
-body .btn-link.text-dark:hover {
-    color: #00bfff !important;  /* Light blue text on hover */
-    text-decoration: underline; /* Underline on hover */
-}
-
-/* Navbar brand and links */
-.navbar .navbar-brand,
-.navbar .nav-link,
-.navbar .btn-link {
-    color: #ffffff !important;
-    font-size: 1.2rem; /* larger text */
-    font-weight: bold;
-    padding: 0.5rem 1rem; /* spacing inside links */
-    transition: color 0.2s ease-in-out;
-}
-
-/* Navbar hover */
-.navbar .navbar-brand:hover,
-.navbar .nav-link:hover,
-.navbar .btn-link:hover {
-    color: #00bfff !important;
-    text-decoration: underline;
-}
-
-html, body {
-    height: 100%;           /* ensure body covers full viewport */
-    margin: 0;
-    padding: 0;
-    background-color: #121212; /* dark background for entire page */
-    color: #ffffff;             /* default text color */
-    font-family: Arial, sans-serif;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh; /* full viewport height */
-}
-
-.content-wrapper {
-    flex: 1; /* THIS makes main take all remaining vertical space */
-    display: flex;
-    flex-direction: column;
-}
-
-main {
-    flex: 1; /* ensures main fills remaining vertical space */
-    padding: 20px;
-    background-color: #121212; /* dark background for the main area */
-    color: #ffffff; /* ensure text is white */
-}
-
-footer.footer {
-    background-color: #1e1e1e;
-    color: #ffffff;
-    padding: 10px 0;
-    text-align: center;
-}
-
+/* ------------------------- Tables ------------------------- */
 table.table {
-    background-color: #1e1e1e; /* dark table background */
-    color: #ffffff;            /* white text */
-    border-collapse: collapse;  /* keep borders clean */
+    background-color: #252525;
+    color: #e0e0e0;
+    border-collapse: collapse;
     width: 100%;
 }
 
 table.table th,
 table.table td {
-    border: 1px solid #444;    /* subtle borders so table is recognizable */
+    border: 1px solid #444;
     padding: 8px;
-    background-color: #1e1e1e; /* enforce dark background on all cells */
-    color: #ffffff;             /* enforce white text */
+    background-color: #252525;
+    color: #e0e0e0;
 }
 
-/* Table header slightly darker */
 table.table thead th {
     background-color: #2a2a2a;
 }
 
-/* Optional: row hover effect */
 table.table tbody tr:hover {
     background-color: #2f2f2f;
 }
 
-/* Dark shadow for images */
-.shadow-dark {
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+/* ------------------------- Accordion ------------------------- */
+.accordion {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #1a1a1a;
 }
 
-/* Headings and paragraphs already inherit white from body */
-h1.display-4, p.lead {
-    color: #ffffff; /* ensure white text */
+.accordion-item {
+    margin-bottom: 12px;
 }
 
-/* Center container padding for dark page */
-.container.text-center {
-    padding: 40px 20px;
-    background-color: #1e1e1e; /* optional slightly lighter bg behind content */
-    border-radius: 12px;
+.accordion li {
+    margin-bottom: 8px;
 }
 
-/* Full dark background for home page */
-.home-container {
-    min-height: 100vh; /* full viewport height */
-    background-color: #121212; /* same as body for consistency */
-    padding: 60px 20px;
+.accordion-toggle {
+    display: flex;
+    align-items: center;
     text-align: center;
+    padding: 12px 16px;
+    background-color: #252525;
+    color: #e0e0e0;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+}
+
+.accordion-toggle:hover{
+    background-color: #292929;
+    color: #4db8ff;
+}
+
+/*.accordion-toggle:focus {
+    background-color: #292929;
+    color: #ffffff;
+}*/
+
+.submenu {
+    display: none;
+    margin-top: 6px;
+    padding: 12px 16px;
+    background-color: #202020;
+    border-left: 3px solid #3b82f6;
+    border-radius: 0 0 6px 6px;
+    color: #d4d4d4;
+}
+
+.submenu.active {
+    display: block;
+}
+
+.submenu a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;           /* makes the <a> a block element */
+    text-align: center;       /* centers text inside the block */
+    margin: 0 auto;           /* centers the block inside its container */
+}
+
+.submenu a:hover {
+    color: #4db8ff;
+}
+
+/* ------------------------- Books ------------------------- */
+.book-list, .book-item-single {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; /* content starts at top */
+    gap: 30px;
+    border-radius: 8px;
 }
 
-/* Links styling */
+.book-item, .book-item-single {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    border: 1px solid #444;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #252525;
+}
+
+.book-image img,
+.book-image-single img {
+    max-height: 300px;
+    max-width: 100%;
+    object-fit: contain;
+    border: 1px solid #555;
+    border-radius: 5px;
+    display: block;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.7);
+}
+
+.book-info, .book-info-single {
+    border-collapse: collapse;
+}
+
+.book-info th,
+.book-info td,
+.book-info-single th,
+.book-info-single td {
+    padding: 5px 10px;
+    text-align: left;
+    vertical-align: top;
+    color: #e0e0e0;
+}
+
+/* ------------------------- Containers ------------------------- */
+.container.text-center, .home-container {
+    padding: 40px 20px;
+    background-color: #252525;
+    border-radius: 12px;
+    color: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
 .home-container a {
-    color: #00bfff;
+    color: #66d9ff;
     text-decoration: none;
     font-weight: bold;
 }
 
 .home-container a:hover {
-    color: #1e90ff;
-    text-decoration: underline;
-}
-
-/* Section links list */
-.home-container ul {
-    list-style: none;
-    padding: 0;
-    font-size: 20px;
-}
-
-.home-container {
-    flex: 1;                     /* fill remaining space inside content-wrapper */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start; /* start content at top */
-    padding: 60px 20px;
-    background-color: #121212;   /* same as body for full-page dark */
-    color: #ffffff;
-}
-
-/* Links */
-.section-links a {
-    color: #00bfff;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.section-links a:hover {
-    color: #1e90ff;
+    color: #4db8ff;
     text-decoration: underline;
 }
 
@@ -300,110 +299,36 @@ h1.display-4, p.lead {
     margin-bottom: 20px;
 }
 
-body.dark-mode, html {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: #121212; /* full dark background */
-    color: #ffffff;
-    font-family: Arial, sans-serif;
+.section-links a {
+    color: #66d9ff;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
 }
 
-.content-wrapper {
-    min-height: 100vh; /* ensures full viewport height */
-    display: flex;
-    flex-direction: column;
+.section-links a:hover {
+    color: #4db8ff;
+    text-decoration: underline;
 }
 
-.form-label {
-    display: none !important;
+/* ------------------------- Misc ------------------------- */
+h1 { text-align: center; }
+
+.shadow-dark {
+    box-shadow: 0 4px 15px rgba(0,0,0,0.7);
 }
 
-/* Logout form inputs/buttons */
-#logout-form, 
-#logout-form input, 
+.form-label { display: none !important; }
+
+#logout-form, #logout-form input, #logout-form button {
+    background-color: #2f2f2f !important;
+    color: #e0e0e0 !important;
+    border: 1px solid #555 !important;
+}
+
 #logout-form button {
-    background-color: #2a2a2a !important; /* dark background */
-    color: #ffffff !important;            /* white text */
-    border: 1px solid #555 !important;    /* subtle border */
-}
-
-#logout-form button {
-    background-color: #dc3545 !important; /* red for logout */
+    background-color: #dc3545 !important;
     color: #ffffff !important;
 }
 
-nav.navbar {
-    margin-bottom: 0 !important;
-}
-
-.book-list {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-}
-
-.book-item {
-    display: flex;
-    gap: 20px;
-    align-items: flex-start;
-    border: 1px solid #ddd;
-    padding: 15px;
-    border-radius: 8px;
-}
-
-.book-info {
-    border-collapse: collapse;
-}
-
-    .book-info th,
-    .book-info td {
-        padding: 5px 10px;
-        text-align: left;
-        vertical-align: top;
-    }
-
-    /* Rotate header text sideways */
-    .book-info th {
-        white-space: nowrap;
-    }
-
-.book-image img {
-    max-height: 250px; /* make image bigger */
-    max-width: 400px; /* optional: limit width */
-    object-fit: contain;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.book-item-single {
-    display: flex;
-    gap: 20px;
-    align-items: flex-start; /* don’t stretch image */
-    border: 1px solid #ddd;
-    padding: 15px;
-    border-radius: 8px;
-    max-width: 900px;
-    margin-bottom: 20px;
-}
-
-.book-info-single {
-    border-collapse: collapse;
-}
-
-/* Image container */
-.book-image-single {
-    flex: 1; /* take remaining horizontal space */
-    display: flex;
-    align-items: flex-start;
-    justify-content: center; /* center image vertically if smaller */
-}
-
-.book-image-single img {
-    max-height: 300px; /* smaller image height */
-    max-width: 100%;   /* fit container width */
-    object-fit: contain; /* entire image visible */
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    display: block;
-}
+/* Inputs, buttons, navbar links, and other interactive elements inherit colors above */

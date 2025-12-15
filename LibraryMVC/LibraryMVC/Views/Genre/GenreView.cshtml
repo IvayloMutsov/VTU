@@ -3,7 +3,13 @@
     ViewData["Title"] = "Genre View";
 }
 
-@await Html.PartialAsync("_GenrePartial")
+<div class="accordion-item">
+    <a href="#" class="accordion-toggle">🏷 Genre actions</a>
+
+    <div class="submenu">
+        @await Html.PartialAsync("_GenrePartial")
+    </div>
+</div>
 
 @{
     if (Model.Any())

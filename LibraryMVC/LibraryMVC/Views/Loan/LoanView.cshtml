@@ -5,52 +5,57 @@
 }
 
 <h2>Loans</h2>
+<div class="accordion-item">
+    <a href="#" class="accordion-toggle">🕒 Loan actions</a>
 
-<!-- SEARCH -->
-<form method="get" asp-controller="Loan" asp-action="SearchByID">
-    <input type="number" name="id" placeholder="Search by ID" required />
-    <button type="submit" class="btn btn-search">Search</button>
-</form>
-
-<!-- ADD -->
-<h3>Add Loan</h3>
-<form method="post" asp-controller="Loan" asp-action="AddLoan">
-    <div class="mb-3">
-        <label for="bookID" class="form-label">Book ID</label>
-        <input type="number" id="bookID" name="bookID" class="form-control" placeholder="Book ID" required />
-    </div>
-    <div class="mb-3">
-        <label for="loanPeriod" class="form-label">Loan Duration (days)</label>
-        <input type="number" id="loanPeriod" name="loanPeriod" class="form-control" placeholder="Duration" required />
-    </div>
-    <button type="submit" class="btn btn-add">Add Loan</button>
-</form>
-
-@{
-    if (User.IsInRole("Admin"))
-    {
-        <!-- EXTEND -->
-        <h3>Extend Loan</h3>
-        <form method="post" asp-controller="Loan" asp-action="ExtendLoan">
-            <div class="mb-3">
-                <label for="loanID" class="form-label">Loan ID</label>
-                <input type="number" id="loanID" name="loanID" class="form-control" placeholder="Enter your Loan ID" required />
-            </div>
-            <div class="mb-3">
-                <label for="loanPeriod" class="form-label">Extend By (days)</label>
-                <input type="number" id="loanPeriod" name="loanPeriod" class="form-control" placeholder="Number of days" required />
-            </div>
-            <button type="submit" class="btn btn-update">Extend Loan</button>
+    <div class="submenu">
+        <!-- SEARCH -->
+        <form method="get" asp-controller="Loan" asp-action="SearchByID">
+            <input type="number" name="id" placeholder="Search by ID" required />
+            <button type="submit" class="btn btn-search">Search</button>
         </form>
 
-        <!-- CANCELL -->
-        <h3>Cancell a loan</h3>
-        <form method="post" asp-controller="Loan" asp-action="CancellLoan">
-            <input type="number" name="loanID" placeholder="ID" required />
-            <button type="submit" class="btn btn-delete">Delete</button>
+        <!-- ADD -->
+        <h3>Add Loan</h3>
+        <form method="post" asp-controller="Loan" asp-action="AddLoan">
+            <div class="mb-3">
+                <label for="bookID" class="form-label">Book ID</label>
+                <input type="number" id="bookID" name="bookID" class="form-control" placeholder="Book ID" required />
+            </div>
+            <div class="mb-3">
+                <label for="loanPeriod" class="form-label">Loan Duration (days)</label>
+                <input type="number" id="loanPeriod" name="loanPeriod" class="form-control" placeholder="Duration" required />
+            </div>
+            <button type="submit" class="btn btn-add">Add Loan</button>
         </form>
-    }
-}
+
+        @{
+            if (User.IsInRole("Admin"))
+            {
+                <!-- EXTEND -->
+                <h3>Extend Loan</h3>
+                <form method="post" asp-controller="Loan" asp-action="ExtendLoan">
+                    <div class="mb-3">
+                        <label for="loanID" class="form-label">Loan ID</label>
+                        <input type="number" id="loanID" name="loanID" class="form-control" placeholder="Enter your Loan ID" required />
+                    </div>
+                    <div class="mb-3">
+                        <label for="loanPeriod" class="form-label">Extend By (days)</label>
+                        <input type="number" id="loanPeriod" name="loanPeriod" class="form-control" placeholder="Number of days" required />
+                    </div>
+                    <button type="submit" class="btn btn-update">Extend Loan</button>
+                </form>
+
+                <!-- CANCELL -->
+                <h3>Cancell a loan</h3>
+                <form method="post" asp-controller="Loan" asp-action="CancellLoan">
+                    <input type="number" name="loanID" placeholder="ID" required />
+                    <button type="submit" class="btn btn-delete">Delete</button>
+                </form>
+            }
+        }
+    </div>
+</div>
 
 @{
     <table class="table table-striped">

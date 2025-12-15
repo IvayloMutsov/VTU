@@ -21,3 +21,25 @@
 
     console.log("Input masks removed.");
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+    const toggles = document.querySelectorAll('.accordion-toggle');
+
+    if (!toggles.length) return;
+
+    toggles.forEach(toggle => {
+        toggle.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            const currentSubmenu = this.nextElementSibling;
+
+            document.querySelectorAll('.submenu').forEach(menu => {
+                if (menu !== currentSubmenu) {
+                    menu.classList.remove('active');
+                }
+            });
+
+            currentSubmenu.classList.toggle('active');
+        });
+    });
+});

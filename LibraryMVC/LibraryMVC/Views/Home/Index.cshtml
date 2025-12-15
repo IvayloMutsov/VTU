@@ -8,22 +8,37 @@
     <p>Select a section to continue:</p>
 
     <div class="section-links">
-        <ul>
+        <ul class="accordion">
             <li>
-                <a asp-controller="Author" asp-action="AuthorView">📚 View Authors</a>
-                @await Html.PartialAsync("_AuthorPartial")
+                <a href="#" class="accordion-toggle">📚 Authors</a>
+                <div class="submenu">
+                    <a asp-controller="Author" asp-action="AuthorView">📚 View Authors</a>
+                    @await Html.PartialAsync("_AuthorPartial")
+                </div>
             </li>
+
             <li>
-                <a asp-controller="Genre" asp-action="GenreView">🏷 View Genres</a>
-                @await Html.PartialAsync("_GenrePartial")
+                <a href="#" class="accordion-toggle">🏷 Genres</a>
+                <div class="submenu">
+                    <a asp-controller="Genre" asp-action="GenreView">🏷 View Genres</a>
+                    @await Html.PartialAsync("_GenrePartial")
+                </div>
             </li>
+
             <li>
-                <a asp-controller="Book" asp-action="BookView">📖 View Books</a>
-                @await Html.PartialAsync("_BookPartial")
+                <a href="#" class="accordion-toggle">📖 Books</a>
+                <div class="submenu">
+                    <a asp-controller="Book" asp-action="BookView">📖 View Books</a>
+                    @await Html.PartialAsync("_BookPartial")
+                </div>
             </li>
+
             <li>
-                <a asp-controller="Publisher" asp-action="PublisherView">📖 View Publishers</a>
-                @await Html.PartialAsync("_PublisherPartial")
+                <a href="#" class="accordion-toggle">🏢 Publishers</a>
+                <div class="submenu">
+                    <a asp-controller="Publisher" asp-action="PublisherView">🏢 View Publishers</a>
+                    @await Html.PartialAsync("_PublisherPartial")
+                </div>
             </li>
         </ul>
     </div>
