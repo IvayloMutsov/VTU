@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Author>
+@if (Model.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Birthdate</th>
+                <th>Nationality</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var a in Model)
+            {
+                <tr>
+                    <td>@a.ID</td>
+                    <td>@a.Name</td>
+                    <td>@a.Age</td>
+                    <td>@a.BirthDate</td>
+                    <td>@a.Nationality</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No authors found</p>
+}

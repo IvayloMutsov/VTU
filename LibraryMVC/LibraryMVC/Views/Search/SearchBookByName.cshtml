@@ -1,0 +1,52 @@
+﻿@model IEnumerable<Book>
+@if (Model.Any())
+{
+    <div class="book-list">
+        @foreach (var b in Model)
+        {
+            <div class="book-item">
+                <table class="book-info">
+                    <tr>
+                        <th>ID</th>
+                        <td>@b.ID</td>
+                    </tr>
+                    <tr>
+                        <th>Name</th>
+                        <td>@b.Name</td>
+                    </tr>
+                    <tr>
+                        <th>Genre</th>
+                        <td>@b.Genre.Name</td>
+                    </tr>
+                    <tr>
+                        <th>Author</th>
+                        <td>@b.Author.Name</td>
+                    </tr>
+                    <tr>
+                        <th>Publisher</th>
+                        <td>@b.Publisher.Name</td>
+                    </tr>
+                    <tr>
+                        <th>Year</th>
+                        <td>@b.YearPublished</td>
+                    </tr>
+                </table>
+
+                <div class="book-image">
+                    @if (!string.IsNullOrEmpty(b.ImageFileName))
+                    {
+                        <img src="~/images/books/@b.ImageFileName" alt="@b.Name" />
+                    }
+                    else
+                    {
+                        <span>No image</span>
+                    }
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <p>No books found</p>
+}

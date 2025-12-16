@@ -108,6 +108,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVibGlzaGVyXFNlYXJjaEJ5SWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/igmut/source/repos/VTU/LibraryMVC/LibraryMVC/Views/Search/SearchAuthorByName.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhcmNoXFNlYXJjaEF1dGhvckJ5TmFtZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/igmut/source/repos/VTU/LibraryMVC/LibraryMVC/Views/Search/SearchBookByName.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhcmNoXFNlYXJjaEJvb2tCeU5hbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/igmut/source/repos/VTU/LibraryMVC/LibraryMVC/Views/Search/SearchGenreByName.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhcmNoXFNlYXJjaEdlbnJlQnlOYW1lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/igmut/source/repos/VTU/LibraryMVC/LibraryMVC/Views/Search/SearchPublisherByName.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhcmNoXFNlYXJjaFB1Ymxpc2hlckJ5TmFtZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/igmut/source/repos/VTU/LibraryMVC/LibraryMVC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

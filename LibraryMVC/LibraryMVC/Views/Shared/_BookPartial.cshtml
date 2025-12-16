@@ -6,6 +6,11 @@
     <button type="submit" class="btn btn-search">Search</button>
 </form>
 
+<form method="get" asp-controller="Search" asp-action="SearchBookByName">
+    <input type="text" name="name" placeholder="Search by name" required />
+    <button type="submit" class="btn btn-search">Search</button>
+</form>
+
 @{
     if (User.IsInRole("Admin"))
     {

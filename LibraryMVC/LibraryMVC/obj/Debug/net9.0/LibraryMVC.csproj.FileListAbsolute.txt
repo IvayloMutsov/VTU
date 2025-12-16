@@ -349,7 +349,6 @@ C:\Users\igmut\source\repos\VTU\LibraryMVC\LibraryMVC\obj\Debug\net9.0\compresse
 C:\Users\igmut\source\repos\VTU\LibraryMVC\LibraryMVC\obj\Debug\net9.0\compressed\nezrqnk58p-muycvpuwrr.gz
 C:\Users\igmut\source\repos\VTU\LibraryMVC\LibraryMVC\obj\Debug\net9.0\compressed\v0zgfp0y55-87fc7y1x7t.gz
 C:\Users\igmut\source\repos\VTU\LibraryMVC\LibraryMVC\obj\Debug\net9.0\compressed\yfc7ypekbg-mlv21k5csn.gz
-C:\Users\igmut\source\repos\VTU\LibraryMVC\LibraryMVC\obj\Debug\net9.0\compressed\rig9q26nji-xyt1itenlb.gz
 C:\Users\igmut\source\repos\VTU\LibraryMVC\LibraryMVC\obj\Debug\net9.0\compressed\080afxqvui-sd03c8g4dl.gz
 C:\Users\igmut\source\repos\VTU\LibraryMVC\LibraryMVC\obj\Debug\net9.0\compressed\arshd2b8ee-qy9q3hspxu.gz
 C:\Users\igmut\source\repos\VTU\LibraryMVC\LibraryMVC\obj\Debug\net9.0\compressed\tn3lkpfdft-bqjiyaj88i.gz
@@ -449,3 +448,4 @@ C:\Users\igmut\source\repos\VTU\LibraryMVC\LibraryMVC\bin\Debug\net9.0\tr\Micros
 C:\Users\igmut\source\repos\VTU\LibraryMVC\LibraryMVC\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 C:\Users\igmut\source\repos\VTU\LibraryMVC\LibraryMVC\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 C:\Users\igmut\source\repos\VTU\LibraryMVC\LibraryMVC\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+C:\Users\igmut\source\repos\VTU\LibraryMVC\LibraryMVC\obj\Debug\net9.0\compressed\rig9q26nji-ym6ydrvaq9.gz

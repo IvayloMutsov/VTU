@@ -5,8 +5,8 @@ body, html {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: #1a1a1a;   /* softer dark background */
-    color: #e0e0e0;              /* softer white text */
+    background-color: #1a1a1a; /* softer dark background */
+    color: #e0e0e0; /* softer white text */
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
@@ -328,6 +328,19 @@ table.table tbody tr:hover {
 #logout-form button {
     background-color: #dc3545 !important;
     color: #ffffff !important;
+}
+
+.main-bg {
+    /* Fill remaining space */
+    flex: 1 0 auto;
+    /* Background image */
+    background-image: url("/images/Background.jpg");
+    background-size: cover; /* cover entire area */
+    background-position: center; /* center the image */
+    background-repeat: no-repeat;
+    /* Optional: add some padding */
+    padding: 20px;
+    margin-top: 60px;
 }
 
 /* ASP.NET Identity Logout button */

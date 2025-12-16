@@ -1,0 +1,22 @@
+﻿@model IEnumerable<Genre>
+@if (Model.Any())
+{
+    <table class="table">
+        <thead>
+            <tr><th>ID</th><th>Name</th></tr>
+        </thead>
+        <tbody>
+            @foreach (var g in Model)
+            {
+                <tr>
+                    <td>@g.ID</td>
+                    <td>@g.Name</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No genres found.</p>
+}
