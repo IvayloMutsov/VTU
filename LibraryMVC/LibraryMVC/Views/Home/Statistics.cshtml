@@ -4,7 +4,7 @@
     ViewData["Title"] = "Statistics";
 }
 
-<h2 class="welcome home-container">Most popular books</h2>
+<h2 class="welcome gg" style="background-color:#252525;">Most popular books</h2>
 @if (Model.FavouriteBooks.Any())
 {
     <table class="table">
@@ -38,7 +38,7 @@ else
     <p>No books found</p>
 }
 
-<h2 class="welcome home-container">Most popular Authors</h2>
+<h2 class="welcome gg" style="background-color:#252525;">Most popular Authors</h2>
 @if (Model.PopularAuthors.Any())
 {
     <table class="table">
@@ -64,6 +64,6 @@ else
 
 @if (User.IsInRole("Admin"))
 {
-    <h2 class="welcome home-container">Active Loans</h2>
+    <h2 class="welcome gg" style="background-color:#252525;">Active Loans</h2>
     @await Html.PartialAsync("_ActiveLoanPartial",Model.ActiveLoans)
 }
