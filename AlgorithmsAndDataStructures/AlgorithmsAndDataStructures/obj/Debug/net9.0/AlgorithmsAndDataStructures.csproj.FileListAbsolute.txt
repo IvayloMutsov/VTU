@@ -1,0 +1,15 @@
+C:\Users\igmut\source\repos\VTU\AlgorithmsAndDataStructures\AlgorithmsAndDataStructures\bin\Debug\net9.0\AlgorithmsAndDataStructures.exe
+C:\Users\igmut\source\repos\VTU\AlgorithmsAndDataStructures\AlgorithmsAndDataStructures\bin\Debug\net9.0\AlgorithmsAndDataStructures.deps.json
+C:\Users\igmut\source\repos\VTU\AlgorithmsAndDataStructures\AlgorithmsAndDataStructures\bin\Debug\net9.0\AlgorithmsAndDataStructures.runtimeconfig.json
+C:\Users\igmut\source\repos\VTU\AlgorithmsAndDataStructures\AlgorithmsAndDataStructures\bin\Debug\net9.0\AlgorithmsAndDataStructures.dll
+C:\Users\igmut\source\repos\VTU\AlgorithmsAndDataStructures\AlgorithmsAndDataStructures\bin\Debug\net9.0\AlgorithmsAndDataStructures.pdb
+C:\Users\igmut\source\repos\VTU\AlgorithmsAndDataStructures\AlgorithmsAndDataStructures\obj\Debug\net9.0\AlgorithmsAndDataStructures.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\igmut\source\repos\VTU\AlgorithmsAndDataStructures\AlgorithmsAndDataStructures\obj\Debug\net9.0\AlgorithmsAndDataStructures.AssemblyInfoInputs.cache
+C:\Users\igmut\source\repos\VTU\AlgorithmsAndDataStructures\AlgorithmsAndDataStructures\obj\Debug\net9.0\AlgorithmsAndDataStructures.AssemblyInfo.cs
+C:\Users\igmut\source\repos\VTU\AlgorithmsAndDataStructures\AlgorithmsAndDataStructures\obj\Debug\net9.0\AlgorithmsAndDataStructures.csproj.CoreCompileInputs.cache
+C:\Users\igmut\source\repos\VTU\AlgorithmsAndDataStructures\AlgorithmsAndDataStructures\obj\Debug\net9.0\AlgorithmsAndDataStructures.sourcelink.json
+C:\Users\igmut\source\repos\VTU\AlgorithmsAndDataStructures\AlgorithmsAndDataStructures\obj\Debug\net9.0\AlgorithmsAndDataStructures.dll
+C:\Users\igmut\source\repos\VTU\AlgorithmsAndDataStructures\AlgorithmsAndDataStructures\obj\Debug\net9.0\refint\AlgorithmsAndDataStructures.dll
+C:\Users\igmut\source\repos\VTU\AlgorithmsAndDataStructures\AlgorithmsAndDataStructures\obj\Debug\net9.0\AlgorithmsAndDataStructures.pdb
+C:\Users\igmut\source\repos\VTU\AlgorithmsAndDataStructures\AlgorithmsAndDataStructures\obj\Debug\net9.0\AlgorithmsAndDataStructures.genruntimeconfig.cache
+C:\Users\igmut\source\repos\VTU\AlgorithmsAndDataStructures\AlgorithmsAndDataStructures\obj\Debug\net9.0\ref\AlgorithmsAndDataStructures.dll
