@@ -3,48 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\igmut\\source\\repos\\VTU\\DesignPatterns\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|c:\\users\\igmut\\source\\repos\\vtu\\designpatterns\\designpatterns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|c:\\users\\igmut\\source\\repos\\vtu\\designpatterns\\designpatterns\\futurephonefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\futurephonefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|c:\\users\\igmut\\source\\repos\\vtu\\designpatterns\\designpatterns\\gamingphonefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\gamingphonefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|c:\\users\\igmut\\source\\repos\\vtu\\designpatterns\\designpatterns\\gamingphone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\gamingphone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|c:\\users\\igmut\\source\\repos\\vtu\\designpatterns\\designpatterns\\gamingphonefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\gamingphonefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|c:\\users\\igmut\\source\\repos\\vtu\\designpatterns\\designpatterns\\futurephonefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\futurephonefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|c:\\users\\igmut\\source\\repos\\vtu\\designpatterns\\designpatterns\\futurephone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\futurephone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|c:\\users\\igmut\\source\\repos\\vtu\\designpatterns\\designpatterns\\tvfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\tvfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|c:\\users\\igmut\\source\\repos\\vtu\\designpatterns\\designpatterns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|c:\\users\\igmut\\source\\repos\\vtu\\designpatterns\\designpatterns\\creatorfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\creatorfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|c:\\users\\igmut\\source\\repos\\vtu\\designpatterns\\designpatterns\\tvfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\tvfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|c:\\users\\igmut\\source\\repos\\vtu\\designpatterns\\designpatterns\\phonefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\phonefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|c:\\users\\igmut\\source\\repos\\vtu\\designpatterns\\designpatterns\\technology.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\technology.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|c:\\users\\igmut\\source\\repos\\vtu\\designpatterns\\designpatterns\\television.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\television.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|c:\\users\\igmut\\source\\repos\\vtu\\designpatterns\\designpatterns\\phone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\phone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,25 +46,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "GamingPhoneFactory.cs",
               "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\DesignPatterns\\DesignPatterns\\GamingPhoneFactory.cs",
               "RelativeDocumentMoniker": "DesignPatterns\\GamingPhoneFactory.cs",
-              "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\DesignPatterns\\DesignPatterns\\GamingPhoneFactory.cs*",
-              "RelativeToolTip": "DesignPatterns\\GamingPhoneFactory.cs*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACIAAAAbAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\DesignPatterns\\DesignPatterns\\GamingPhoneFactory.cs",
+              "RelativeToolTip": "DesignPatterns\\GamingPhoneFactory.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-24T08:41:40.856Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "GamingPhone.cs",
               "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\DesignPatterns\\DesignPatterns\\GamingPhone.cs",
               "RelativeDocumentMoniker": "DesignPatterns\\GamingPhone.cs",
-              "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\DesignPatterns\\DesignPatterns\\GamingPhone.cs*",
-              "RelativeToolTip": "DesignPatterns\\GamingPhone.cs*",
+              "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\DesignPatterns\\DesignPatterns\\GamingPhone.cs",
+              "RelativeToolTip": "DesignPatterns\\GamingPhone.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-24T08:38:39.404Z",
@@ -88,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "FuturePhoneFactory.cs",
               "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\DesignPatterns\\DesignPatterns\\FuturePhoneFactory.cs",
               "RelativeDocumentMoniker": "DesignPatterns\\FuturePhoneFactory.cs",
@@ -101,26 +85,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FuturePhone.cs",
-              "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\DesignPatterns\\DesignPatterns\\FuturePhone.cs",
-              "RelativeDocumentMoniker": "DesignPatterns\\FuturePhone.cs",
-              "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\DesignPatterns\\DesignPatterns\\FuturePhone.cs",
-              "RelativeToolTip": "DesignPatterns\\FuturePhone.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T07:14:04.376Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\DesignPatterns\\DesignPatterns\\Program.cs",
               "RelativeDocumentMoniker": "DesignPatterns\\Program.cs",
-              "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\DesignPatterns\\DesignPatterns\\Program.cs*",
-              "RelativeToolTip": "DesignPatterns\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\DesignPatterns\\DesignPatterns\\Program.cs",
+              "RelativeToolTip": "DesignPatterns\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-24T06:24:18.907Z",
               "EditorCaption": ""
@@ -140,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "PhoneFactory.cs",
               "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\DesignPatterns\\DesignPatterns\\PhoneFactory.cs",
               "RelativeDocumentMoniker": "DesignPatterns\\PhoneFactory.cs",
@@ -153,54 +124,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "CreatorFactory.cs",
               "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\DesignPatterns\\DesignPatterns\\CreatorFactory.cs",
               "RelativeDocumentMoniker": "DesignPatterns\\CreatorFactory.cs",
               "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\DesignPatterns\\DesignPatterns\\CreatorFactory.cs",
               "RelativeToolTip": "DesignPatterns\\CreatorFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-24T06:41:18.16Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Technology.cs",
-              "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\DesignPatterns\\DesignPatterns\\Technology.cs",
-              "RelativeDocumentMoniker": "DesignPatterns\\Technology.cs",
-              "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\DesignPatterns\\DesignPatterns\\Technology.cs",
-              "RelativeToolTip": "DesignPatterns\\Technology.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T06:26:20.669Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Television.cs",
-              "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\DesignPatterns\\DesignPatterns\\Television.cs",
-              "RelativeDocumentMoniker": "DesignPatterns\\Television.cs",
-              "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\DesignPatterns\\DesignPatterns\\Television.cs",
-              "RelativeToolTip": "DesignPatterns\\Television.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T06:32:14.078Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Phone.cs",
-              "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\DesignPatterns\\DesignPatterns\\Phone.cs",
-              "RelativeDocumentMoniker": "DesignPatterns\\Phone.cs",
-              "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\DesignPatterns\\DesignPatterns\\Phone.cs",
-              "RelativeToolTip": "DesignPatterns\\Phone.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T06:28:07.093Z",
               "EditorCaption": ""
             }
           ]
