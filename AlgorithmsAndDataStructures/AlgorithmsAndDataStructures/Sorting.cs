@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace AlgorithmsAndDataStructures
 {
@@ -120,6 +119,84 @@ namespace AlgorithmsAndDataStructures
                 }
             }
             Console.WriteLine(counter);
+        }
+
+        public static void HeapSort(int[] data)
+        {
+            int n = data.Length;
+            for(int i = n / 2; i >= 0; i--)
+            {
+                Sift(data, i, n - 1);
+            }
+            int size = n - 1;
+            while (size > 0)
+            {
+                int temp = data[0];
+                data[0] = data[size];
+                data[size] = temp;
+                size--;
+                Sift(data, 0, size);
+            }
+        }
+
+        private static void Sift(int[] data, int v, int r)
+        {
+            int i = v, j = (2 * i) + 1;
+            int x = data[i];
+            if (j < r && data[j + 1] > data[j])
+            {
+                j++;
+            }
+            while (j <= r && data[j] > x)
+            {
+                data[i] = data[j]; 
+                i = j;
+                j = (2 * i) + 1;
+                if (j < r && data[j + 1] > data[j])
+                {
+                    j++;
+                }   
+            }
+            data[i] = x;
+        }
+
+        public static bool NextPermutation(int[] nums)
+        {
+            int i = nums.Length - 2;
+            while (i >= 0 && nums[i] >= nums[i + 1])
+            {
+                i--;
+            }
+            if (i < 0) 
+            {
+                return false;
+            }
+            int j = nums.Length - 1;
+            while (nums[j] <= nums[i])
+            {
+                j--;
+            }
+            (nums[i], nums[j]) = (nums[j], nums[i]);
+            Array.Reverse(nums, i + 1, nums.Length - (i + 1));
+            return true;
+        }
+
+        public static bool IsHeap(int[] data)
+        {
+            bool isHeap = false;
+            int n = data.Length / 2 - 1;
+            for (int i = 0; i < n; i++)
+            {
+                if (data[2*i + 1] < data[i] && data[2*i + 2] < data[i])
+                {
+                    isHeap = true;
+                }
+                else
+                {
+                    isHeap = false;
+                }
+            }
+            return isHeap;
         }
     }
 }

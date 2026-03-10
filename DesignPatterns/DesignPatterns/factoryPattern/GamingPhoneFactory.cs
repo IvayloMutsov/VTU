@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatterns
+namespace DesignPatterns.factoryPattern
 {
-    public class FuturePhoneFactory : CreatorFactory
+    public class GamingPhoneFactory : CreatorFactory
     {
         public override void Create()
         {
@@ -28,7 +28,10 @@ namespace DesignPatterns
             Console.Write("Enter phone camera megapixels: ");
             int megapixels = int.Parse(Console.ReadLine());
 
-            Technology t = new FuturePhone(name, screenSize, batteryLife, storage, mobileData, megapixels);
+            Console.Write("Enter phone RAM in GB: ");
+            int ram = int.Parse(Console.ReadLine());
+
+            Technology t = new GamingPhone(name, screenSize, batteryLife, storage, mobileData, megapixels, ram);
             devices.Add(t);
         }
     }
