@@ -15,16 +15,16 @@
       "RelativeMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\adapterpattern\\promotionemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|c:\\users\\igmut\\source\\repos\\vtu\\designpatterns\\designpatterns\\adapterpattern\\itarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\adapterpattern\\itarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|c:\\users\\igmut\\source\\repos\\vtu\\designpatterns\\designpatterns\\adapterpattern\\adapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\adapterpattern\\adapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|c:\\users\\igmut\\source\\repos\\vtu\\designpatterns\\designpatterns\\adapterpattern\\adaptee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\adapterpattern\\adaptee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|c:\\users\\igmut\\source\\repos\\vtu\\designpatterns\\designpatterns\\adapterpattern\\adapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\adapterpattern\\adapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|c:\\users\\igmut\\source\\repos\\vtu\\designpatterns\\designpatterns\\adapterpattern\\itarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\adapterpattern\\itarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -68,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Adapter.cs",
               "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\DesignPatterns\\DesignPatterns\\adapterPattern\\Adapter.cs",
               "RelativeDocumentMoniker": "DesignPatterns\\adapterPattern\\Adapter.cs",
@@ -94,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ITarget.cs",
               "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\DesignPatterns\\DesignPatterns\\adapterPattern\\ITarget.cs",
               "RelativeDocumentMoniker": "DesignPatterns\\adapterPattern\\ITarget.cs",
@@ -113,7 +113,7 @@
               "RelativeDocumentMoniker": "DesignPatterns\\Program.cs",
               "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\DesignPatterns\\DesignPatterns\\Program.cs",
               "RelativeToolTip": "DesignPatterns\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-24T06:24:18.907Z",
               "EditorCaption": ""

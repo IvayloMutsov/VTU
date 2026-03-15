@@ -15,12 +15,12 @@
       "RelativeMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\adapterpattern\\promotionemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|c:\\users\\igmut\\source\\repos\\vtu\\designpatterns\\designpatterns\\adapterpattern\\adaptee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\adapterpattern\\adaptee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|c:\\users\\igmut\\source\\repos\\vtu\\designpatterns\\designpatterns\\adapterpattern\\adapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\adapterpattern\\adapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|c:\\users\\igmut\\source\\repos\\vtu\\designpatterns\\designpatterns\\adapterpattern\\adaptee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\adapterpattern\\adaptee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F320FB77-4DE9-4E08-A463-F62180F29835}|DesignPatterns\\DesignPatterns.csproj|c:\\users\\igmut\\source\\repos\\vtu\\designpatterns\\designpatterns\\adapterpattern\\itarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,8 +46,8 @@
               "Title": "WarningEmail.cs",
               "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\DesignPatterns\\DesignPatterns\\adapterPattern\\WarningEmail.cs",
               "RelativeDocumentMoniker": "DesignPatterns\\adapterPattern\\WarningEmail.cs",
-              "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\DesignPatterns\\DesignPatterns\\adapterPattern\\WarningEmail.cs*",
-              "RelativeToolTip": "DesignPatterns\\adapterPattern\\WarningEmail.cs*",
+              "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\DesignPatterns\\DesignPatterns\\adapterPattern\\WarningEmail.cs",
+              "RelativeToolTip": "DesignPatterns\\adapterPattern\\WarningEmail.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-10T08:39:00.502Z",
@@ -59,21 +59,21 @@
               "Title": "PromotionEmail.cs",
               "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\DesignPatterns\\DesignPatterns\\adapterPattern\\PromotionEmail.cs",
               "RelativeDocumentMoniker": "DesignPatterns\\adapterPattern\\PromotionEmail.cs",
-              "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\DesignPatterns\\DesignPatterns\\adapterPattern\\PromotionEmail.cs*",
-              "RelativeToolTip": "DesignPatterns\\adapterPattern\\PromotionEmail.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABzAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\DesignPatterns\\DesignPatterns\\adapterPattern\\PromotionEmail.cs",
+              "RelativeToolTip": "DesignPatterns\\adapterPattern\\PromotionEmail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-10T08:34:22.687Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Adapter.cs",
               "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\DesignPatterns\\DesignPatterns\\adapterPattern\\Adapter.cs",
               "RelativeDocumentMoniker": "DesignPatterns\\adapterPattern\\Adapter.cs",
-              "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\DesignPatterns\\DesignPatterns\\adapterPattern\\Adapter.cs*",
-              "RelativeToolTip": "DesignPatterns\\adapterPattern\\Adapter.cs*",
+              "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\DesignPatterns\\DesignPatterns\\adapterPattern\\Adapter.cs",
+              "RelativeToolTip": "DesignPatterns\\adapterPattern\\Adapter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-10T08:33:06.172Z",
@@ -81,12 +81,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Adaptee.cs",
               "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\DesignPatterns\\DesignPatterns\\adapterPattern\\Adaptee.cs",
               "RelativeDocumentMoniker": "DesignPatterns\\adapterPattern\\Adaptee.cs",
-              "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\DesignPatterns\\DesignPatterns\\adapterPattern\\Adaptee.cs*",
-              "RelativeToolTip": "DesignPatterns\\adapterPattern\\Adaptee.cs*",
+              "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\DesignPatterns\\DesignPatterns\\adapterPattern\\Adaptee.cs",
+              "RelativeToolTip": "DesignPatterns\\adapterPattern\\Adaptee.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-10T08:31:27.486Z",
@@ -98,8 +98,8 @@
               "Title": "ITarget.cs",
               "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\DesignPatterns\\DesignPatterns\\adapterPattern\\ITarget.cs",
               "RelativeDocumentMoniker": "DesignPatterns\\adapterPattern\\ITarget.cs",
-              "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\DesignPatterns\\DesignPatterns\\adapterPattern\\ITarget.cs*",
-              "RelativeToolTip": "DesignPatterns\\adapterPattern\\ITarget.cs*",
+              "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\DesignPatterns\\DesignPatterns\\adapterPattern\\ITarget.cs",
+              "RelativeToolTip": "DesignPatterns\\adapterPattern\\ITarget.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-10T08:28:34.482Z",
@@ -113,7 +113,7 @@
               "RelativeDocumentMoniker": "DesignPatterns\\Program.cs",
               "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\DesignPatterns\\DesignPatterns\\Program.cs*",
               "RelativeToolTip": "DesignPatterns\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-24T06:24:18.907Z",
               "EditorCaption": ""
