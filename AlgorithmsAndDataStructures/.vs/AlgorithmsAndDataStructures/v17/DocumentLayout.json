@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\igmut\\source\\repos\\VTU\\AlgorithmsAndDataStructures\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1CAAB5DF-D03B-445F-9752-A97201310570}|AlgorithmsAndDataStructures\\AlgorithmsAndDataStructures.csproj|c:\\users\\igmut\\source\\repos\\vtu\\algorithmsanddatastructures\\algorithmsanddatastructures\\bitwise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CAAB5DF-D03B-445F-9752-A97201310570}|AlgorithmsAndDataStructures\\AlgorithmsAndDataStructures.csproj|solutionrelative:algorithmsanddatastructures\\bitwise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CAAB5DF-D03B-445F-9752-A97201310570}|AlgorithmsAndDataStructures\\AlgorithmsAndDataStructures.csproj|c:\\users\\igmut\\source\\repos\\vtu\\algorithmsanddatastructures\\algorithmsanddatastructures\\recursion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CAAB5DF-D03B-445F-9752-A97201310570}|AlgorithmsAndDataStructures\\AlgorithmsAndDataStructures.csproj|solutionrelative:algorithmsanddatastructures\\recursion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1CAAB5DF-D03B-445F-9752-A97201310570}|AlgorithmsAndDataStructures\\AlgorithmsAndDataStructures.csproj|c:\\users\\igmut\\source\\repos\\vtu\\algorithmsanddatastructures\\algorithmsanddatastructures\\datascructures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CAAB5DF-D03B-445F-9752-A97201310570}|AlgorithmsAndDataStructures\\AlgorithmsAndDataStructures.csproj|solutionrelative:algorithmsanddatastructures\\datascructures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1CAAB5DF-D03B-445F-9752-A97201310570}|AlgorithmsAndDataStructures\\AlgorithmsAndDataStructures.csproj|c:\\users\\igmut\\source\\repos\\vtu\\algorithmsanddatastructures\\algorithmsanddatastructures\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,38 +27,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Bitwise.cs",
-              "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\AlgorithmsAndDataStructures\\AlgorithmsAndDataStructures\\Bitwise.cs",
-              "RelativeDocumentMoniker": "AlgorithmsAndDataStructures\\Bitwise.cs",
-              "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\AlgorithmsAndDataStructures\\AlgorithmsAndDataStructures\\Bitwise.cs",
-              "RelativeToolTip": "AlgorithmsAndDataStructures\\Bitwise.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAIwCgAAAAJAAAAAAAAAA==",
+              "Title": "DataScructures.cs",
+              "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\AlgorithmsAndDataStructures\\AlgorithmsAndDataStructures\\DataScructures.cs",
+              "RelativeDocumentMoniker": "AlgorithmsAndDataStructures\\DataScructures.cs",
+              "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\AlgorithmsAndDataStructures\\AlgorithmsAndDataStructures\\DataScructures.cs",
+              "RelativeToolTip": "AlgorithmsAndDataStructures\\DataScructures.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAAAFoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T13:31:10.191Z",
+              "WhenOpened": "2026-04-02T11:25:48.688Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Recursion.cs",
-              "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\AlgorithmsAndDataStructures\\AlgorithmsAndDataStructures\\Recursion.cs",
-              "RelativeDocumentMoniker": "AlgorithmsAndDataStructures\\Recursion.cs",
-              "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\AlgorithmsAndDataStructures\\AlgorithmsAndDataStructures\\Recursion.cs",
-              "RelativeToolTip": "AlgorithmsAndDataStructures\\Recursion.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAAAGsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T13:30:57.85Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\igmut\\source\\repos\\VTU\\AlgorithmsAndDataStructures\\AlgorithmsAndDataStructures\\Program.cs",
               "RelativeDocumentMoniker": "AlgorithmsAndDataStructures\\Program.cs",
               "ToolTip": "C:\\Users\\igmut\\source\\repos\\VTU\\AlgorithmsAndDataStructures\\AlgorithmsAndDataStructures\\Program.cs",
               "RelativeToolTip": "AlgorithmsAndDataStructures\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAkwAkAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-19T10:38:28.192Z",
               "EditorCaption": ""

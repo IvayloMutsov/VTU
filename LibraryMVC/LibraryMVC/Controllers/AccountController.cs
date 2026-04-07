@@ -113,5 +113,49 @@ namespace LibraryMVC.Controllers
 
             return Ok("Admin created successfully");
         }
+
+        [HttpPost]
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> DeleteUser(Guid id)
+        {
+            if (id == Guid.Empty)
+                return BadRequest("Invalid user ID.");
+
+            var user = await _userManager.FindByIdAsync(id.ToString());
+
+            if (user == null)
+                return NotFound("User not found.");
+
+            //Remove roles first
+            var roles = await _userManager.GetRolesAsync(user);
+            if (roles.Any())
+            {
+                var removeRolesResult = await _userManager.RemoveFromRolesAsync(user, roles);
+
+                if (!removeRolesResult.Succeeded)
+                    return BadRequest(removeRolesResult.Errors);
+            }
+
+            // Now delete user
+            var result = await _userManager.DeleteAsync(user);
+
+            if (!result.Succeeded)
+            {
+                foreach (var error in result.Errors)
+                    ModelState.AddModelError("", error.Description);
+
+                return BadRequest(ModelState);
+            }
+
+            return Ok("User deleted successfully.");
+        }
+
+        [HttpGet]
+        [Authorize(Roles = "Admin")]
+        public IActionResult UserList()
+        {
+            var users = _userManager.Users.ToList();
+            return View("~/Views/Users/UserList.cshtml",users);
+        }
     }
 }

@@ -8,6 +8,8 @@ namespace AlgorithmsAndDataStructures
 {
     public class Sorting
     {
+        public static int[] C = new int[2000000];
+
         public static void RandomData(int[] data, Random rand)
         {
             int len = data.Length;
@@ -98,6 +100,84 @@ namespace AlgorithmsAndDataStructures
                 }   
             }
             data[i] = x;
+        }
+
+        public static void QuickSort(int[] data, int left, int right)
+        {
+            int i = left, j = right, x = data[(left + right) / 2];
+            do
+            {
+                while (data[i] < x)
+                {
+                    i++;
+                }
+                while (data[j] > x)
+                {
+                    j--;
+                }
+                if (i <= j)
+                {
+                    int temp = data[i];
+                    data[i] = data[j];
+                    data[j] = temp;
+                    i++;
+                    j--;
+                }
+            } while (i <= j);
+
+            if (left < j)
+            {
+                QuickSort(data,left,j);
+            }
+            if (i < right)
+            {
+                QuickSort(data, i, right);
+            }
+        }
+
+        public static void MergeSort(int[] data, int left, int right)
+        {
+            if (left < right)
+            {
+                int mid = (left + right) / 2;
+                MergeSort(data, left, mid);
+                MergeSort(data, mid + 1, right);
+                Merge(data, left, mid, right);
+            }
+        }
+
+        private static void Merge(int[] data, int left, int mid, int right)
+        {
+            int i = left, j = mid + 1, k = 0;
+            while (i <= mid && j <= right)
+            {
+                if (data[i] < data[j])
+                {
+                    C[k++] = data[i++];
+                }
+                else
+                {
+                    C[k++] = data[j++];
+                }
+            }
+            if (i > mid)
+            {
+                while (j <= right)
+                {
+                    C[k++] = data[j++];
+                }
+            }
+            else
+            {
+                while (i <= mid)
+                {
+                    C[k++] = data[i++];
+                }
+            }
+            for (i = 0; i < k; i++)
+            {
+                data[left + i] = C[i];
+            }
         }
 
         //just a random zadacha
