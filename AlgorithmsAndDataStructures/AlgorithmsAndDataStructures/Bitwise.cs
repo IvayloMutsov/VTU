@@ -72,5 +72,17 @@ namespace AlgorithmsAndDataStructures
             }
             Console.WriteLine(sb.ToString());
         }
+
+        public static void NumToBinaryBitwise(int n)
+        {
+            LinkedList<int> list = new LinkedList<int>();
+            while(n > 0)
+            {
+                int bit = n & 1;
+                list.AddFirst(bit);
+                n >>= 1;
+            }
+            Console.WriteLine(string.Join("",list));
+        }
     }
 }

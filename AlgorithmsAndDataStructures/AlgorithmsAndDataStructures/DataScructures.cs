@@ -53,7 +53,11 @@ namespace AlgorithmsAndDataStructures
 
         private static bool IsPrime(int n)
         {
-            for (int i = 2; i*i <= n; i++)
+            if (n % 2 == 0)
+            {
+                return false;
+            }
+            for (int i = 2; i*i <= n; i+=2)
             {
                 if (n % i == 0)
                 {
@@ -97,6 +101,44 @@ namespace AlgorithmsAndDataStructures
                 }
             }
             Console.WriteLine(string.Join(" ", list));
+        }
+
+        public static void TrainQueue()
+        {
+            Queue<int> q = new Queue<int>();
+            Stack<int> s = new Stack<int>();
+            int[] arr = { 1, 2, 3, 4, 5, 6 };
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if (arr[i] % 2 == 0)
+                {
+                    q.Enqueue(arr[i]);
+                }
+                else
+                {
+                    s.Push(arr[i]);
+                }
+            }
+            int n = s.Count;
+            for (int i = 0; i < n; i++)
+            {
+                q.Enqueue(s.Pop());
+            }
+            Console.WriteLine(string.Join(" ", q));
+        }
+
+        public static void NumToBinary()
+        {
+            Stack<int> stack = new Stack<int>();
+            Console.Write("Enter Number to convert: ");
+            int n = int.Parse(Console.ReadLine());
+            while (n != 0)
+            {
+                int leftover = n % 2;
+                stack.Push(leftover);
+                n /= 2;
+            }
+            Console.WriteLine(string.Join("",stack));
         }
     }
 }

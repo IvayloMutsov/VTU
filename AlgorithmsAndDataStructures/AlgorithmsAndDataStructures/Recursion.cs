@@ -106,5 +106,17 @@ namespace AlgorithmsAndDataStructures
                 Console.WriteLine(gray);
             }
         }
+
+        public static int NumToBinaryRec(int n)
+        {
+            if (n == 0)
+            {
+                return 0;
+            }
+            else
+            {
+                return n % 2 + 10 * NumToBinaryRec(n / 2);
+            }
+        }
     }
 }
