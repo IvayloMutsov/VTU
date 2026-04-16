@@ -140,5 +140,89 @@ namespace AlgorithmsAndDataStructures
             }
             Console.WriteLine(string.Join("",stack));
         }
+
+        public static void LongNumSum(int n)
+        {
+            Queue<int> num1 = new Queue<int>();
+            Queue<int> num2 = new Queue<int>();
+            Stack<int> stack1 = new Stack<int>();
+            Stack<int> stack2 = new Stack<int>();
+            Stack<int> result = new Stack<int>();
+            Random rand = new Random();
+            for (int i = 0; i < n; i++)
+            {
+                int x = rand.Next(10);
+                num1.Enqueue(x);
+                stack1.Push(x);
+            }
+            for (int i = 0; i < n; i++)
+            {
+                int x = rand.Next(10);
+                num2.Enqueue(x);
+                stack2.Push(x);
+            }
+            int div = 0;
+            for (int i = 0; i < n; i++)
+            {
+                int x1 = stack1.Pop();
+                int x2 = stack2.Pop();
+                int sum = x1 + x2 + div;
+                div = sum / 10;
+                result.Push(sum % 10);
+            }
+            if (div == 1)
+            {
+                result.Push(div);
+            }
+            Console.WriteLine(string.Join("",num1));
+            Console.WriteLine(string.Join("",num2));
+            Console.WriteLine(string.Join("",result));
+        }
+
+        public static void LongNumSub(int n)
+        {
+            Queue<int> num1 = new Queue<int>();
+            Queue<int> num2 = new Queue<int>();
+            Stack<int> stack1 = new Stack<int>();
+            Stack<int> stack2 = new Stack<int>();
+            Stack<int> result = new Stack<int>();
+            Random rand = new Random();
+            for (int i = 0; i < n; i++)
+            {
+                int x = rand.Next(10);
+                num1.Enqueue(x);
+                stack1.Push(x);
+            }
+            for (int i = 0; i < n; i++)
+            {
+                int x = rand.Next(10);
+                num2.Enqueue(x);
+                stack2.Push(x);
+            }
+            int div = 0;
+            for (int i = 0; i < n; i++)
+            {
+                int x1 = stack1.Pop();
+                int x2 = stack2.Pop();
+                int sum = x1 - x2 - div;
+                if (sum < 0)
+                {
+                    sum += 10;
+                    div = 1;
+                }
+                else
+                {
+                    div = 0;
+                }
+                result.Push(sum);
+            }
+            Console.WriteLine(string.Join("", num1));
+            Console.WriteLine(string.Join("", num2));
+            if (div == 1)
+            {
+                Console.Write('-');
+            }
+            Console.WriteLine(string.Join("", result));
+        }
     }
 }
