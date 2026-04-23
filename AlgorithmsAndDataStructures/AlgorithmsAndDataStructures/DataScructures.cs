@@ -224,5 +224,83 @@ namespace AlgorithmsAndDataStructures
             }
             Console.WriteLine(string.Join("", result));
         }
+
+        public static void TreeMatrix(int n)
+        {
+            Edge e1 = new Edge(1,2,6);
+            Edge e2 = new Edge(1,3,5);
+            Edge e3 = new Edge(2,4,3);
+            Edge e4 = new Edge(2,8,5);
+            Edge e5 = new Edge(3,4,2);
+            Edge e6 = new Edge(3,5,4);
+            Edge e7 = new Edge(4,6,1);
+            Edge e8 = new Edge(5,6,7);
+            Edge e9 = new Edge(5,7,1);
+            Edge e10 = new Edge(6,7,9);
+            Edge e11 = new Edge(6,8,4);
+            Edge e12 = new Edge(7,8,2);
+            List<Edge> list = new List<Edge>{e1,e2,e3,e4,e5,e6,e7,e8,e9,e10,e11,e12 };
+            int[,] arr = new int[n, n];
+            foreach (var e in list)
+            {
+                arr[e.top1 - 1, e.top2 - 1] = e.weight;
+                arr[e.top2 - 1, e.top1 - 1] = e.weight;
+            }
+
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = 0; j < n; j++)
+                {
+                    Console.Write(arr[i, j] + " ");
+                }
+                Console.WriteLine();
+            }
+        }
+
+        public static void TreeMatrixFromFile(string fileName)
+        {
+            StreamReader reader = new StreamReader(fileName);
+            List<Edge> list = new List<Edge>();
+            int n = 0;
+            using (reader)
+            {
+                string line = reader.ReadLine();
+                while(line != null)
+                {
+                    int[] nums = line.Split(',').Select(int.Parse).ToArray();
+                    list.Add(new Edge(nums[0], nums[1], nums[2]));
+                    n = nums[1];
+                    line = reader.ReadLine();
+                }
+            }
+            int[,] arr = new int[n, n];
+            foreach (var e in list)
+            {
+                arr[e.top1 - 1, e.top2 - 1] = e.weight;
+                arr[e.top2 - 1, e.top1 - 1] = e.weight;
+            }
+
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = 0; j < n; j++)
+                {
+                    Console.Write(arr[i, j] + " ");
+                }
+                Console.WriteLine();
+            }
+        }
+    }
+
+    struct Edge
+    {
+        public int top1;
+        public int top2;
+        public int weight;
+        public Edge(int top1, int top2, int weight)
+        {
+            this.top1 = top1;
+            this.top2 = top2;
+            this.weight = weight;
+        }
     }
 }
