@@ -257,7 +257,7 @@ namespace AlgorithmsAndDataStructures
             }
         }
 
-        public static void TreeMatrixFromFile(string fileName)
+        public static int[,] TreeMatrixFromFile(string fileName)
         {
             StreamReader reader = new StreamReader(fileName);
             List<Edge> list = new List<Edge>();
@@ -285,6 +285,109 @@ namespace AlgorithmsAndDataStructures
                 for (int j = 0; j < n; j++)
                 {
                     Console.Write(arr[i, j] + " ");
+                }
+                Console.WriteLine();
+            }
+            return arr;
+        }
+
+        public static void BFS()
+        {
+            int[,] arr = TreeMatrixFromFile("TextFile1.txt");
+            int numV = arr.GetLength(0);
+            int[] visited = new int[numV];
+            for (int i = 0; i < numV; i++)
+            {
+                visited[i] = 0;
+            }
+            Console.Write("Input an inital vertex: ");
+            int v = int.Parse(Console.ReadLine());
+            visited[v - 1] = 1;
+            Queue<int> queue = new Queue<int>();
+            queue.Enqueue(v);
+            while(queue.Count > 0)
+            {
+                int current = queue.Dequeue();
+                Console.Write(current + " ");
+                for (int i = 0; i < numV; i++)
+                {
+                    if (arr[current - 1,i] > 0 && visited[i] == 0)
+                    {
+                        queue.Enqueue(i + 1);
+                        visited[i] = 1;
+                    }
+                }
+            }
+        }
+
+        public static void DFS()
+        {
+            int[,] arr = TreeMatrixFromFile("TextFile1.txt");
+            int numV = arr.GetLength(0);
+            int[] visited = new int[numV];
+
+            for (int i = 0; i < numV; i++)
+            {
+                visited[i] = 0;
+            }
+
+            Console.Write("Input an initial vertex: ");
+            int v = int.Parse(Console.ReadLine());
+
+            DFSRec(arr, v, visited, numV);
+        }
+        private static void DFSRec(int[,] arr, int v, int[] visited, int numV)
+        {
+            visited[v - 1] = 1;
+            Console.Write(v + " ");
+
+            for (int i = 0; i < numV; i++)
+            {
+                if (arr[v - 1, i] > 0 && visited[i] == 0)
+                {
+                    DFSRec(arr, i + 1, visited, numV);
+                }
+            }
+        }
+
+        public static void IncidenceMatrix()
+        {
+            int[,] adjMatrix = TreeMatrixFromFile("TextFile1.txt");
+            int n = adjMatrix.GetLength(0);
+            int edgeCount = 0;
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = i; j < n; j++)
+                {
+                    if (adjMatrix[i, j] != 0)
+                    {
+                        edgeCount++;
+                    }
+                        
+                }
+            }
+            int[,] incidenceMatrix = new int[n, edgeCount];
+            int edgeIndex = 0;
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = i; j < n; j++)
+                {
+                    if (adjMatrix[i, j] != 0)
+                    {
+                        incidenceMatrix[i, edgeIndex] = adjMatrix[i, j];
+                        incidenceMatrix[j, edgeIndex] = adjMatrix[i, j];
+                        edgeIndex++;
+                    }
+                }
+            }
+            Console.WriteLine();
+            int rows = incidenceMatrix.GetLength(0);
+            int cols = incidenceMatrix.GetLength(1);
+            for (int i = 0; i < rows; i++)
+            {
+                for (int j = 0; j < cols; j++)
+                {
+                    Console.Write(incidenceMatrix[i,j] + " ");
                 }
                 Console.WriteLine();
             }

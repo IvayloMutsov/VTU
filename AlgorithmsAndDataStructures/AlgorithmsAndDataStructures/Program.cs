@@ -7,7 +7,7 @@ namespace AlgorithmsAndDataStructures
         static void Main(string[] args)
         {
             Console.ForegroundColor = ConsoleColor.DarkGreen;
-            DataScructures.TreeMatrixFromFile("TextFile1.txt");
+            DataScructures.IncidenceMatrix();
         }
     }
 }
