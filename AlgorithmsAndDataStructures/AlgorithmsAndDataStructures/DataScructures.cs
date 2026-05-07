@@ -362,8 +362,7 @@ namespace AlgorithmsAndDataStructures
                     if (adjMatrix[i, j] != 0)
                     {
                         edgeCount++;
-                    }
-                        
+                    } 
                 }
             }
             int[,] incidenceMatrix = new int[n, edgeCount];
@@ -391,6 +390,81 @@ namespace AlgorithmsAndDataStructures
                 }
                 Console.WriteLine();
             }
+        }
+
+        public static void SwapLetters()
+        {
+            string word = "listen";
+            Queue<char> q = new Queue<char>();
+            Stack<char> s = new Stack<char>();
+            for (int i = 0; i < word.Length; i++)
+            {
+                q.Enqueue(word[i]);
+            }
+            for (int i = 0; i < 3; i++)
+            {
+                s.Push(q.Dequeue());
+            }
+            for (int i = 0; i < 3; i++)
+            {
+                q.Enqueue(s.Pop());
+            }
+            s.Push(q.Dequeue());
+            q.Enqueue(q.Dequeue());
+            q.Enqueue(q.Dequeue());
+            q.Enqueue(s.Pop());
+            Console.WriteLine(string.Join("",q));
+
+            string bgWord = "панер";
+            Queue<char> qu = new Queue<char>();
+            Stack<char> st = new Stack<char>();
+            for (int i = 0; i < bgWord.Length; i++)
+            {
+                qu.Enqueue(bgWord[i]);
+            }
+            qu.Enqueue(qu.Dequeue());
+            st.Push(qu.Dequeue());
+            st.Push(qu.Dequeue());
+            st.Push(qu.Dequeue());
+            qu.Enqueue(qu.Dequeue());
+            qu.Enqueue(st.Pop());
+            qu.Enqueue(st.Pop());
+            qu.Enqueue(st.Pop());
+            qu.Enqueue(qu.Dequeue());
+            qu.Enqueue(qu.Dequeue());
+            st.Push(qu.Dequeue());
+            st.Push(qu.Dequeue());
+            st.Push(qu.Dequeue());
+            qu.Enqueue(st.Pop());
+            qu.Enqueue(st.Pop());
+            qu.Enqueue(st.Pop());
+            Console.WriteLine(string.Join("",qu));
+
+            string duma = "самолет";
+            Queue<char> queue = new Queue<char>();
+            Stack<char> stack = new Stack<char>();
+            for (int i = 0; i < duma.Length; i++)
+            {
+                queue.Enqueue(duma[i]);
+            }
+            queue.Enqueue(queue.Dequeue());
+            stack.Push(queue.Dequeue());
+            queue.Enqueue(queue.Dequeue());
+            queue.Enqueue(queue.Dequeue());
+            queue.Enqueue(queue.Dequeue());
+            queue.Enqueue(queue.Dequeue());
+            queue.Enqueue(queue.Dequeue());
+            queue.Enqueue(stack.Pop());
+            queue.Enqueue(queue.Dequeue());
+            queue.Enqueue(queue.Dequeue());
+            stack.Push(queue.Dequeue());
+            stack.Push(queue.Dequeue());
+            queue.Enqueue(queue.Dequeue());
+            queue.Enqueue(queue.Dequeue());
+            queue.Enqueue(queue.Dequeue());
+            queue.Enqueue(stack.Pop());
+            queue.Enqueue(stack.Pop());
+            Console.WriteLine(string.Join("", queue));
         }
     }
 
