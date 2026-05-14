@@ -35,7 +35,7 @@ namespace AlgorithmsAndDataStructures
         public static void AllPrimeNums()//three digits
         {
             List<int> list = new List<int>();
-            for (int i = 101; i < 1000; i+=2)
+            for (int i = 101; i < 1000; i += 2)
             {
                 if (IsPrime(i))
                 {
@@ -57,7 +57,7 @@ namespace AlgorithmsAndDataStructures
             {
                 return false;
             }
-            for (int i = 2; i*i <= n; i+=2)
+            for (int i = 2; i * i <= n; i += 2)
             {
                 if (n % i == 0)
                 {
@@ -138,7 +138,7 @@ namespace AlgorithmsAndDataStructures
                 stack.Push(leftover);
                 n /= 2;
             }
-            Console.WriteLine(string.Join("",stack));
+            Console.WriteLine(string.Join("", stack));
         }
 
         public static void LongNumSum(int n)
@@ -174,9 +174,9 @@ namespace AlgorithmsAndDataStructures
             {
                 result.Push(div);
             }
-            Console.WriteLine(string.Join("",num1));
-            Console.WriteLine(string.Join("",num2));
-            Console.WriteLine(string.Join("",result));
+            Console.WriteLine(string.Join("", num1));
+            Console.WriteLine(string.Join("", num2));
+            Console.WriteLine(string.Join("", result));
         }
 
         public static void LongNumSub(int n)
@@ -227,19 +227,19 @@ namespace AlgorithmsAndDataStructures
 
         public static void TreeMatrix(int n)
         {
-            Edge e1 = new Edge(1,2,6);
-            Edge e2 = new Edge(1,3,5);
-            Edge e3 = new Edge(2,4,3);
-            Edge e4 = new Edge(2,8,5);
-            Edge e5 = new Edge(3,4,2);
-            Edge e6 = new Edge(3,5,4);
-            Edge e7 = new Edge(4,6,1);
-            Edge e8 = new Edge(5,6,7);
-            Edge e9 = new Edge(5,7,1);
-            Edge e10 = new Edge(6,7,9);
-            Edge e11 = new Edge(6,8,4);
-            Edge e12 = new Edge(7,8,2);
-            List<Edge> list = new List<Edge>{e1,e2,e3,e4,e5,e6,e7,e8,e9,e10,e11,e12 };
+            Edge e1 = new Edge(1, 2, 6);
+            Edge e2 = new Edge(1, 3, 5);
+            Edge e3 = new Edge(2, 4, 3);
+            Edge e4 = new Edge(2, 8, 5);
+            Edge e5 = new Edge(3, 4, 2);
+            Edge e6 = new Edge(3, 5, 4);
+            Edge e7 = new Edge(4, 6, 1);
+            Edge e8 = new Edge(5, 6, 7);
+            Edge e9 = new Edge(5, 7, 1);
+            Edge e10 = new Edge(6, 7, 9);
+            Edge e11 = new Edge(6, 8, 4);
+            Edge e12 = new Edge(7, 8, 2);
+            List<Edge> list = new List<Edge> { e1, e2, e3, e4, e5, e6, e7, e8, e9, e10, e11, e12 };
             int[,] arr = new int[n, n];
             foreach (var e in list)
             {
@@ -265,7 +265,7 @@ namespace AlgorithmsAndDataStructures
             using (reader)
             {
                 string line = reader.ReadLine();
-                while(line != null)
+                while (line != null)
                 {
                     int[] nums = line.Split(',').Select(int.Parse).ToArray();
                     list.Add(new Edge(nums[0], nums[1], nums[2]));
@@ -305,13 +305,13 @@ namespace AlgorithmsAndDataStructures
             visited[v - 1] = 1;
             Queue<int> queue = new Queue<int>();
             queue.Enqueue(v);
-            while(queue.Count > 0)
+            while (queue.Count > 0)
             {
                 int current = queue.Dequeue();
                 Console.Write(current + " ");
                 for (int i = 0; i < numV; i++)
                 {
-                    if (arr[current - 1,i] > 0 && visited[i] == 0)
+                    if (arr[current - 1, i] > 0 && visited[i] == 0)
                     {
                         queue.Enqueue(i + 1);
                         visited[i] = 1;
@@ -362,7 +362,7 @@ namespace AlgorithmsAndDataStructures
                     if (adjMatrix[i, j] != 0)
                     {
                         edgeCount++;
-                    } 
+                    }
                 }
             }
             int[,] incidenceMatrix = new int[n, edgeCount];
@@ -386,7 +386,7 @@ namespace AlgorithmsAndDataStructures
             {
                 for (int j = 0; j < cols; j++)
                 {
-                    Console.Write(incidenceMatrix[i,j] + " ");
+                    Console.Write(incidenceMatrix[i, j] + " ");
                 }
                 Console.WriteLine();
             }
@@ -413,7 +413,7 @@ namespace AlgorithmsAndDataStructures
             q.Enqueue(q.Dequeue());
             q.Enqueue(q.Dequeue());
             q.Enqueue(s.Pop());
-            Console.WriteLine(string.Join("",q));
+            Console.WriteLine(string.Join("", q));
 
             string bgWord = "панер";
             Queue<char> qu = new Queue<char>();
@@ -438,7 +438,7 @@ namespace AlgorithmsAndDataStructures
             qu.Enqueue(st.Pop());
             qu.Enqueue(st.Pop());
             qu.Enqueue(st.Pop());
-            Console.WriteLine(string.Join("",qu));
+            Console.WriteLine(string.Join("", qu));
 
             string duma = "самолет";
             Queue<char> queue = new Queue<char>();
@@ -465,6 +465,132 @@ namespace AlgorithmsAndDataStructures
             queue.Enqueue(stack.Pop());
             queue.Enqueue(stack.Pop());
             Console.WriteLine(string.Join("", queue));
+        }
+
+        public static void TotoSport()
+        {
+            LinkedList<int> list = new LinkedList<int>();
+            Random rand = new Random();
+            for (int i = 0; i < 20; i++)
+            {
+                list.AddLast(rand.Next(1, 100));
+            }
+            Console.WriteLine(string.Join(" ", list));
+            Queue<int> queue = new Queue<int>();
+            for (int i = 0; i < list.Count - 1; i++)
+            {
+                if (list.ElementAt(i) >= 1 && list.ElementAt(i) <= 49)
+                {
+                    int numOfContains = 1;
+                    for (int j = i + 1; j < list.Count; j++)
+                    {
+                        if (list.ElementAt(i) == list.ElementAt(j))
+                        {
+                            numOfContains++;
+                        }
+                    }
+                    if (numOfContains == 1 && queue.Count < 6)
+                    {
+                        queue.Enqueue(list.ElementAt(i));
+                    }
+                }
+            }
+            Console.WriteLine(string.Join(" ", queue));
+        }
+
+        public static void NumberOfInversions()
+        {
+            int n = int.Parse(Console.ReadLine());
+            if (n >= 5 && n <=105)
+            {
+                Random rand = new Random();
+                List<int> list = new List<int>();
+                for (int i = 0; i < n; i++)
+                {
+                    list.Add(rand.Next(100,1000));
+                }
+                Console.WriteLine(string.Join(" ",list));
+                bool isSorted = IsSortedIterative(list.ToArray());
+                if (isSorted)
+                {
+                    Console.WriteLine("List is sorted");
+                }
+                else
+                {
+                    int inversions = GetNumberOfDirectInversions(list.ToArray());
+                    Console.WriteLine($"The number of direct inverions are {inversions}");
+                }
+            }
+        }
+
+        private static bool IsSortedIterative(int[] array)
+        {
+            if (array.Length <= 1) return true;
+
+            bool isAscending = true;//, isDescending = true;
+
+            for (int i = 0; i < array.Length - 1; i++)
+            {
+                if (array[i] < array[i + 1]) isAscending = false;
+                //if (array[i] > array[i + 1]) isDescending = false;
+
+                if (!isAscending /*&& !isDescending*/) return false;
+            }
+            return isAscending; //|| isDescending;
+        }
+
+        private static int GetNumberOfDirectInversions(int[] arr)
+        {
+            int invCounter = 0;
+            for (int i = 0; i < arr.Length - 1; i++)
+            {
+                if (arr[i] > arr[i + 1])
+                {
+                    invCounter++;
+                }
+            }
+            return invCounter;
+        }
+
+        public static void LinkedListInsertion()
+        {
+            LinkedList<int> list = new LinkedList<int>();
+            Random rand = new Random();
+            for (int i = 0; i < 100; i++)
+            {
+                list.AddLast(rand.Next(10, 100));
+            }
+            Console.WriteLine(string.Join(" ", list));
+            Console.WriteLine();
+            int x = -1;
+            for (int i = 0; i < list.Count - 1; i++)
+            {
+                for (int j = i + 1; j < list.Count; j++)
+                {
+                    if (list.ElementAt(i) == list.ElementAt(j))
+                    {
+                        x = list.ElementAt(i);
+                        break;
+                    }
+                }
+                if (x != -1)
+                {
+                    break;
+                }
+            }
+            Console.WriteLine(x);
+            Console.WriteLine();
+            LinkedListNode<int>? current = list.First;
+            while (current != null)
+            {
+                LinkedListNode<int>? next = current.Next;
+                if (current.Value > x)
+                {
+                    list.AddAfter(current, 0);
+                }
+                current = next;
+            }
+            Console.WriteLine(string.Join(" ", list));
         }
     }
 

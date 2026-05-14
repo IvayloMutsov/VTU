@@ -219,5 +219,36 @@ namespace AlgorithmsAndDataStructures
             }
             return isHeap;
         }
+
+        public static void StalinSort()
+        {
+            LinkedList<int> list = new LinkedList<int>();
+            list.AddLast(7);
+            list.AddLast(3);
+            list.AddLast(9);
+            list.AddLast(6);
+            list.AddLast(11);
+            list.AddLast(5);
+            list.AddLast(12);
+            list.AddLast(14);
+            list.AddLast(8);
+            LinkedListNode<int> it = list.First;
+            LinkedListNode<int> it2 = it.Next;
+            while (it != list.Last)
+            {
+                if (it.Value > it2.Value)
+                {
+                    LinkedListNode<int> temp = it2.Next;
+                    list.Remove(it2);
+                    it2 = temp;
+                }
+                else
+                {
+                    it = it.Next;
+                    it2 = it2.Next;
+                }
+            }
+            Console.WriteLine(string.Join(" ",list));
+        }
     }
 }
