@@ -1,0 +1,15 @@
+C:\Users\igmut\source\repos\VTU\CodeQualityExercise\CodeQualityExercise\bin\Debug\net9.0\CodeQualityExercise.exe
+C:\Users\igmut\source\repos\VTU\CodeQualityExercise\CodeQualityExercise\bin\Debug\net9.0\CodeQualityExercise.deps.json
+C:\Users\igmut\source\repos\VTU\CodeQualityExercise\CodeQualityExercise\bin\Debug\net9.0\CodeQualityExercise.runtimeconfig.json
+C:\Users\igmut\source\repos\VTU\CodeQualityExercise\CodeQualityExercise\bin\Debug\net9.0\CodeQualityExercise.dll
+C:\Users\igmut\source\repos\VTU\CodeQualityExercise\CodeQualityExercise\bin\Debug\net9.0\CodeQualityExercise.pdb
+C:\Users\igmut\source\repos\VTU\CodeQualityExercise\CodeQualityExercise\obj\Debug\net9.0\CodeQualityExercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\igmut\source\repos\VTU\CodeQualityExercise\CodeQualityExercise\obj\Debug\net9.0\CodeQualityExercise.AssemblyInfoInputs.cache
+C:\Users\igmut\source\repos\VTU\CodeQualityExercise\CodeQualityExercise\obj\Debug\net9.0\CodeQualityExercise.AssemblyInfo.cs
+C:\Users\igmut\source\repos\VTU\CodeQualityExercise\CodeQualityExercise\obj\Debug\net9.0\CodeQualityExercise.csproj.CoreCompileInputs.cache
+C:\Users\igmut\source\repos\VTU\CodeQualityExercise\CodeQualityExercise\obj\Debug\net9.0\CodeQualityExercise.sourcelink.json
+C:\Users\igmut\source\repos\VTU\CodeQualityExercise\CodeQualityExercise\obj\Debug\net9.0\CodeQualityExercise.dll
+C:\Users\igmut\source\repos\VTU\CodeQualityExercise\CodeQualityExercise\obj\Debug\net9.0\refint\CodeQualityExercise.dll
+C:\Users\igmut\source\repos\VTU\CodeQualityExercise\CodeQualityExercise\obj\Debug\net9.0\CodeQualityExercise.pdb
+C:\Users\igmut\source\repos\VTU\CodeQualityExercise\CodeQualityExercise\obj\Debug\net9.0\CodeQualityExercise.genruntimeconfig.cache
+C:\Users\igmut\source\repos\VTU\CodeQualityExercise\CodeQualityExercise\obj\Debug\net9.0\ref\CodeQualityExercise.dll
