@@ -1,4 +1,7 @@
 ﻿using System.Linq;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Internal;
+using Microsoft.Extensions.Logging;
 
 namespace shitnq
 {
@@ -6,64 +9,48 @@ namespace shitnq
     {
         public static void Main(string[] args)
         {
-            Console.Write("Enter input type( 1 is leters with numbers / 2 is only letters): ");
-            int inputType = int.Parse(Console.ReadLine());
-            string input = Console.ReadLine();
-            if(inputType == 1)
-            {
-                List<string> letters = input.Select(c => c.ToString()).ToList();
-                List<int> counter = new List<int>();
-                for(int i = 0; i < letters.Count; i++)
-                {
-                    if (int.TryParse(letters[i], out int num))
-                    {
-                        counter.Add(num);
-                    }
-                }
-                for(int i = 0; i < letters.Count; i++)
-                {
-                    if (int.TryParse(letters[i], out int number))
-                    {
-                        if (counter.Contains(number))
-                        {
-                            letters.Remove(letters[i]);
-                        }
-                    }
-                }
-                for (int i = 0; i < counter.Count; i++)
-                {
-                    for (int j = 0; j < counter[i]; j++)
-                    {
-                        Console.Write(letters[i]);
-                    }
-                }
-            }
-            else if(inputType == 2)
-            {
-                List<char> list = new List<char>();
-                List<int> counter = new List<int>();
-                Dictionary<char, int> result = new Dictionary<char, int>();
-                for (int i = 0; i < input.Length; i++)
-                {
-                    counter.Add(1);
-                    if (list.Contains(input[i]))
-                    {
-                        counter[list.IndexOf(input[i])]++;
-                    }
-                    list.Add(input[i]);
-                }
-                for (int i = 0; i < list.Count; i++)
-                {
-                    if (!counter.Contains(list[i]) && !result.ContainsKey(list[i]))
-                    {
-                        result.Add(list[i], counter[i]);
-                    }
-                }
-                foreach (var item in result)
-                {
-                    Console.Write($"{item.Key}{item.Value}");
-                }
-            }
+            using var db = new LibraryContext();
+            db.Database.EnsureDeleted();
+            db.Database.EnsureCreated();
+
+            Console.WriteLine("===== A =====");
+            var resultA = db.Books.ToList().Where(x => x.Title.StartsWith("D")).Take(2).ToList();
+
+            Console.WriteLine("===== B =====");
+            var resultB = db.Books.Where(x => x.Title.StartsWith("D")).Take(2).ToList();
+
+            Console.WriteLine("===== C =====");
+            IEnumerable<Book> allBooks = db.Books;
+            var resultC = allBooks.Where(x => x.Title.StartsWith("D")).Take(2).ToList();
+
+            Console.WriteLine("===== D =====");
+            // TODO: page 3 of the books list, 2 books per page, ordered by Title
+            var resultD = db.Books.OrderBy(x => x.Title).Skip(4).Take(2).ToList();
         }
+    }
+
+    public class Author
+    {
+        public int Id { get; set; }
+        public string Name { get; set; } = "";
+        public List<Book> Books { get; set; } = new();
+    }
+
+    public class Book
+    {
+        public int Id { get; set; }
+        public string Title { get; set; } = "";
+        public int AuthorId { get; set; }
+    }
+
+    public class LibraryContext : DbContext
+    {
+        public DbSet<Author> Authors => Set<Author>();
+        public DbSet<Book> Books => Set<Book>();
+
+        protected override void OnConfiguring(DbContextOptionsBuilder options) =>
+            options
+            .UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Database=EfInterviewTest;Trusted_Connection=True;TrustServerCertificate=True")
+            .LogTo(Console.WriteLine, LogLevel.Information);
     }
 }

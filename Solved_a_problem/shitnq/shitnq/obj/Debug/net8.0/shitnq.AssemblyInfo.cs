@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("shitnq")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4f71a0d03caffb3cf913efc33f1488f5301f56d6")]
 [assembly: System.Reflection.AssemblyProductAttribute("shitnq")]
 [assembly: System.Reflection.AssemblyTitleAttribute("shitnq")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
