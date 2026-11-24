@@ -13,3 +13,4 @@ C:\Users\igmut\source\repos\VTU\CodeQualityExercise\CodeQualityExercise\obj\Debu
 C:\Users\igmut\source\repos\VTU\CodeQualityExercise\CodeQualityExercise\obj\Debug\net9.0\CodeQualityExercise.pdb
 C:\Users\igmut\source\repos\VTU\CodeQualityExercise\CodeQualityExercise\obj\Debug\net9.0\CodeQualityExercise.genruntimeconfig.cache
 C:\Users\igmut\source\repos\VTU\CodeQualityExercise\CodeQualityExercise\obj\Debug\net9.0\ref\CodeQualityExercise.dll
+C:\Users\igmut\source\repos\VTU\CodeQualityExercise\CodeQualityExercise\obj\Debug\net9.0\CodeQual.8E288A45.Up2Date
